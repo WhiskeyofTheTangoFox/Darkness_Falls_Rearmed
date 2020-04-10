@@ -1,0 +1,284 @@
+<npc>
+
+	<npc_info
+		id="traitorjoel"
+		name="Traitor Joel"
+		name_key="npc_traitorJoel"
+		faction="whiteriver"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+
+	<npc_info
+		id="traderrekt"
+		name="Traitor Rekt"
+		name_key="npc_traderRekt"
+		faction="whiteriver"
+		portrait="npc_rekt"
+		greeting_type="nearby"
+		stance="Dislike" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+
+	<npc_info
+		id="traderhugh"
+		name="Trader Hugh"
+		name_key="npc_traderHugh"
+		faction="whiteriver"
+		portrait="npc_hugh"
+		greeting_type="nearby"
+		stance="Neutral" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+		
+	<npc_info
+		id="traderjen"
+		name="Trader Jen"
+		name_key="npc_traderJen"
+		faction="whiteriver"
+		portrait="npc_jen"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader_jen"
+		trader_id="1" dialog_id="trader" />
+		
+	<npc_info
+		id="traderbob"
+		name="Trader Bob"
+		name_key="npc_traderBob"
+		faction="whiteriver"
+		portrait="npc_bob"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+		
+	<npc_info
+		id="traderTest"
+		name="Trader Test"
+		name_key="Trader Test"
+		faction="whiteriver"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		trader_id="1" 
+		stance="Like" voice_set="trader"
+		dialog_id="traderTest"
+		quest_list="test_quests" />
+
+	<npc_info
+		id="tradercaitlin"
+		name="Trader Caitlin"
+		name_key="npc_tradercaitlin"
+		faction="whiteriver"
+		portrait=""
+		greeting_type="nearby"
+		stance="Like" voice_set="femaletrader"
+		trader_id="2" dialog_id="trader" />
+		
+	<npc_info
+		id="GuardCaptain"
+		name="Guard Captain"
+		name_key="npc_tradercaitlin"
+		faction="whiteriver"
+		portrait=""
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="6" dialog_id="trader" />
+		<!-- trader_id="4" dialog_id="guardcaptain" />	-->
+		
+	<npc_info
+		id="wanderingtrader"
+		name="Wandering Trader"
+		name_key="npc_traderHugh"
+		faction="survivors"
+		portrait="npc_hugh"
+		greeting_type="nearby"
+		stance="Neutral" voice_set="trader"
+		trader_id="7" dialog_id="wantrader"
+		quest_list="trader_quests" />
+		
+    <npc_info
+		id="animalFarmCow"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmCows"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmCow"/>		
+		
+    <npc_info
+		id="animalFarmSheep"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmSheep"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmSheep"/>
+
+    <npc_info
+		id="animalFarmGoat"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmGoat"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmGoat"/>	
+
+    <npc_info
+		id="animalFarmChicken"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmChickens"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmChicken"/>	
+		
+    <npc_info
+		id="animalFarmBoar"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmBoar"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmBoar"/>
+
+	<npc_info
+		id="animalFarmWolf"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmWolf"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalFarmWolf"
+		quest_list="trader_quests" />		
+		
+	<npc_info
+		id="tamewolf"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="farmWolf"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="animalWolfHire"
+		quest_list="trader_quests" />
+
+	<npc_info
+		id="spheretest"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="whiteriver"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="sphere_trader"
+		quest_list="trader_quests" />	
+
+	<npc_info
+		id="evenpc"
+		name="NPC"
+		name_key="Survivor Eve"
+		faction="survivors"
+		portrait=""
+		greeting_type="nearby"
+		stance="Like" voice_set="Eve"
+		trader_id="8" dialog_id="eve_quests"
+		quest_list="EveQuestList" />	
+
+	<npc_info
+		id="archernpc"
+		name="NPC"
+		name_key="npc_traitorJoel"
+		faction="survivors"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="8" dialog_id="archerHire"
+		quest_list="trader_quests" />		
+		
+	<factions>
+		<faction name="none">
+			<relationship name="*" value="neutral"/>
+		</faction>
+		<faction name="animals">
+			<relationship name="*" value="neutral"/>
+		</faction>
+		<faction name="undead">
+			<relationship name="trader" value="neutral"/>
+			<relationship name="*" value="hate"/>
+		</faction>
+		<faction name="bandits">
+			<relationship name="*" value="hate"/>
+		</faction>
+		<faction name="survivors">
+			<relationship name="*" value="neutral"/>
+			<relationship name="undead" value="hate"/>
+			<relationship name="bandits" value="hate"/>
+		</faction>
+		<faction name="whiteriver">
+			<relationship name="*" value="neutral"/>
+			<relationship name="undead" value="hate"/>
+			<relationship name="bandits" value="hate"/>
+		</faction>
+		<faction name="duke">
+			<relationship name="*" value="neutral"/>
+			<relationship name="whiteriver" value="dislike"/>
+			<relationship name="undead" value="hate"/>
+			<relationship name="bandits" value="dislike"/>
+		</faction>
+		<faction name="trader">
+			<relationship name="*" value="neutral"/>
+			<relationship name="bandits" value="dislike"/>
+			<relationship name="undead" value="hate"/>
+		</faction>
+        <faction name="farmCows">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmWolf" value="hate"/>
+            <relationship name="farmBoar" value="hate"/>
+        </faction>
+        <faction name="farmChickens">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmWolf" value="hate"/>
+            <relationship name="farmBoar" value="hate"/>
+        </faction>	
+        <faction name="farmSheep">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmWolf" value="hate"/>
+            <relationship name="farmBoar" value="hate"/>
+        </faction>			
+        <faction name="farmGoat">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmWolf" value="hate"/>
+            <relationship name="farmBoar" value="hate"/>
+        </faction>	
+        <faction name="farmWolf">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmCows" value="hate"/>
+            <relationship name="farmChickens" value="hate"/>
+            <relationship name="farmSheep" value="hate"/>
+            <relationship name="farmGoat" value="hate"/>			
+        </faction>	
+        <faction name="farmBoar">
+            <relationship name="*" value="neutral"/>
+            <relationship name="bandits" value="dislike"/>
+            <relationship name="undead" value="hate"/>
+            <relationship name="farmCows" value="hate"/>
+            <relationship name="farmChickens" value="hate"/>
+            <relationship name="farmSheep" value="hate"/>
+            <relationship name="farmGoat" value="hate"/>			
+        </faction>			
+	</factions>
+</npc>
