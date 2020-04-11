@@ -828,7 +828,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --> 
 <!--_=-=_=-=_=-=_ Pistols _=-=_=-=_=-=_-->
-		<recipe name="mayicammo9x19mm" count="4" craft_area="CustomAmmo" >
+		<recipe name="mayicammo9x19mm" count="1" craft_area="CustomAmmo" >
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
@@ -848,16 +848,6 @@
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasingSteel" count="1"/>
 		</recipe>
-		<recipe name="mayicammo9mm" count="3" craft_area="CustomAmmo"   tags="learnable">
-			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasing" count="1"/>
-		</recipe>
-		<recipe name="mayicammo9mmSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
-			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
-		</recipe>
 		<recipe name="mayicammo40cal" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
@@ -870,12 +860,12 @@
 		</recipe>
 		<recipe name="mayicammo45acp" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo45acpSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
 			<ingredient name="resourceBulletCasingSteel" count="1"/>
 		</recipe>
 		<recipe name="mayicammo50ae" count="2" craft_area="CustomAmmo"   tags="learnable">
