@@ -3419,7 +3419,6 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="5000"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
@@ -3435,6 +3434,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
@@ -3453,6 +3453,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
@@ -3471,6 +3472,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo9x19mmDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3489,6 +3491,7 @@
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo9x19mmSteelDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3507,6 +3510,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo38calDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3526,6 +3530,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
@@ -3543,6 +3548,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo9mmDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3562,6 +3568,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
@@ -3579,6 +3586,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammo40calDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3598,6 +3606,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
@@ -3616,6 +3625,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammo45acpDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3631,6 +3641,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
 			<property name="CustomIcon" value="7medcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3653,6 +3664,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="DescriptionKey" value="mayicammo50aeDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3668,6 +3680,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
 			<property name="CustomIcon" value="7medcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3689,6 +3702,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="DescriptionKey" value="mayicammo357magnumDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3704,6 +3718,8 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="7357s"/>
 			<property name="CustomIcon" value="7357s"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3725,6 +3741,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo5.7x28mmDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3743,6 +3760,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo5.7x28mmSteelDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3765,7 +3783,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="5000"/>
+			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -3795,7 +3813,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="5000"/>
+			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -3824,6 +3842,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="34"/>
@@ -3842,6 +3861,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="34"/>
@@ -3860,6 +3880,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
@@ -3878,6 +3899,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
@@ -3896,6 +3918,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="29"/>
@@ -3913,6 +3936,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo5.56x45mmSteelDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -3932,6 +3956,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="31"/>
@@ -3952,6 +3977,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="31"/>
@@ -3972,6 +3998,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="53"/>
@@ -3992,6 +4019,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="53"/>
@@ -4012,6 +4040,7 @@
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="DescriptionKey" value="mayicammo30-06Desc"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="61"/>
@@ -4030,6 +4059,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammo30-06SteelDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -4050,6 +4080,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="62"/>
@@ -4070,6 +4101,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="62"/>
@@ -4090,6 +4122,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="7"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
@@ -4110,6 +4143,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="7"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
@@ -4131,6 +4165,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="2"/>
 			<property name="EconomicBundleSize" value="5"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="head"/>
@@ -4146,6 +4181,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="2"/>
 			<property name="EconomicBundleSize" value="5"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo5mmSteelDesc"/>
 			<property name="CustomIcon" value="75mms"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4168,6 +4204,7 @@
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="20"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="5000"/>
@@ -4188,7 +4225,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="500"/>
+			<property name="Stacknumber" value="75"/>
 			<property name="EconomicValue" value="30"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="ParticleName" value="nozzlesmoke_m136"/>
@@ -4222,7 +4259,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="500"/>
+			<property name="Stacknumber" value="75"/>
 			<property name="EconomicValue" value="30"/>
 			<property name="EconomicBundleSize" value="10"/>
 			<property name="ParticleName" value="nozzlesmoke_m136"/>
@@ -4258,7 +4295,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="5"/>
-			<property name="Stacknumber" value="500"/>
+			<property name="Stacknumber" value="75"/>
 			<property name="EconomicValue" value="250"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action1">
@@ -4302,7 +4339,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="1"/>
-			<property name="Stacknumber" value="5000"/>
+			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="25"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -4332,7 +4369,7 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="1"/>
-			<property name="Stacknumber" value="5000"/>
+			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="20"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -4360,6 +4397,7 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="18"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
@@ -4383,6 +4421,7 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="22"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
@@ -4403,6 +4442,7 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="14"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
@@ -4422,6 +4462,7 @@
 			<property name="CustomIcon" value="7flamefuel"/>
 			<property name="EconomicValue" value="22"/>
 			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="500"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="3"/>
@@ -4441,6 +4482,7 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammoLaserRoundDesc"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -4898,7 +4940,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/>
+	<property name="Stacknumber" value="237"/>
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4910,7 +4952,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4922,7 +4964,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4934,7 +4976,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4948,7 +4990,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4960,7 +5002,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4972,7 +5014,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4984,7 +5026,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -4997,7 +5039,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/>
+	<property name="Stacknumber" value="237"/>
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5009,7 +5051,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5021,7 +5063,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5033,7 +5075,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5048,7 +5090,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5060,7 +5102,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5072,7 +5114,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5085,7 +5127,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5097,7 +5139,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5109,7 +5151,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5122,7 +5164,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5134,7 +5176,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5146,7 +5188,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5158,7 +5200,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5171,7 +5213,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5184,7 +5226,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -5197,7 +5239,7 @@ Mmetal
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="6000"/> 
+	<property name="Stacknumber" value="237"/> 
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
