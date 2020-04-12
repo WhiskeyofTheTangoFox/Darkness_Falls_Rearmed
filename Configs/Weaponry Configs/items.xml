@@ -3536,7 +3536,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo10mmDesc"/>
 			<property name="CustomIcon" value="7lowcalsmg"/>
-			<property name="Material" value="DFRScrapAmmoBundle10mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3554,7 +3554,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo10mmSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalsmgs"/>
-			<property name="Material" value="DFRScrapAmmoBundle10mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3572,7 +3572,7 @@
 		<item name="mayicammo9x19mm">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmg"/>
-			<property name="Material" value="DFRScrapAmmoBundle9x19mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3591,7 +3591,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="CustomIcon" value="7tinycalsmgs"/>
-			<property name="Material" value="DFRScrapAmmoBundle9x19mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo9x19mmSteelDesc"/>
@@ -3608,7 +3608,7 @@
 		<item name="mayicammo38cal">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalpistol"/>
-			<property name="Material" value="DFRScrapAmmoBundle38calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3627,7 +3627,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo38calSteelDesc"/>
 			<property name="CustomIcon" value="7tinycalpistols"/>
-			<property name="Material" value="DFRScrapAmmoBundle38calSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3644,7 +3644,7 @@
 		<item name="mayicammo9mm">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7lowcalpistol"/>
-			<property name="Material" value="DFRScrapAmmoBundle9mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3663,7 +3663,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo9mmSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalpistols"/>
-			<property name="Material" value="DFRScrapAmmoBundle9mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3680,7 +3680,7 @@
 		<item name="mayicammo40cal">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7lowcalpistol"/>
-			<property name="Material" value="DFRScrapAmmoBundle40calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
       <property name="Stacknumber" value="150"/>
@@ -3699,7 +3699,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo40calSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalpistols"/>
-			<property name="Material" value="DFRScrapAmmoBundle40calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
       <property name="Stacknumber" value="150"/>
@@ -3717,7 +3717,7 @@
 		<item name="mayicammo45acp">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalpistol"/>
-			<property name="Material" value="DFRScrapAmmoBundle45acpField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
       <property name="Stacknumber" value="150"/>
@@ -3739,7 +3739,7 @@
       <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
 			<property name="CustomIcon" value="7medcalpistols"/>
-			<property name="Material" value="DFRScrapAmmoBundle45acpSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="42"/>
@@ -3754,7 +3754,7 @@
 		<item name="mayicammo50ae">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalpistol"/>
-			<property name="Material" value="DFRScrapAmmoBundle50aeField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -3776,7 +3776,7 @@
       <property name="Stacknumber" value="75"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
 			<property name="CustomIcon" value="7medcalpistols"/>
-			<property name="Material" value="DFRScrapAmmoBundle50aeSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeSteelField"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="82"/>
@@ -3790,7 +3790,7 @@
 		<item name="mayicammo357magnum">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7357"/>
-			<property name="Material" value="DFRScrapAmmoBundle357magnumField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -3813,7 +3813,7 @@
       <property name="Stacknumber" value="150"/>
 			<property name="DescriptionKey" value="7357s"/>
 			<property name="CustomIcon" value="7357s"/>
-			<property name="Material" value="DFRScrapAmmoBundle357magnumSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeSteelField"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="76"/>
@@ -3827,7 +3827,7 @@
 		<item name="mayicammo5.7x28mm">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmg"/>
-			<property name="Material" value="DFRScrapAmmoBundle10mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3845,7 +3845,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmgs"/>
-			<property name="Material" value="DFRScrapAmmoBundle5.7x28mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
       <property name="Stacknumber" value="300"/>
@@ -3869,7 +3869,7 @@
 			<property name="CustomIcon" value="720g"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="DFRScrapAmmoBundle20gaugeField"/>
+			<property name="Material" value="DFRScrapAmmoBundleShotgunField"/>
 			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -3898,7 +3898,7 @@
 			<property name="CustomIcon" value="7birdshot"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="DFRScrapAmmoBundleBirdShotField"/>
+			<property name="Material" value="DFRScrapAmmoBundleShotgunField"/>
 			<property name="Stacknumber" value="150"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -3924,7 +3924,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo22lrDesc"/>
 			<property name="CustomIcon" value="7smallcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle22lrField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
       <property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3942,7 +3942,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo22lrSteelDesc"/>
 			<property name="CustomIcon" value="7smallcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle22lrSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3960,7 +3960,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo223calDesc"/>
 			<property name="CustomIcon" value="7smallcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle223calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3978,7 +3978,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo223calSteelDesc"/>
 			<property name="CustomIcon" value="7smallcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle223calSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="3"/>
       <property name="Stacknumber" value="300"/>
@@ -3996,7 +3996,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo5.56x45mmDesc"/>
 			<property name="CustomIcon" value="7medcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle5.56x45mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4013,7 +4013,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle5.56x45mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4032,7 +4032,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmDesc"/>
 			<property name="CustomIcon" value="7medcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle7.62x39mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4052,7 +4052,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmSteelDesc"/>
 			<property name="CustomIcon" value="7medcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle7.62x39mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4072,7 +4072,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmDesc"/>
 			<property name="CustomIcon" value="7highcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle7.62x51mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4092,7 +4092,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmSteelDesc"/>
 			<property name="CustomIcon" value="7highcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle7.62x51mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -4111,7 +4111,7 @@
 		<item name="mayicammo30-06">
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7topcalrifle"/>
-			<property name="Material" value="DFRScrapAmmoBundle30-06Field"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="DescriptionKey" value="mayicammo30-06Desc"/>
@@ -4130,7 +4130,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7topcalrifles"/>
-			<property name="Material" value="DFRScrapAmmoBundle30-06SteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeSteelField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="150"/>
@@ -4150,7 +4150,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo338calDesc"/>
 			<property name="CustomIcon" value="7highcallarge"/>
-			<property name="Material" value="DFRScrapAmmoBundle338calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -4170,7 +4170,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo338calSteelDesc"/>
 			<property name="CustomIcon" value="7highcallarges"/>
-			<property name="Material" value="DFRScrapAmmoBundle338calSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeSteelField"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -4190,7 +4190,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo50calDesc"/>
 			<property name="CustomIcon" value="7topcallarge"/>
-			<property name="Material" value="DFRScrapAmmoBundle50calField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeField"/>
 			<property name="EconomicValue" value="7"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -4210,7 +4210,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
 			<property name="CustomIcon" value="7topcallarges"/>
-			<property name="Material" value="DFRScrapAmmoBundle50calSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleLargeSteelField"/>
 			<property name="EconomicValue" value="7"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="75"/>
@@ -4231,7 +4231,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo5mmDesc"/>
 			<property name="CustomIcon" value="75mm"/>
-			<property name="Material" value="DFRScrapAmmoBundle5mmField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="2"/>
 			<property name="EconomicBundleSize" value="5"/>
       <property name="Stacknumber" value="300"/>
@@ -4253,7 +4253,7 @@
       <property name="Stacknumber" value="300"/>
 			<property name="DescriptionKey" value="mayicammo5mmSteelDesc"/>
 			<property name="CustomIcon" value="75mms"/>
-			<property name="Material" value="DFRScrapAmmoBundle5mmSteelField"/>
+			<property name="Material" value="DFRScrapAmmoBundleSteelField"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
@@ -4268,7 +4268,7 @@
 			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammoGoldenbulletDesc"/>
 			<property name="CustomIcon" value="7golden"/>
-			<property name="Material" value="DFRScrapAmmoBundleGoldenbulletField"/>
+			<property name="Material" value="DFRScrapAmmoBundleField"/>
 			<property name="EconomicValue" value="20"/>
 			<property name="EconomicBundleSize" value="1"/>
       <property name="Stacknumber" value="300"/>
@@ -7954,6 +7954,227 @@ Mmetal
       <property class="Action0">
         <property name="Create_item" value="ammoGasCan"/>
         <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    Field Scrapped Ammo Bundles
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <item name="DFRScrapAmmoBundleField">
+      <property name="CustomIcon" value="7tinycalsmg"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceIron"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleLargeField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleLargeSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceIron"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+    
+    <!--Shotgun Field Scrap-->
+    <item name="DFRScrapAmmoBundleShotgunField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+    
+    <!--Special Ammo Field Scrap-->
+    <item name="DFRScrapAmmoBundle5mmField">
+      <property name="CustomIcon" value="7tinycalpistol"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,2,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5mmSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceScrapIron"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleGoldenBulletField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item_count" value="1,4,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleGrassBombField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceScrapLead"/>
+        <property name="Create_item_count" value="3,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmMiniField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_grenade"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmExplosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper,resourceBrass"/>
+        <property name="Create_item_count" value="1,10,10,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleElectricshellField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceElectricParts,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,4,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleDragonsbreathField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceAnimalFat,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,8,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleIncediaryField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAnimalFat,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,2,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleIncediarySteelField">
+      <property name="Extends" value="DFRScrapAmmoBundleSteel5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAnimalFat,resourceGunPowder,resourceScrapIron"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleExplosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,4,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleExplosiveSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceScrapIron"/>
+        <property name="Create_item_count" value="1,5,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleCorrosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAcid,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,20,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleCorrosiveSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAcid,resourceGunPowder,resourceScrapIron"/>
+        <property name="Create_item_count" value="1,1,20,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleFlameFuelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="oil"/>
+        <property name="Create_item_count" value="30"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleFlameFuelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="ammoGasCan"/>
+        <property name="Create_item_count" value="3"/>
       </property>
     </item>
     
