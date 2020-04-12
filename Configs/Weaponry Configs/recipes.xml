@@ -1059,7 +1059,7 @@
 		</recipe>
 		<recipe name="mayicammoExplosive" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="5"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoExplosive" count="1" craft_area="CustomAmmo"   tags="learnable">
@@ -1082,13 +1082,13 @@
 		<recipe name="mayicammoLaserRound" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="25"/>
-			<ingredient name="resourceAcid" count="10"/>
+			<ingredient name="resourceAcid" count="2"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoLaserRound" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="25"/>
-			<ingredient name="resourceAcid" count="10"/>
+			<ingredient name="resourceAcid" count="2"/>
 			<ingredient name="resourceBulletCasingSteel" count="1"/>
 		</recipe>
 		<recipe name="mayicammoFlameFuel" count="150" craft_area="CustomAmmo"  tags="learnable">
