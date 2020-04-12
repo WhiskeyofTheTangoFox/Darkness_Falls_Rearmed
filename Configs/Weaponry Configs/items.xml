@@ -3515,846 +3515,874 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
-    <!--                          SMG                        -->
-    <item name="mayicammoMaster">
-      <property name="DisplayType" value="ammoBullet"/>
-      <property name="DescriptionKey" value=""/>
-      <property name="CustomIcon" value=""/>
-      <property name="HoldType" value="45"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
+		<!--                          SMG                        -->
+		<item name="mayicammoMaster">
+			<property name="DisplayType" value="ammoBullet"/>
+			<property name="DescriptionKey" value=""/>
+			<property name="CustomIcon" value=""/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="mMetal"/>
+			<property name="Weight" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+			</effect_group>
+		</item>
+		<item name="mayicammo10mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo10mmDesc"/>
+			<property name="CustomIcon" value="7lowcalsmg"/>
+			<property name="Material" value="DFRScrapAmmoBundle10mmField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="5"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo10mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo10mmSteelDesc"/>
+			<property name="CustomIcon" value="7lowcalsmgs"/>
+			<property name="Material" value="DFRScrapAmmoBundle10mmSteelField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="5"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			</effect_group>
+		</item>
+		<!--                          Pistols                        -->
+		<item name="mayicammo9x19mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7tinycalsmg"/>
+			<property name="Material" value="DFRScrapAmmoBundle9x19mmField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo9x19mmDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo9x19mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="CustomIcon" value="7tinycalsmgs"/>
+			<property name="Material" value="DFRScrapAmmoBundle9x19mmSteelField"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo9x19mmSteelDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo38cal">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7tinycalpistol"/>
+			<property name="Material" value="DFRScrapAmmoBundle38calField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo38calDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo38calSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo38calSteelDesc"/>
+			<property name="CustomIcon" value="7tinycalpistols"/>
+			<property name="Material" value="DFRScrapAmmoBundle38calSteelField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo9mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7lowcalpistol"/>
+			<property name="Material" value="DFRScrapAmmoBundle9mmField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo9mmDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo9mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo9mmSteelDesc"/>
+			<property name="CustomIcon" value="7lowcalpistols"/>
+			<property name="Material" value="DFRScrapAmmoBundle9mmSteelField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo40cal">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7lowcalpistol"/>
+			<property name="Material" value="DFRScrapAmmoBundle40calField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="mayicammo40calDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo40calSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo40calSteelDesc"/>
+			<property name="CustomIcon" value="7lowcalpistols"/>
+			<property name="Material" value="DFRScrapAmmoBundle40calField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<!-- mayicgun1911 -->
+		<item name="mayicammo45acp">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7medcalpistol"/>
+			<property name="Material" value="DFRScrapAmmoBundle45acpField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="mayicammo45acpDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="42"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo45acpSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
+			<property name="CustomIcon" value="7medcalpistols"/>
+			<property name="Material" value="DFRScrapAmmoBundle45acpSteelField"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="42"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<!-- mayicgunDesertEagle -->
+		<item name="mayicammo50ae">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7medcalpistol"/>
+			<property name="Material" value="DFRScrapAmmoBundle50aeField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="DescriptionKey" value="mayicammo50aeDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="82"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo50aeSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
+			<property name="CustomIcon" value="7medcalpistols"/>
+			<property name="Material" value="DFRScrapAmmoBundle50aeSteelField"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="82"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo357magnum">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7357"/>
+			<property name="Material" value="DFRScrapAmmoBundle357magnumField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="DescriptionKey" value="mayicammo357magnumDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="76"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo357magnumSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="7357s"/>
+			<property name="CustomIcon" value="7357s"/>
+			<property name="Material" value="DFRScrapAmmoBundle357magnumSteelField"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="76"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.7x28mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7tinycalsmg"/>
+			<property name="Material" value="DFRScrapAmmoBundle10mmField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo5.7x28mmDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.7x28mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7tinycalsmgs"/>
+			<property name="Material" value="DFRScrapAmmoBundle5.7x28mmSteelField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo5.7x28mmSteelDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+			</effect_group>
+		</item>
+		<!--                          Shotguns                        -->
+		<item name="mayicammo20gauge">
+			<property name="Tags" value="shotgun"/>
+			<property name="DisplayType" value="ammoShotgun"/>
+			<property name="DescriptionKey" value="mayicammo20gaugeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="720g"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundle20gaugeField"/>
+			<property name="Stacknumber" value="150"/>
+			<property name="EconomicValue" value="11"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="12"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="14"/>
+				<passive_effect name="MaxRange" operation="base_set" value="45"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value="0.25" tags="head"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoBirdShot">
+			<property name="Tags" value="shotgun"/>
+			<property name="DisplayType" value="ammoShotgun"/>
+			<property name="DescriptionKey" value="mayicammoBirdShotDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="7birdshot"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundleBirdShotField"/>
+			<property name="Stacknumber" value="150"/>
+			<property name="EconomicValue" value="11"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="3"/>
+				<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="100"/>
+				<passive_effect name="MaxRange" operation="base_set" value="90"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="5"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="15"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
+			</effect_group>
+		</item>
+		<!--                          Rifles                        -->
+		<!-- 22LR=Trash ammo, waiting for something better to replace it with. Not really coded with anything besides the FNFAL. Pretty much hit ever major caliber right now. Waiting for a semi-exotic rifle with an odd round. Or a basic hunting rifle type. -->
+		<item name="mayicammo22lr">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo22lrDesc"/>
+			<property name="CustomIcon" value="7smallcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle22lrField"/>
       <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-      </effect_group>
-    </item>
-    <item name="mayicammo10mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo10mmDesc"/>
-      <property name="CustomIcon" value="7lowcalsmg"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="15"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="5"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo10mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo10mmSteelDesc"/>
-      <property name="CustomIcon" value="7lowcalsmgs"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="15"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="5"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
-      </effect_group>
-    </item>
-    <!--                          Pistols                        -->
-    <item name="mayicammo9x19mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7tinycalsmg"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="DescriptionKey" value="mayicammo9x19mmDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="17"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo9x19mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="CustomIcon" value="7tinycalsmgs"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="DescriptionKey" value="mayicammo9x19mmSteelDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="17"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo38cal">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7tinycalpistol"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="DescriptionKey" value="mayicammo38calDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="25"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo38calSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo38calSteelDesc"/>
-      <property name="CustomIcon" value="7tinycalpistols"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="25"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo40cal">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7lowcalpistol"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="DescriptionKey" value="mayicammo40calDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="35"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo40calSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo40calSteelDesc"/>
-      <property name="CustomIcon" value="7lowcalpistols"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="35"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <!-- mayicgun1911 -->
-    <item name="mayicammo45acp">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7medcalpistol"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="DescriptionKey" value="mayicammo45acpDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="42"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo45acpSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
-      <property name="CustomIcon" value="7medcalpistols"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="42"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <!-- mayicgunDesertEagle -->
-    <item name="mayicammo50ae">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7medcalpistol"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo50aeDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="82"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="25"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo50aeSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
-      <property name="CustomIcon" value="7medcalpistols"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="82"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="25"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo357magnum">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7357"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo357magnumDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="76"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="20"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo357magnumSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="7357s"/>
-      <property name="CustomIcon" value="7357s"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="76"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="20"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo5.7x28mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7tinycalsmg"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="DescriptionKey" value="mayicammo5.7x28mmDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="17"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo5.7x28mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7tinycalsmgs"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="4"/>
-      <property name="DescriptionKey" value="mayicammo5.7x28mmSteelDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="17"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="7"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-      </effect_group>
-    </item>
-    <!--                          Shotguns                        -->
-    <item name="mayicammo20gauge">
-      <property name="Tags" value="shotgun"/>
-      <property name="DisplayType" value="ammoShotgun"/>
-      <property name="DescriptionKey" value="mayicammo20gaugeDesc"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="720g"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="11"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="12"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="8"/>
-        <passive_effect name="RoundRayCount" operation="base_set" value="14"/>
-        <passive_effect name="MaxRange" operation="base_set" value="45"/>
-        <passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
-        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
-        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value="0.25" tags="head"/>
-        <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
-        <passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
-        <passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
-        <passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoBirdShot">
-      <property name="Tags" value="shotgun"/>
-      <property name="DisplayType" value="ammoShotgun"/>
-      <property name="DescriptionKey" value="mayicammoBirdShotDesc"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7birdshot"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="11"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="3"/>
-        <passive_effect name="BlockDamage" operation="base_set" value=".1"/>
-        <passive_effect name="RoundRayCount" operation="base_set" value="100"/>
-        <passive_effect name="MaxRange" operation="base_set" value="90"/>
-        <passive_effect name="DamageFalloffRange" operation="base_set" value="5"/>
-        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="15"/>
-        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
-        <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
-        <passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
-        <passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
-        <passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
-      </effect_group>
-    </item>
-    <!--                          Rifles                        -->
-    <!-- 22LR=Trash ammo, waiting for something better to replace it with. Not really coded with anything besides the FNFAL. Pretty much hit ever major caliber right now. Waiting for a semi-exotic rifle with an odd round. Or a basic hunting rifle type. -->
-    <item name="mayicammo22lr">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo22lrDesc"/>
-      <property name="CustomIcon" value="7smallcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="3"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="34"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="12"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo22lrSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo22lrSteelDesc"/>
-      <property name="CustomIcon" value="7smallcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="3"/>
-      <property name="EconomicBundleSize" value="3"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="34"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="12"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo223cal">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo223calDesc"/>
-      <property name="CustomIcon" value="7smallcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="3"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="28"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="4"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo223calSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo223calSteelDesc"/>
-      <property name="CustomIcon" value="7smallcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="3"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="28"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="4"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo5.56x45mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo5.56x45mmDesc"/>
-      <property name="CustomIcon" value="7medcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="29"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="17"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo5.56x45mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7medcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo5.56x45mmSteelDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="29"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="17"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo7.62x39mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo7.62x39mmDesc"/>
-      <property name="CustomIcon" value="7medcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="5"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="31"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo7.62x39mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo7.62x39mmSteelDesc"/>
-      <property name="CustomIcon" value="7medcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="5"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="31"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo7.62x51mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo7.62x51mmDesc"/>
-      <property name="CustomIcon" value="7highcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="53"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo7.62x51mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo7.62x51mmSteelDesc"/>
-      <property name="CustomIcon" value="7highcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="53"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo30-06">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7topcalrifle"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo30-06Desc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="61"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="20"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal,stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo30-06Steel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7topcalrifles"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="DescriptionKey" value="mayicammo30-06SteelDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="61"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="20"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <!--                          Large Weapons                        -->
-    <item name="mayicammo338cal">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo338calDesc"/>
-      <property name="CustomIcon" value="7highcallarge"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="62"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="8"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo338calSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo338calSteelDesc"/>
-      <property name="CustomIcon" value="7highcallarges"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="6"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="62"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="8"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo50cal">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo50calDesc"/>
-      <property name="CustomIcon" value="7topcallarge"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="7"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="85"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="55"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".2" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo50calSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
-      <property name="CustomIcon" value="7topcallarges"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="7"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="85"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="55"/>
-        <passive_effect name="DismemberChance" operation="perc_add" value=".4" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
-      </effect_group>
-    </item>
-    <!--                          Specials                        -->
-    <item name="mayicammo5mm">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammo5mmDesc"/>
-      <property name="CustomIcon" value="75mm"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="2"/>
-      <property name="EconomicBundleSize" value="5"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_subtract" value="10" tags="arm,leg,body"/>
-        <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammo5mmSteel">
-      <property name="DisplayType" value="ammoBulletSteel"/>
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="EconomicValue" value="2"/>
-      <property name="EconomicBundleSize" value="5"/>
-      <property name="DescriptionKey" value="mayicammo5mmSteelDesc"/>
-      <property name="CustomIcon" value="75mms"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_subtract" value="10" tags="arm,leg,body"/>
-        <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoGoldenbullet">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammoGoldenbulletDesc"/>
-      <property name="CustomIcon" value="7golden"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="5000"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="5"/>
-        <passive_effect name="DismemberChance" operation="base_set" value="1" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-      </effect_group>
-    </item>
-    <!--			 Explosives 			-->
-    <item name="mayicammo40mmMini">
-      <property name="DisplayType" value="ammoLauncher"/>
-      <property name="DescriptionKey" value="mayicammo40mmMiniDesc"/>
-      <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon"	value="720mm"/>
-      <property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Stacknumber" value="500"/>
-      <property name="EconomicValue" value="30"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="ParticleName" value="nozzlesmoke_m136"/>
-      <property class="Action1">
-        <property name="Class" value="Projectile"/>
-        <property name="Explosion.ParticleIndex" value="1"/>
-        <property name="Explosion.RadiusBlocks" value="1"/>
-        <property name="Explosion.BlockDamage" value="10"/>
-        <property name="Explosion.RadiusEntities" value="3"/>
-        <property name="Explosion.EntityDamage" value="100"/>
-        <property name="Explosion.DamageBonus.water" value="0"/>
-        <property name="Gravity" value="-35"/>
-        <property name="FlyTime" value=".2"/>
-        <property name="LifeTime" value="15"/>
-      </property>
-      <property name="CraftingSkillGroup" value="craftSkillScience"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="100"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="10"/>
-        <passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
-        <display_value name="ExRadius" value="5" />
-      </effect_group>
-    </item>
-    <item name="mayicammoGrassBomb">
-      <property name="DisplayType" value="ammoLauncher"/>
-      <property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
-      <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon"	value="7grassbomb"/>
-      <property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="2"/>
-      <property name="Stacknumber" value="500"/>
-      <property name="EconomicValue" value="30"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="ParticleName" value="nozzlesmoke_m136"/>
-      <property class="Action1">
-        <property name="Class" value="Projectile"/>
-        <property name="Explosion.ParticleIndex" value="1"/>
-        <property name="Explosion.RadiusBlocks" value="35"/>
-        <property name="Explosion.BlockDamage" value="5"/>
-        <property name="Explosion.RadiusEntities" value="1"/>
-        <property name="Explosion.EntityDamage" value="0"/>
-        <property name="Explosion.DamageBonus.water" value="0"/>
-        <property name="Gravity" value="-35"/>
-        <property name="FlyTime" value=".2"/>
-        <property name="LifeTime" value="15"/>
-      </property>
-      <property name="CraftingSkillGroup" value="craftSkillScience"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="0"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="1"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood,metal,stone,organic"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="1"/>
-        <passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
-        <display_value name="ExRadius" value="5" />
-      </effect_group>
-    </item>
-    <item name="mayicammo40mmExplosive">
-      <property name="DisplayType" value="ammoLauncher"/>
-      <property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
-      <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon"	value="740mm"/>
-      <property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="5"/>
-      <property name="Stacknumber" value="500"/>
-      <property name="EconomicValue" value="250"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property class="Action1">
-        <property name="Class" value="Projectile"/>
-        <property name="Explosion.ParticleIndex" value="4"/>
-        <property name="Explosion.RadiusBlocks" value="2"/>
-        <property name="Explosion.BlockDamage" value="500"/>
-        <property name="Explosion.RadiusEntities" value="7"/>
-        <property name="Explosion.EntityDamage" value="500"/>
-        <property name="Explosion.DamageBonus.water" value="0"/>
-        <property name="Gravity" value="0"/>
-        <property name="FlyTime" value="4"/>
-        <property name="LifeTime" value="25"/>
-      </property>
-      <property name="CraftingSkillGroup" value="craftSkillScience"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="500"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="500"/>
-        <passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
-        <display_value name="ExRadius" value="5" />
-      </effect_group>
-    </item>
-    <!--
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="34"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="12"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo22lrSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo22lrSteelDesc"/>
+			<property name="CustomIcon" value="7smallcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle22lrSteelField"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="34"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="12"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo223cal">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo223calDesc"/>
+			<property name="CustomIcon" value="7smallcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle223calField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="4"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo223calSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo223calSteelDesc"/>
+			<property name="CustomIcon" value="7smallcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle223calSteelField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="3"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="4"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.56x45mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo5.56x45mmDesc"/>
+			<property name="CustomIcon" value="7medcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle5.56x45mmField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="29"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="17"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.56x45mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7medcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle5.56x45mmSteelField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo5.56x45mmSteelDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="29"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="17"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x39mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo7.62x39mmDesc"/>
+			<property name="CustomIcon" value="7medcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle7.62x39mmField"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="31"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x39mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo7.62x39mmSteelDesc"/>
+			<property name="CustomIcon" value="7medcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle7.62x39mmSteelField"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="31"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x51mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo7.62x51mmDesc"/>
+			<property name="CustomIcon" value="7highcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle7.62x51mmField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="53"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x51mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo7.62x51mmSteelDesc"/>
+			<property name="CustomIcon" value="7highcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle7.62x51mmSteelField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="53"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo30-06">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7topcalrifle"/>
+			<property name="Material" value="DFRScrapAmmoBundle30-06Field"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="DescriptionKey" value="mayicammo30-06Desc"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="61"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal,stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo30-06Steel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7topcalrifles"/>
+			<property name="Material" value="DFRScrapAmmoBundle30-06SteelField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="mayicammo30-06SteelDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="61"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<!--                          Large Weapons                        -->
+		<item name="mayicammo338cal">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo338calDesc"/>
+			<property name="CustomIcon" value="7highcallarge"/>
+			<property name="Material" value="DFRScrapAmmoBundle338calField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="62"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo338calSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo338calSteelDesc"/>
+			<property name="CustomIcon" value="7highcallarges"/>
+			<property name="Material" value="DFRScrapAmmoBundle338calSteelField"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="62"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo50cal">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo50calDesc"/>
+			<property name="CustomIcon" value="7topcallarge"/>
+			<property name="Material" value="DFRScrapAmmoBundle50calField"/>
+			<property name="EconomicValue" value="7"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="55"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".2" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo50calSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
+			<property name="CustomIcon" value="7topcallarges"/>
+			<property name="Material" value="DFRScrapAmmoBundle50calSteelField"/>
+			<property name="EconomicValue" value="7"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="55"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value=".4" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
+			</effect_group>
+		</item>
+		<!--                          Specials                        -->
+		<item name="mayicammo5mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo5mmDesc"/>
+			<property name="CustomIcon" value="75mm"/>
+			<property name="Material" value="DFRScrapAmmoBundle5mmField"/>
+			<property name="EconomicValue" value="2"/>
+			<property name="EconomicBundleSize" value="5"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_subtract" value="10" tags="arm,leg,body"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5mmSteel">
+			<property name="DisplayType" value="ammoBulletSteel"/>
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="EconomicValue" value="2"/>
+			<property name="EconomicBundleSize" value="5"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="DescriptionKey" value="mayicammo5mmSteelDesc"/>
+			<property name="CustomIcon" value="75mms"/>
+			<property name="Material" value="DFRScrapAmmoBundle5mmSteelField"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_subtract" value="10" tags="arm,leg,body"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoGoldenbullet">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammoGoldenbulletDesc"/>
+			<property name="CustomIcon" value="7golden"/>
+			<property name="Material" value="DFRScrapAmmoBundleGoldenbulletField"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="300"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="5000"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="5"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="1" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+			</effect_group>
+		</item>
+		<!--			 Explosives 			-->
+		<item name="mayicammo40mmMini">
+			<property name="DisplayType" value="ammoLauncher"/>
+			<property name="DescriptionKey" value="mayicammo40mmMiniDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon"	value="720mm"/>
+			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundle40mmMiniField"/>
+			<property name="Stacknumber" value="75"/>
+			<property name="EconomicValue" value="30"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="ParticleName" value="nozzlesmoke_m136"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="Explosion.ParticleIndex" value="1"/>
+				<property name="Explosion.RadiusBlocks" value="1"/>
+				<property name="Explosion.BlockDamage" value="10"/>
+				<property name="Explosion.RadiusEntities" value="3"/>
+				<property name="Explosion.EntityDamage" value="100"/>
+				<property name="Explosion.DamageBonus.water" value="0"/>
+				<property name="Gravity" value="-35"/>
+				<property name="FlyTime" value=".2"/>
+				<property name="LifeTime" value="15"/></property>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="100"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
+				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
+				<display_value name="ExRadius" value="5" />
+			</effect_group>
+		</item>
+		<item name="mayicammoGrassBomb">
+			<property name="DisplayType" value="ammoLauncher"/>
+			<property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon"	value="7grassbomb"/>
+			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundleGrassBombField"/>
+			<property name="Stacknumber" value="75"/>
+			<property name="EconomicValue" value="30"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="ParticleName" value="nozzlesmoke_m136"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="Explosion.ParticleIndex" value="1"/>
+				<property name="Explosion.RadiusBlocks" value="35"/>
+				<property name="Explosion.BlockDamage" value="5"/>
+				<property name="Explosion.RadiusEntities" value="1"/>
+				<property name="Explosion.EntityDamage" value="0"/>
+				<property name="Explosion.DamageBonus.water" value="0"/>
+				<property name="Gravity" value="-35"/>
+				<property name="FlyTime" value=".2"/>
+				<property name="LifeTime" value="15"/></property>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood,metal,stone,organic"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
+				<display_value name="ExRadius" value="5" />
+			</effect_group>
+		</item>
+		<item name="mayicammo40mmExplosive">
+			<property name="DisplayType" value="ammoLauncher"/>
+			<property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon"	value="740mm"/>
+			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundle40mmExplosiveField"/>
+			<property name="Stacknumber" value="75"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="Explosion.ParticleIndex" value="4"/>
+				<property name="Explosion.RadiusBlocks" value="2"/>
+				<property name="Explosion.BlockDamage" value="500"/>
+				<property name="Explosion.RadiusEntities" value="7"/>
+				<property name="Explosion.EntityDamage" value="500"/>
+				<property name="Explosion.DamageBonus.water" value="0"/>
+				<property name="Gravity" value="0"/>
+				<property name="FlyTime" value="4"/>
+				<property name="LifeTime" value="25"/></property>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="500"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="500"/>
+				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
+				<display_value name="ExRadius" value="5" />
+			</effect_group>
+		</item>
+		<!--
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4365,172 +4393,172 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
-    <item name="mayicammoDragonsbreath">
-      <property name="Tags" value="shotgun"/>
-      <property name="DescriptionKey" value="mayicammoDragonsbreathDesc"/>
-      <property name="DisplayType" value="ammoShotgun"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7dragonsbreath"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+		<item name="mayicammoDragonsbreath">
+			<property name="Tags" value="shotgun"/>
+			<property name="DescriptionKey" value="mayicammoDragonsbreathDesc"/>
+			<property name="DisplayType" value="ammoShotgun"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="7dragonsbreath"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundleDragonsbreathField"/>
+			<property name="Stacknumber" value="150"/>
+			<property name="EconomicValue" value="25"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="3"/>
+				<passive_effect name="MaxRange" operation="base_set" value="25"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurning"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoElectricshell">
+			<property name="Tags" value="shotgun"/>
+			<property name="DescriptionKey" value="mayicammoElectricshellDesc"/>
+			<property name="DisplayType" value="ammoShotgun"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="7electricshot"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="DFRScrapAmmoBundleElectricshellField"/>
+			<property name="Stacknumber" value="150"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="3"/>
+				<passive_effect name="MaxRange" operation="base_set" value="25"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffShocked"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoIncendiary">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammoIncendiaryDesc"/>
+			<property name="CustomIcon" value="7incen"/>
+			<property name="Material" value="DFRScrapAmmoBundleIncendiaryField"/>
+			<property name="EconomicValue" value="18"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		<item name="mayicammoExplosive">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="buffExplosiveRoundDesc"/>
+			<property name="CustomIcon" value="7explosiveround"/>
+			<property name="Material" value="DFRScrapAmmoBundleExplosiveField"/>
+			<property name="EconomicValue" value="22"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="75"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="150"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffExplosiveRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffExplosiveRound"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoCorrosive">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammoCorrosiveDesc"/>
+			<property name="CustomIcon" value="7corrosive"/>
+			<property name="Material" value="DFRScrapAmmoBundleCorrosiveField"/>
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffCorrosiveRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffCorrosiveRound"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffCorrosiveRound"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoFlameFuel">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammoFlameFuelDesc"/>
+			<property name="CustomIcon" value="7flamefuel"/>
+      <property name="Material" value="ammoGasCan"/>
       <property name="Weight" value="1"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="25"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="15"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="8"/>
-        <passive_effect name="RoundRayCount" operation="base_set" value="3"/>
-        <passive_effect name="MaxRange" operation="base_set" value="25"/>
-        <passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
-        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
-        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
-        <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
-        <passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
-        <passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
-        <passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurning"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoElectricshell">
-      <property name="Tags" value="shotgun"/>
-      <property name="DescriptionKey" value="mayicammoElectricshellDesc"/>
-      <property name="DisplayType" value="ammoShotgun"/>
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7electricshot"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="15"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="8"/>
-        <passive_effect name="RoundRayCount" operation="base_set" value="3"/>
-        <passive_effect name="MaxRange" operation="base_set" value="25"/>
-        <passive_effect name="DamageFalloffRange" operation="base_set" value="8"/>
-        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
-        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
-        <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
-        <passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
-        <passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
-        <passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffShocked"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoIncendiary">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammoIncendiaryDesc"/>
-      <property name="CustomIcon" value="7incen"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="18"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-        </triggered_effect>
-      </effect_group>
-    </item>
-    <item name="mayicammoExplosive">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="buffExplosiveRoundDesc"/>
-      <property name="CustomIcon" value="7explosiveround"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="22"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="150"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="stone"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffExplosiveRound"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffExplosiveRound"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoCorrosive">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammoCorrosiveDesc"/>
-      <property name="CustomIcon" value="7corrosive"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="14"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffCorrosiveRound"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffCorrosiveRound"/>
-        <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffCorrosiveRound"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoFlameFuel">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="DescriptionKey" value="mayicammoFlameFuelDesc"/>
-      <property name="CustomIcon" value="7flamefuel"/>
-      <property name="EconomicValue" value="22"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="3"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="20"/>
-        <passive_effect name="DismemberChance" operation="base_set" value="0" tags="head"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="head"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffFlameThrower"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffFlameThrower"/>
-      </effect_group>
-    </item>
-    <item name="mayicammoLaserRound">
-      <property name="Extends" value="mayicammoMaster"/>
-      <property name="CustomIcon" value="7laserround"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="4"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="DescriptionKey" value="mayicammoLaserRoundDesc"/>
-      <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-      <effect_group name="Base Effects" tiered="false">
-        <passive_effect name="EntityDamage" operation="base_set" value="0"/>
-        <passive_effect name="BlockDamage" operation="base_set" value="200"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="20" tags="earth,wood,stone"/>
-        <passive_effect name="DamageModifier" operation="perc_add" value="100" tags="metal"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffLaser"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffLaser">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="65"/>
-        </triggered_effect>
-        <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffLaser"/>
-        <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffLaser"/>
-      </effect_group>
-    </item>
-
-    <!--
+			<property name="EconomicValue" value="22"/>
+			<property name="EconomicBundleSize" value="1"/>
+      <property name="Stacknumber" value="500"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="3"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="0" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth,metal,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="head"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffFlameThrower"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffFlameThrower"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoLaserRound">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="CustomIcon" value="7laserround"/>
+			<property name="Material" value="DFRScrapAmmoBundleLaserRoundField"/>
+			<property name="EconomicValue" value="4"/>
+			<property name="EconomicBundleSize" value="2"/>
+      <property name="Stacknumber" value="150"/>
+			<property name="DescriptionKey" value="mayicammoLaserRoundDesc"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="200"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="20" tags="earth,wood,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="100" tags="metal"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffLaser"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffLaser">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="65"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffLaser"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffLaser"/>
+			</effect_group>
+		</item>
+		<!--
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4970,319 +4998,319 @@ Mmetal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-    <!-- MAIN GROUPS -->
-    <item name="mayicpartSmReceiver">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7smreceiver"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartSmBarrel">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7smbarrel"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartSmStock">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7smstock"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartSmGrip">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7smgrip"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
+-->	
+<!-- MAIN GROUPS -->
+<item name="mayicpartSmReceiver">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7smreceiver"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/>
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartSmBarrel">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7smbarrel"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartSmStock">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7smstock"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartSmGrip">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7smgrip"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
 
 
-    <item name="mayicpartMedReceiver">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7medreceiver"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartMedBarrel">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7medbarrel"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartMedStock">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7medstock"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartMedGrip">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7medgrip"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
+<item name="mayicpartMedReceiver"> 
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7medreceiver"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartMedBarrel">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7medbarrel"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartMedStock">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7medstock"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartMedGrip">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7medgrip"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
 
-    <item name="mayicpartLrgReceiver">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7lrgreceiver"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
-    <item name="mayicpartLrgBarrel">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7lrgbarrel"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
-    <item name="mayicpartLrgStock">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7lrgstock"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
-    <item name="mayicpartLrgGrip">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7lrggrip"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
+<item name="mayicpartLrgReceiver">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7lrgreceiver"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/>
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
+<item name="mayicpartLrgBarrel">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7lrgbarrel"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
+<item name="mayicpartLrgStock">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7lrgstock"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
+<item name="mayicpartLrgGrip">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7lrggrip"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
 
-    <!-- Specified Items. For the sake of both my time, and yours, I'm doing this the easy way. Not breaking apart 50 guns into multiple gunparts for crafting -->
-    <!-- Barrels -->
-    <item name="mayicpartShortBarrel">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7shortbarrel"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartMountRails">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7mountrail"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartLongBarrel">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7longbarrel"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
-    <!-- Bolts and Assists -->
-    <item name="mayicpartForwardAssist">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7forward"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartSlideBar">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7slide"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartBreechBolt">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7breechbolt"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
-    <!-- Firing assists -->
-    <item name="mayicpartHammer">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7hammer"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartLow"/>
-    </item>
-    <item name="mayicpartTrigger">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7trigger"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartCompressor">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7compressor"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartMed"/>
-    </item>
-    <item name="mayicpartHandguard">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7handguard"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartHigh"/>
-    </item>
+<!-- Specified Items. For the sake of both my time, and yours, I'm doing this the easy way. Not breaking apart 50 guns into multiple gunparts for crafting -->
+<!-- Barrels -->
+<item name="mayicpartShortBarrel">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7shortbarrel"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartMountRails">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7mountrail"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartLongBarrel">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7longbarrel"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
+<!-- Bolts and Assists -->
+<item name="mayicpartForwardAssist">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7forward"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartSlideBar"> 
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7slide"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartBreechBolt">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7breechbolt"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
+<!-- Firing assists -->
+<item name="mayicpartHammer">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7hammer"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartLow"/>
+</item>
+<item name="mayicpartTrigger">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7trigger"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartCompressor">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7compressor"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartMed"/>
+</item>
+<item name="mayicpartHandguard">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7handguard"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartHigh"/>
+</item>
 
-    <item name="mayicpartChaingunGear">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7chaingungear"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartSpecial"/>
-    </item>
+<item name="mayicpartChaingunGear">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7chaingungear"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartSpecial"/>
+</item>
 
-    <item name="mayicpartAlienFrame">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7alienframe"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartSpecial"/>
-    </item>
+<item name="mayicpartAlienFrame">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7alienframe"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartSpecial"/>
+</item>
 
-    <item name="mayicpartFlamethrowerTank">
-      <property name="HoldType" value="45"/>
-      <property name="CustomIcon" value="7flametank"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="Mmetal"/>
-      <property name="Stacknumber" value="6000"/>
-      <property name="Weight" value="1"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="AllParts,PartSpecial"/>
-    </item>
+<item name="mayicpartFlamethrowerTank">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7flametank"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="237"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts,PartSpecial"/>
+</item>
 
 
     <!--
