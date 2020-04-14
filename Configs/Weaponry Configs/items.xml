@@ -18,7 +18,7 @@
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?LugerPrefab"/>
       <property name="CustomIcon" value="7luger"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -89,7 +89,7 @@
       <property name="HoldType" value="44"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?38Prefab"/>
       <property name="CustomIcon" value="738snub"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -153,7 +153,7 @@
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?MakarovPistolPrefab"/>
       <property name="CustomIcon" value="7makarov"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -217,7 +217,7 @@
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?BerettaNanoPrefab"/>
       <property name="CustomIcon" value="7nano"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -281,7 +281,7 @@
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?M9Prefab"/>
       <property name="CustomIcon" value="7m9"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -348,7 +348,7 @@
       <property name="DescriptionKey" value="mayicgunP226Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?P226Prefab"/>
       <property name="CustomIcon" value="7p226"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -412,7 +412,7 @@
       <property name="DescriptionKey" value="mayicgunBeretta92Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?92Prefab"/>
       <property name="CustomIcon" value="7b92"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -476,7 +476,7 @@
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?USPPrefab"/>
       <property name="CustomIcon" value="7usp"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -543,7 +543,7 @@
       <property name="DescriptionKey" value="mayicgunGlock40Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?Glock40"/>
       <property name="CustomIcon" value="7glock"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -607,7 +607,7 @@
       <property name="DescriptionKey" value="mayicgun1911Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?1911Prefab"/>
       <property name="CustomIcon" value="71911"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -671,7 +671,7 @@
       <property name="DescriptionKey" value="mayicgunDesertEagleDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?DE50Prefab"/>
       <property name="CustomIcon" value="7de50"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="5"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -734,7 +734,7 @@
       <property name="DescriptionKey" value="mayicgunColtPythonDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms1.unity3d?ColtPrefab"/>
       <property name="CustomIcon" value="7colt"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="5"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -805,7 +805,7 @@
       <property name="DescriptionKey" value="mayicgunKlobDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?KlobPrefab"/>
       <property name="CustomIcon" value="7klob"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -878,7 +878,7 @@
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,magazine,smallTopAttachments,mediumTopAttachments,barrelAttachments,firingMode,selfLoading,perkAutomaticWeapons,sideAttachments,stock,bottomAttachments,perkGunslinger"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?UziPrefab"/>
       <property name="CustomIcon" value="7mac10"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunMac10Desc"/>
@@ -943,7 +943,7 @@
       <property name="HoldType" value="6"/>
       <property name="DescriptionKey" value="mayicgunMK1Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?MK1Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7mk1"/>
@@ -1009,7 +1009,7 @@
       <property name="HoldType" value="6"/>
       <property name="DescriptionKey" value="mayicgunMP40Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?MP40Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7mp40"/>
@@ -1071,7 +1071,7 @@
       <property name="DescriptionKey" value="mayicgunMP5Desc"/>
       <property name="HoldType" value="6"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?MP5Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7mp5"/>
@@ -1131,7 +1131,7 @@
       <property name="DescriptionKey" value="mayicgunVectorDesc"/>
       <property name="HoldType" value="1"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?VectorSMGPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7vector"/>
@@ -1195,7 +1195,7 @@
       <property name="HoldType" value="6"/>
       <property name="DescriptionKey" value="mayicgunM1A1ThompsonDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?TommyPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="5"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7m1a1"/>
@@ -1259,7 +1259,7 @@
       <property name="HoldType" value="6"/>
       <property name="DescriptionKey" value="mayicgunRCP90Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms2.unity3d?RCP90PrefabIron"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="5"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7rcp90"/>
@@ -1334,7 +1334,7 @@
       <property name="DescriptionKey" value="mayicgunDoubleBarrelShotgunDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?DoubleBarrelPrefab"/>
       <property name="CustomIcon" value="7doublebarrel"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1404,7 +1404,7 @@
       <property name="DescriptionKey" value="mayicgunSawedOffDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?SawedOffPrefab"/>
       <property name="CustomIcon" value="7sawedoff"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1472,7 +1472,7 @@
       <property name="DescriptionKey" value="mayicgunFalloutShotgunDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?FalloutShotgunPrefab"/>
       <property name="CustomIcon" value="7foshot"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1540,7 +1540,7 @@
       <property name="DescriptionKey" value="mayicgunHuntingShotgunDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?HuntingShotgunPrefab"/>
       <property name="CustomIcon" value="7huntingshotgun"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1608,7 +1608,7 @@
       <property name="DescriptionKey" value="mayicgunMossberg590A1Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?MossbergPrefab"/>
       <property name="CustomIcon" value="7mossberg"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="5"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1677,7 +1677,7 @@
       <property name="DescriptionKey" value="mayicgunSpaz12Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?Spaz12Prefab"/>
       <property name="CustomIcon" value="7spaz"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1745,7 +1745,7 @@
       <property name="DescriptionKey" value="mayicgunAA12Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?AA12Prefab"/>
       <property name="CustomIcon" value="7aa12"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -1825,7 +1825,7 @@
       <property name="HoldType" value="48"/>
       <property name="DescriptionKey" value="mayicgunFNFALDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?FNFALPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
       <property name="CustomIcon" value="7fnfal"/>
@@ -1899,7 +1899,7 @@
       <property name="DescriptionKey" value="mayicgunBullpupDesc"/>
       <property name="HoldType" value="6"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?BullpupPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="3"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7bullpup"/>
@@ -1958,7 +1958,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,customTopAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?RustPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunRustAKDesc"/>
@@ -2015,7 +2015,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,customTopAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?AK47Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunAK47Desc"/>
@@ -2077,7 +2077,7 @@
       <property name="HoldType" value="48"/>
       <property name="DescriptionKey" value="mayicgunM16Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?M16Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
@@ -2138,7 +2138,7 @@
       <property name="HoldType" value="48"/>
       <property name="DescriptionKey" value="mayicgunAR15Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?AR15Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CustomIcon" value="7ar15"/>
@@ -2202,7 +2202,7 @@
       <property name="HoldType" value="48"/>
       <property name="DescriptionKey" value="mayicgunACWDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?ACWPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
@@ -2268,7 +2268,7 @@
       <property name="HoldType" value="48"/>
       <property name="DescriptionKey" value="mayicgunARX160Desc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?ARX160Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="4"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
@@ -2331,7 +2331,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,customTopAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?M4A1Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="6"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunM4A1Desc"/>
@@ -2392,7 +2392,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,customTopAttachments,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?SCARPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="6"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunSCARDesc"/>
@@ -2456,7 +2456,7 @@
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?MosinNagantPrefab"/>
       <property name="CustomIcon" value="7nagant" />
       <property name="DescriptionKey" value="mayicgunMosinNagantDesc"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
@@ -2520,7 +2520,7 @@
       <property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?M1Prefab"/>
       <property name="CustomIcon" value="7m1" />
       <property name="DescriptionKey" value="mayicgunM1Desc"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,RifleFirearm"/>
@@ -2592,7 +2592,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,customTopAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,firingMode,stock,selfLoading,bottomAttachments,perkAutomaticWeapons"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?LMGPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="10"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunM249SawDesc"/>
@@ -2656,7 +2656,7 @@
       <property name="Extends" value="mayicgunFNFAL"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,sideAttachments,bottomAttachments,firingMode,stock,selfLoading,perkAutomaticWeapons"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?M240Prefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="12"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunM240Desc"/>
@@ -2719,7 +2719,7 @@
       <property name="HoldType" value="11"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?SR25Prefab"/>
       <property name="CustomIcon" value="7sr25"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -2784,7 +2784,7 @@
       <property name="HoldType" value="11"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?BerettaMradPrefab"/>
       <property name="CustomIcon" value="7mrad"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunMradDesc"/>
@@ -2850,7 +2850,7 @@
       <property name="HoldType" value="11"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?JNG90Prefab"/>
       <property name="CustomIcon" value="7jng90"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="9"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -2916,7 +2916,7 @@
       <property name="HoldType" value="11"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?M98SniperPrefab"/>
       <property name="CustomIcon" value="7m98"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="9"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -2982,7 +2982,7 @@
       <property name="HoldType" value="11"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?M82Prefab"/>
       <property name="CustomIcon" value="7m82"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="CrosshairOnAim" value="true"/>
       <property name="CrosshairUpAfterShot" value="true"/>
       <property name="Weight" value="12"/>
@@ -3057,7 +3057,7 @@
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,revolver,shortRange,pistol,selfLoading,perkGunslinger"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?GoldenGunPrefab"/>
       <property name="CustomIcon" value="7goldengun"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="20"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DescriptionKey" value="mayicgunGoldenGunDesc"/>
@@ -3114,7 +3114,7 @@
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?ChaingunPrefab"/>
       <property name="CustomIcon" value="7chaingun"/>
       <property name="DescriptionKey" value="mayicgunChaingunDesc"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="100"/>
       <property name="CrosshairOnAim" value="true"/>
       <property name="CrosshairUpAfterShot" value="true"/>
@@ -3184,7 +3184,7 @@
       <!-- Firearms5 -->
       <property name="CustomIcon" value="7flamethrower"/>
       <property name="DescriptionKey" value="mayicgunFlamethrowerDesc"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="100"/>
       <property name="CrosshairOnAim" value="true"/>
       <property name="CrosshairUpAfterShot" value="true"/>
@@ -3246,70 +3246,6 @@
       </effect_group>
     </item>
     <!-- LAUNCHERS -->
-    <item name="mayicgunHandCannon">
-      <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,perkExplosiveWeapons"/>
-      <property name="DisplayType" value="rangedLauncher"/>
-      <property name="HoldType" value="1"/>
-      <property name="DescriptionKey" value="mayicgunHandCannonDesc"/>
-      <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?MiniLauncherPrefab"/>
-      <property name="CustomIcon" value="7handcannon"/>
-      <property name="Material" value="MayicScrapGun"/>
-      <property name="Weight" value="1"/>
-      <property name="RepairTools" value="mayicresourceScrapGun"/>
-      <property name="DegradationBreaksAfter" value="false"/>
-      <property name="SoundJammed" value="weapon_jam"/>
-      <property name="CrosshairOnAim" value="true"/>
-      <property name="CrosshairUpAfterShot" value="true"/>
-      <property name="Sound_Sight_In" value="launcher_sight_in"/>
-      <property name="Sound_Sight_Out" value="launcher_sight_out"/>
-      <property name="Group" value="Ammo/Weapons,AllFirearm,SpecFirearm"/>
-      <property name="CraftingSkillGroup" value="craftSkillGuns"/>
-      <property name="RepairExpMultiplier" value="10.8"/>
-      <property name="EconomicValue" value="500"/>
-      <property name="EconomicBundleSize" value="1"/>
-      <property class="Action0">
-        <property name="Class" value="Launcher"/>
-        <property name="Delay" value="0.8"/>
-        <property name="Magazine_items" value="mayicammo40mmMini,mayicammoGrassBomb"/>
-        <property name="Sound_start" value="glfire"/>
-        <property name="Sound_repeat" value=""/>
-        <property name="Sound_end" value=""/>
-        <property name="Sound_empty" value="weapon_empty"/>
-        <property name="Sound_reload" value="m136_reload"/>
-        <property name="Particles_muzzle_fire" value="rocketLauncherFire"/>
-        <property name="Particles_muzzle_smoke" value="nozzlesmoke_m136"/>
-      </property>
-      <property class="Action1">
-        <property name="Class" value="Zoom"/>
-        <property name="Zoom_max_out" value="55"/>
-        <property name="Zoom_max_in" value="55"/>
-      </property>
-      <effect_group name="Base Effects">
-        <passive_effect name="MaxRange" operation="base_set" value="100"/>
-        <passive_effect name="DamageFalloffRange" operation="base_set" value="70"/>
-        <passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
-        <passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-        <passive_effect name="MagazineSize" operation="base_set" value="1"/>
-        <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-        <passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,4"/>
-        <passive_effect name="ModSlots" operation="base_set" value="8,12" tier="5,6"/>
-        <passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
-        <passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
-        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
-        <passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0.15"/>
-        <passive_effect name="SpreadMultiplierCrouching" operation="base_set" value="0.5"/>
-        <passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
-        <passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
-        <passive_effect name="KickDegreesVertical" operation="base_set" value="10"/>
-        <passive_effect name="KickDegreesHorizontal" operation="base_set" value="-0.5,0.5"/>
-        <display_value name="dRecoil" value="100" />
-        <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.2"/>
-        <passive_effect name="WeaponHandling" operation="base_set" value="0.4"/>
-        <passive_effect name="DegradationMax" operation="base_set" value="70,220" tier="1,6"/>
-        <passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
-      </effect_group>
-    </item>
     <item name="mayicgunM79GL40">
       <property name="Extends" value="mayicgunHandCannon"/>
       <property name="Tags" value="customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,perkExplosiveWeapons"/>
@@ -3319,7 +3255,7 @@
       <property name="CustomIcon" value="7m79"/>
       <property name="CrosshairOnAim" value="true"/>
       <property name="CrosshairUpAfterShot" value="true"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="7"/>
       <property name="Group" value="Ammo/Weapons,AllFirearm,SpecFirearm"/>
       <property name="RepairExpMultiplier" value="10.8"/>
@@ -3372,7 +3308,7 @@
       <property name="DescriptionKey" value="mayicgunArghDesc"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?ArghPrefab"/>
       <property name="CustomIcon" value="7argh"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="2"/>
       <property name="RepairTools" value="mayicresourceScrapGun"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -3442,7 +3378,7 @@
       <property name="HoldType" value="26"/>
       <property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?LaserRiflePrefab"/>
       <property name="CustomIcon" value="7laserrifle"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="60"/>
       <property name="Class" value="ItemClassToggle"/>
       <property name="CrosshairOnAim" value="false"/>
@@ -4315,41 +4251,6 @@
 				<display_value name="ExRadius" value="5" />
 			</effect_group>
 		</item>
-		<item name="mayicammoGrassBomb">
-			<property name="DisplayType" value="ammoLauncher"/>
-			<property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
-			<property name="HoldType" value="45"/>
-			<property name="CustomIcon"	value="7grassbomb"/>
-			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="DFRScrapAmmoBundleGrassBombField"/>
-			<property name="Stacknumber" value="75"/>
-			<property name="EconomicValue" value="30"/>
-			<property name="EconomicBundleSize" value="10"/>
-			<property name="ParticleName" value="nozzlesmoke_m136"/>
-			<property class="Action1">
-				<property name="Class" value="Projectile"/>
-				<property name="Explosion.ParticleIndex" value="1"/>
-				<property name="Explosion.RadiusBlocks" value="35"/>
-				<property name="Explosion.BlockDamage" value="5"/>
-				<property name="Explosion.RadiusEntities" value="1"/>
-				<property name="Explosion.EntityDamage" value="0"/>
-				<property name="Explosion.DamageBonus.water" value="0"/>
-				<property name="Gravity" value="-35"/>
-				<property name="FlyTime" value=".2"/>
-				<property name="LifeTime" value="15"/></property>
-			<property name="CraftingSkillGroup" value="craftSkillScience"/>
-			<property name="Group" value="Ammo/Weapons,AllRounds,ExplosiveRounds"/>
-			<effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="0"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood,metal,stone,organic"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
-				<display_value name="ExRadius" value="5" />
-			</effect_group>
-		</item>
 		<item name="mayicammo40mmExplosive">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
@@ -4640,38 +4541,7 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
-    <item name="mayicresourceScrapAmmo">
-      <property name="HoldType" value="45"/>
-      <property name="DescriptionKey" value="mayicresourceScrapAmmoDesc"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="CustomIcon" value="7scrapammo"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
-      <property name="Weight" value="1"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="5"/>
-      <property name="EconomicBundleSize" value="3"/>
-      <property name="Group" value="ScrapAmmo"/>
-      <property name="CraftingIngredientExp" value="3"/>
-      <property name="CraftingIngredientTime" value="1"/>
-    </item>
-    <item name="mayicresourceScrapGun">
-      <property name="HoldType" value="45"/>
-      <property name="DescriptionKey" value="mayicresourceScrapGunDesc"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="CustomIcon" value="7scrapgun"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
-      <property name="Weight" value="1"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="20"/>
-      <property name="EconomicBundleSize" value="5"/>
-      <property name="RepairTime" value="1"/>
-      <property name="RepairAmount" value="500"/>
-      <property name="Group" value="ScrapFirearmss"/>
-      <property name="CraftingIngredientExp" value="3"/>
-      <property name="CraftingIngredientTime" value="1"/>
-    </item>
+    
     <item name="mayicresourceScrapSchematic">
       <property name="HoldType" value="45"/>
       <property name="DescriptionKey" value="mayicresourceScrapSchematicDesc"/>
@@ -4679,21 +4549,6 @@
       <property name="CustomIcon" value="7scrapbp"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
       <property name="Material" value="MayicScrapSchematic"/>
-      <property name="Weight" value="1"/>
-      <property name="Stacknumber" value="5000"/>
-      <property name="EconomicValue" value="30"/>
-      <property name="EconomicBundleSize" value="2"/>
-      <property name="Group" value="CustomRScrap"/>
-      <property name="CraftingIngredientExp" value="3"/>
-      <property name="CraftingIngredientTime" value="1"/>
-    </item>
-    <item name="mayicresourceScrapMod">
-      <property name="HoldType" value="45"/>
-      <property name="DescriptionKey" value="mayicresourceScrapModDesc"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="CustomIcon" value="7scrapmod"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapMod"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="5000"/>
       <property name="EconomicValue" value="30"/>
@@ -4721,7 +4576,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7tooltipex"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4738,7 +4593,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolcasinggrips"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4755,7 +4610,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolpowderfunnel"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4772,7 +4627,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolpowderkeg"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4789,7 +4644,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolvisegrips"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4806,7 +4661,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolbulletpress"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapAmmo"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4823,7 +4678,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolfirearmskit"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4840,7 +4695,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolreceivervise"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4857,7 +4712,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolmicro"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4874,7 +4729,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolsightpusher"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4891,7 +4746,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolarmorerswrench"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4908,7 +4763,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolchannellocks"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4925,7 +4780,7 @@
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="CustomIcon" value="7toolhandguardgrip"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="Material" value="MayicScrapGun"/>
+      <property name="Material" value="Mmetal"/>
       <property name="Weight" value="1"/>
       <property name="Stacknumber" value="1"/>
       <property name="DegradationBreaksAfter" value="false"/>
@@ -4991,7 +4846,7 @@
 									FIREARMS WEAPON PARTS
 MresourceScrapLeadSmall
 MresourceScrapBrassSmall
-MayicScrapGun
+Mmetal
 MmilitaryFiber
 MmechanicalParts
 Mmetal
@@ -7640,16 +7495,7 @@ Mmetal
       <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
       <property name="CustomIcon" value="7tinycalsmgs"/>
     </item>
-
-    <item name="DFRScrapAmmoBundle10mmBench">
-      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
-      <property name="CustomIcon" value="7lowcalsmg"/>
-    </item>
-    <item name="DFRScrapAmmoBundle10mmSteelBench">
-      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
-      <property name="CustomIcon" value="7lowcalsmgs"/>
-    </item>
-
+    
     <item name="DFRScrapAmmoBundle22lrBench">
       <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
       <property name="CustomIcon" value="7lowcalrifle"/>
@@ -7833,23 +7679,6 @@ Mmetal
       </property>
     </item>
 
-    <item name="DFRScrapAmmoBundleGoldenBulletbench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_gun_pistol"/>
-      <property class="Action0">
-        <property name="Create_item_count" value="1,4,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleGrassBombBench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_gun_pistol"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceScrapLead"/>
-        <property name="Create_item_count" value="3,1,3"/>
-      </property>
-    </item>
-
     <item name="DFRScrapAmmoBundle40mmMiniBench">
       <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
       <property name="CustomIcon" value="icon_grenade"/>
@@ -7895,28 +7724,11 @@ Mmetal
       </property>
     </item>
 
-    <item name="DFRScrapAmmoBundleIncediarySteelBench">
-      <property name="Extends" value="DFRScrapAmmoBundleSteel5mmBench"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceBulletTip,resourceAnimalFat,resourceGunPowder,resourceBulletCasingSteel"/>
-      </property>
-    </item>
-
     <item name="DFRScrapAmmoBundleExplosiveBench">
       <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
       <property name="CustomIcon" value="icon_ammo_pistolcase"/>
       <property class="Action0">
         <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
-        <property name="Create_item_count" value="1,5,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleExplosiveSteelBench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasingSteel"/>
         <property name="Create_item_count" value="1,5,1"/>
       </property>
     </item>
@@ -7927,24 +7739,6 @@ Mmetal
       <property class="Action0">
         <property name="Create_item" value="resourceBulletTip,resourceAcid,resourceGunPowder,resourceBulletCasing"/>
         <property name="Create_item_count" value="1,2,25,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleCorrosiveSteelBench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceBulletTip,resourceAcid,resourceGunPowder,resourceBulletCasingSteel"/>
-        <property name="Create_item_count" value="1,2,25,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleFlameFuelBench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="oilBarrel"/>
-        <property name="Create_item_count" value="1"/>
       </property>
     </item>
 
@@ -8054,23 +7848,6 @@ Mmetal
       </property>
     </item>
 
-    <item name="DFRScrapAmmoBundleGoldenBulletField">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
-      <property name="CustomIcon" value="icon_gun_pistol"/>
-      <property class="Action0">
-        <property name="Create_item_count" value="1,4,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleGrassBombField">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
-      <property name="CustomIcon" value="icon_gun_pistol"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceScrapLead"/>
-        <property name="Create_item_count" value="3,1,3"/>
-      </property>
-    </item>
-
     <item name="DFRScrapAmmoBundle40mmMiniField">
       <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
       <property name="CustomIcon" value="icon_grenade"/>
@@ -8116,14 +7893,6 @@ Mmetal
       </property>
     </item>
 
-    <item name="DFRScrapAmmoBundleIncediarySteelField">
-      <property name="Extends" value="DFRScrapAmmoBundleSteel5mmField"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceScrapLead,resourceAnimalFat,resourceGunPowder,resourceScrapIron"/>
-      </property>
-    </item>
-
     <item name="DFRScrapAmmoBundleExplosiveField">
       <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
       <property name="CustomIcon" value="icon_ammo_pistolcase"/>
@@ -8133,29 +7902,11 @@ Mmetal
       </property>
     </item>
 
-    <item name="DFRScrapAmmoBundleExplosiveSteelBench">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceScrapIron"/>
-        <property name="Create_item_count" value="1,5,1"/>
-      </property>
-    </item>
-
     <item name="DFRScrapAmmoBundleCorrosiveField">
       <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
       <property name="CustomIcon" value="icon_ammo_pistolcase"/>
       <property class="Action0">
         <property name="Create_item" value="resourceScrapLead,resourceAcid,resourceGunPowder,resourceBrass"/>
-        <property name="Create_item_count" value="1,1,20,1"/>
-      </property>
-    </item>
-
-    <item name="DFRScrapAmmoBundleCorrosiveSteelField">
-      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
-      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
-      <property class="Action0">
-        <property name="Create_item" value="resourceScrapLead,resourceAcid,resourceGunPowder,resourceScrapIron"/>
         <property name="Create_item_count" value="1,1,20,1"/>
       </property>
     </item>
