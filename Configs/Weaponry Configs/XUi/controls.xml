@@ -13,8 +13,44 @@
 		</rect>
 	</item_action_entry>
 	-->
-	
+	<item_part_slot_damage>
+		<rect controller="ItemPartStack" style="itemPartStackCustom, hover" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="180" height="63" color="[black]" type="sliced" fillcenter="false" />	
+			<sprite name="background" color="[darkGrey]" width="177" height="59" pos="0,1" type="sliced"/>
+			<sprite name="background" color="[white_half_alpha]" height="59" width="73" pos="-75,1" type="sliced"/>
+			<!--<sprite depth="3" name="background" sprite="menu_empty3px" height="59" width="73" pos="-75,1" color="[red]" type="sliced" fillcenter="false"/>-->
+			<label depth="4" pos="16,-13" width="100" height="35" text="{partname}" font_size="30" justify="left" />
+			<!-- <label depth="4" pos="230,-13" width="50" height="28" text="{partquality}" font_size="26" justify="right" /> -->
+			
+			<!-- <sprite depth="2" width="265" pos="15, -37" height="10" type="sliced" color="[black]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" width="263" pos="16, -38" height="8" type="sliced" color="[mediumGrey]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" name="sprFill" width="263" pos="16, -38" height="8" type="filled" color="{partcolor}" fill="{partfill}" visible="{partvisible}" foregroundlayer="true" /> -->
+			
+			<sprite name="itemIcon" depth="4" width="70" height="50" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="-39,-28" pivot="center" foregroundlayer="true" />
+			
+			<label depth="4" pos="16,-16" width="100" height="28" text="" font_size="28" justify="left" visible="{emptyvisible}" />
+		</rect>
+	</item_part_slot_damage>
 	<item_part_slot_potato>
+		<rect controller="ItemPartStack" style="itemPartStack, hover" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="120" height="63" color="[black]" type="sliced" fillcenter="false" />	
+			<sprite name="background" color="[darkGrey]" width="120" height="59" pos="0,1" type="sliced"/>
+			<sprite name="background" color="[white_half_alpha]" height="59" width="73" pos="-75,1" type="sliced"/>
+			<sprite depth="3" name="background" sprite="menu_empty3px" height="59" width="73" pos="-75,1" color="[red]" type="sliced" fillcenter="false"/>
+			<label depth="4" pos="16,-13" width="100" height="35" text="{partname}" font_size="30" justify="left" />
+			<!-- <label depth="4" pos="230,-13" width="50" height="28" text="{partquality}" font_size="26" justify="right" /> -->
+			
+			<!-- <sprite depth="2" width="265" pos="15, -37" height="10" type="sliced" color="[black]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" width="263" pos="16, -38" height="8" type="sliced" color="[mediumGrey]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" name="sprFill" width="263" pos="16, -38" height="8" type="filled" color="{partcolor}" fill="{partfill}" visible="{partvisible}" foregroundlayer="true" /> -->
+			
+			<sprite name="itemIcon" depth="4" width="70" height="50" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="-39,-30" pivot="center" foregroundlayer="true" />
+			
+			<label depth="4" pos="16,-16" width="200" height="28" text="EMPTY MODIFIER SLOT" font_size="28" justify="center" visible="{emptyvisible}" />
+		</rect>
+	</item_part_slot_potato>
+	
+	<item_part_slot_potato1>
 		<rect controller="ItemPartStack" style="itemPartStack, hover" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="380" height="63" color="[black]" type="sliced" fillcenter="false" />	
 			<sprite name="background" color="[darkGrey]" height="59" pos="0,1" type="sliced"/>
@@ -31,7 +67,7 @@
 			
 			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" font_size="28" justify="center" visible="{emptyvisible}" />
 		</rect>
-	</item_part_slot_potato>
+	</item_part_slot_potato1>
 	
 	<ingredient_row_potato>
 		<rect name="row" width="447" height="47" controller="IngredientEntry">
@@ -80,6 +116,14 @@
 		</rect>
 	</backpack_item_stack_potato>
 	
+	<popup_menu_item_custom>		
+		<rect depth="15" height="43" style="press, hover" disabled_font_color="148,148,148,255" controller="PopupMenuItem" sound="[craft_click]">
+			<sprite name="background" type="sliced" color="64,64,64,255" />
+			<sprite depth="4" style="icon32px" pos="8,-3" sprite="{menuicon}" color="{statuscolor}" />
+			<label name="lblText" depth="4" pos="50,-8" width="{backgroundwidth}" height="28" text="{menutext}" font_size="22" color="{statuscolor}" justify="left" />
+		</rect>
+	</popup_menu_item_custom>
+	
 	<category_icon_custom>
 		<rect depth="1" size="43,43" controller="CategoryEntry" >
 			<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
@@ -103,6 +147,13 @@
 			<sprite depth="4" name="Unlocked" sprite="{unlockicon}" size="24,24" pos="260,-10" visible="{isunlockable}" color="{unlockstatecolor}" foregroundlayer="true" />
 		</rect>
 	</recipe_entry_potato>
+	
+	<forge_material_potato>
+		<table depth="1" columns="2" rows="2">
+			<label depth="2" name="material" style="workstation.reserve.name.potato" pivot="center" />
+			<label depth="2" name="weight" style="workstation.reserve.weight.potato" pivot="center" />
+		</table>
+	</forge_material_potato>
 	
 </append>
 </potato>

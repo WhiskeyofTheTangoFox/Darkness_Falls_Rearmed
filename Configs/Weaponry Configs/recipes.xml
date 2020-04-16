@@ -22,6 +22,23 @@
 		<recipe name="mayicresourceScrapMod" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
 			<wildcard_forge_category />
 		</recipe>
+		<recipe name="mayicresourceScrapReceiver" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+		<recipe name="mayicresourceScrapGrip" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+		<recipe name="mayicresourceScrapBarrel" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+		<recipe name="mayicresourceScrapStock" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+		<recipe name="mayicresourceScrapMag" count="1" tooltip="mayicttScrapMod" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+		
+
 
 <!--_=-=_=-=_=-=_ Targets _=-=_=-=_=-=_-->
 		<recipe name="mayicblockSmallTarget" count="2" craft_time="1" craft_area="CustomGun">
@@ -77,53 +94,53 @@
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 -->	
 <!--_=-=_=-=_=-=_ Raw _=-=_=-=_=-=_-->
-		<recipe name="resourceScrapIron" count="140" craft_area="CustomGun">
+		<recipe name="resourceScrapIron" count="140" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceForgedIron" count="70" craft_area="CustomGun">
+		<recipe name="resourceForgedIron" count="70" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceForgedSteel" count="7" craft_area="CustomGun">
+		<recipe name="resourceForgedSteel" count="7" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceMechanicalParts" count="3" craft_area="CustomGun">
+		<recipe name="resourceMechanicalParts" count="3" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceScrapPolymers" count="7" craft_area="CustomGun">
+		<recipe name="resourceScrapPolymers" count="7" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceMilitaryFiber" count="1" craft_area="CustomGun">
+		<recipe name="resourceMilitaryFiber" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="20"/>
 		</recipe>
-		<recipe name="resourceDuctTape" count="1" craft_area="CustomGun">
+		<recipe name="resourceDuctTape" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceSpring" count="1" craft_area="CustomGun">
+		<recipe name="resourceSpring" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Tools _=-=_=-=_=-=_-->
-		<recipe name="resourceScrapIron" count="200" craft_area="CustomGun" craft_tool="mayictoolFirearmsKit">
+		<recipe name="resourceScrapIron" count="200" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceForgedIron" count="100" craft_area="CustomGun" craft_tool="mayictoolFirearmsKit">
+		<recipe name="resourceForgedIron" count="100" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceForgedSteel" count="10" craft_area="CustomGun" craft_tool="mayictoolArmorersWrench">
+		<recipe name="resourceForgedSteel" count="10" craft_area="CustomScrap" craft_tool="mayictoolArmorersWrench">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceMechanicalParts" count="5" craft_area="CustomGun" craft_tool="mayictoolReceiverVise">
+		<recipe name="resourceMechanicalParts" count="5" craft_area="CustomScrap" craft_tool="mayictoolReceiverVise">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceScrapPolymers" count="9" craft_area="CustomGun" craft_tool="mayictoolSightPusher">
+		<recipe name="resourceScrapPolymers" count="9" craft_area="CustomScrap" craft_tool="mayictoolSightPusher">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceMilitaryFiber" count="1" craft_area="CustomGun" craft_tool="mayictoolMicrometer">
+		<recipe name="resourceMilitaryFiber" count="1" craft_area="CustomScrap" craft_tool="mayictoolMicrometer">
 			<ingredient name="mayicresourceScrapGun" count="10"/>
 		</recipe>
-		<recipe name="resourceDuctTape" count="2" craft_area="CustomGun" craft_tool="mayictoolHandguardGrips">
+		<recipe name="resourceDuctTape" count="2" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
-		<recipe name="resourceSpring" count="2" craft_area="CustomGun" craft_tool="mayictoolChannelLocks">
+		<recipe name="resourceSpring" count="2" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
 			<ingredient name="mayicresourceScrapGun" count="1"/>
 		</recipe>
 		
@@ -134,70 +151,86 @@
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 -->	
 <!--_=-=_=-=_=-=_ Raw _=-=_=-=_=-=_-->
-		<recipe name="resourceGunPowder" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceGunPowder" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="4"/>
 		</recipe>
-		<recipe name="resourceBuckshot" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceBuckshot" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="4"/>
 		</recipe>
-		<recipe name="resourceBulletTip" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceBulletTip" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="4"/>
 		</recipe>
-		<recipe name="resourceBulletCasing" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="4"/>
 		</recipe>
-		<recipe name="resourceBulletCasingSteel" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="4"/>
 		</recipe>
-		<recipe name="resourceRocketTip" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceRocketTip" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="50"/>
 		</recipe>
-		<recipe name="resourceRocketCasing" count="1" craft_area="CustomAmmo">
+		<recipe name="resourceRocketCasing" count="1" craft_area="CustomScrap">
 			<ingredient name="mayicresourceScrapAmmo" count="50"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ 25% Tools _=-=_=-=_=-=_-->
-		<recipe name="resourceGunPowder" count="1" craft_area="CustomAmmo" craft_tool="mayictoolPowderFunnel">
+		<recipe name="resourceGunPowder" count="1" craft_area="CustomScrap" craft_tool="mayictoolPowderFunnel">
 			<ingredient name="mayicresourceScrapAmmo" count="3"/>
 		</recipe>
-		<recipe name="resourceBuckshot" count="1" craft_area="CustomAmmo" craft_tool="mayictoolTipExtractor">
+		<recipe name="resourceBuckshot" count="1" craft_area="CustomScrap" craft_tool="mayictoolTipExtractor">
 			<ingredient name="mayicresourceScrapAmmo" count="3"/>
 		</recipe>
-		<recipe name="resourceBulletTip" count="1" craft_area="CustomAmmo" craft_tool="mayictoolTipExtractor">
+		<recipe name="resourceBulletTip" count="1" craft_area="CustomScrap" craft_tool="mayictoolTipExtractor">
 			<ingredient name="mayicresourceScrapAmmo" count="3"/>
 		</recipe>
-		<recipe name="resourceBulletCasing" count="1" craft_area="CustomAmmo" craft_tool="mayictoolCasingGrip">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolCasingGrip">
 			<ingredient name="mayicresourceScrapAmmo" count="3"/>
 		</recipe>
-		<recipe name="resourceBulletCasingSteel" count="1" craft_area="CustomAmmo" craft_tool="mayictoolCasingGrip">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolCasingGrip">
 			<ingredient name="mayicresourceScrapAmmo" count="3"/>
 		</recipe>
-		<recipe name="resourceRocketTip" count="1" craft_area="CustomAmmo" craft_tool="mayictoolTipExtractor">
+		<recipe name="resourceRocketTip" count="1" craft_area="CustomScrap" craft_tool="mayictoolTipExtractor">
 			<ingredient name="mayicresourceScrapAmmo" count="35"/>
 		</recipe>
-		<recipe name="resourceRocketCasing" count="1" craft_area="CustomAmmo" craft_tool="mayictoolCasingGrip">
+		<recipe name="resourceRocketCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolCasingGrip">
 			<ingredient name="mayicresourceScrapAmmo" count="35"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ 50% Tools _=-=_=-=_=-=_-->
-		<recipe name="resourceGunPowder" count="1" craft_area="CustomAmmo" craft_tool="mayictoolPowderKeg">
+		<recipe name="resourceGunPowder" count="1" craft_area="CustomScrap" craft_tool="mayictoolPowderKeg">
 			<ingredient name="mayicresourceScrapAmmo" count="2"/>
 		</recipe>
-		<recipe name="resourceBuckshot" count="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress">
+		<recipe name="resourceBuckshot" count="1" craft_area="CustomScrap" craft_tool="mayictoolBulletPress">
 			<ingredient name="mayicresourceScrapAmmo" count="2"/>
 		</recipe>
-		<recipe name="resourceBulletTip" count="1" craft_area="CustomAmmo" craft_tool="mayictoolTipExtractor">
+		<recipe name="resourceBulletTip" count="1" craft_area="CustomScrap" craft_tool="mayictoolTipExtractor">
 			<ingredient name="mayicresourceScrapAmmo" count="2"/>
 		</recipe>
-		<recipe name="resourceBulletCasing" count="1" craft_area="CustomAmmo" craft_tool="mayictoolViseGrips">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
 			<ingredient name="mayicresourceScrapAmmo" count="2"/>
 		</recipe>
-		<recipe name="resourceBulletCasingSteel" count="1" craft_area="CustomAmmo" craft_tool="mayictoolViseGrips">
+		<recipe name="resourceBulletCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
 			<ingredient name="mayicresourceScrapAmmo" count="2"/>
 		</recipe>
-		<recipe name="resourceRocketTip" count="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress">
+		<recipe name="resourceRocketTip" count="1" craft_area="CustomScrap" craft_tool="mayictoolBulletPress">
 			<ingredient name="mayicresourceScrapAmmo" count="25"/>
 		</recipe>
-		<recipe name="resourceRocketCasing" count="1" craft_area="CustomAmmo" craft_tool="mayictoolViseGrips">
+		<recipe name="resourceRocketCasing" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
 			<ingredient name="mayicresourceScrapAmmo" count="25"/>
+		</recipe>
+		
+		
+		
+		
+		
+		
+		
+		<recipe name="mayicammoBag" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
+			<ingredient name="mayicresourceScrapAmmo" count="1"/>
+		</recipe>
+		<recipe name="mayicammoBox" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
+			<ingredient name="mayicresourceScrapAmmo" count="25"/>
+		</recipe>
+		<recipe name="mayicammoCrate" count="1" craft_area="CustomScrap" craft_tool="mayictoolViseGrips">
+			<ingredient name="mayicresourceScrapAmmo" count="50"/>
 		</recipe>
 <!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -389,143 +422,300 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
+		<!-- RECEIVERS -->
 		<recipe name="mayicpartSmReceiver" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="60"/>
+			<ingredient name="resourceOil" count="4"/>
 			<ingredient name="resourceMechanicalParts" count="5"/>
 			<ingredient name="resourceSpring" count="2"/>
 		</recipe>
-		<recipe name="mayicpartSmBarrel" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="60"/>
-			<ingredient name="resourceMechanicalParts" count="5"/>
-			<ingredient name="resourceSpring" count="2"/>
-		</recipe>
-		<recipe name="mayicpartSmStock" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="60"/>
-			<ingredient name="resourceScrapPolymers" count="10"/>
-			<ingredient name="resourceDuctTape" count="2"/>
-		</recipe>
-		<recipe name="mayicpartSmGrip" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="60"/>
-			<ingredient name="resourceScrapPolymers" count="10"/>
-			<ingredient name="resourceDuctTape" count="2"/>
-			<ingredient name="resourceCloth" count="10"/>
-		</recipe>
-		
-		
-		
-		<recipe name="mayicpartMedReceiver" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedIron" count="20"/>
-			<ingredient name="resourceMechanicalParts" count="7"/>
+		<recipe name="mayicpartRevolverReceiver" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
 			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="mayicpartSmShotgunReceiver" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="mayicpartMedShotgunReceiver" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="mayicpartLrgShotgunReceiver" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="12"/>
+			<ingredient name="resourceSpring" count="8"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunReceiver" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+			<ingredient name="resourceSpring" count="16"/>
+		</recipe>
+		<recipe name="mayicpartLrgReceiver" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceMechanicalParts" count="12"/>
+			<ingredient name="resourceSpring" count="8"/>
+		</recipe>
+		<recipe name="mayicpartForwardAssist" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceSpring" count="8"/>
+		</recipe>
+		<recipe name="mayicpartSlideBar" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceSpring" count="12"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonReceiver" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+			<ingredient name="resourceSpring" count="15"/>
+		</recipe>
+		<recipe name="mayicpartBreechBolt" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceOil" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+		<!-- BARRELS -->
+		<recipe name="mayicpartSmBarrel" count="1" craft_time="10" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapIron" count="150"/>
+			<ingredient name="resourceOil" count="3"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
 		</recipe>
 		<recipe name="mayicpartMedBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="15"/>
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="mayicpartRevolverBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
 			<ingredient name="resourceForgedIron" count="20"/>
-			<ingredient name="resourceMechanicalParts" count="7"/>
-			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceOil" count="8"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="mayicpartDoubleBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapIron" count="150"/>
+			<ingredient name="resourceOil" count="1"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="mayicpartShortBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLongBarrel" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceOil" count="12"/>
+			<ingredient name="resourceMetalPipe" count="6"/>
+		</recipe>
+		<recipe name="mayicpartHeavyBarrel" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceOil" count="15"/>
+			<ingredient name="resourceMetalPipe" count="8"/>
+		</recipe>
+		<recipe name="mayicpartSniperBarrel" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceOil" count="15"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+		</recipe>
+		<!-- STOCKS -->
+		<recipe name="mayicpartSmStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="30"/>
+			<ingredient name="resourceSpring" count="2"/>
 		</recipe>
 		<recipe name="mayicpartMedStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedIron" count="20"/>
-			<ingredient name="resourceScrapPolymers" count="15"/>
-			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceScrapPolymers" count="35"/>
+			<ingredient name="resourceSpring" count="3"/>
 		</recipe>
-		<recipe name="mayicpartMedGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedIron" count="20"/>
-			<ingredient name="resourceScrapPolymers" count="15"/>
-			<ingredient name="resourceDuctTape" count="4"/>
+		<recipe name="mayicpartRevolverStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="35"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="mayicpartShotgunStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="30"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="55"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+		<recipe name="mayicpartLrgStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="45"/>
+			<ingredient name="resourceSpring" count="8"/>
+		</recipe>
+		<recipe name="mayicpartSniperStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+		<recipe name="mayicpartLmgStock" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="70"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+		<!-- GRIPS -->
+		<recipe name="mayicpartSmGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="resourceCloth" count="10"/>
+		</recipe>
+		<recipe name="mayicpartPistolGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceScrapPolymers" count="5"/>
+			<ingredient name="resourceCloth" count="15"/>
+		</recipe>
+		<recipe name="mayicpartRevolverGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="5"/>
 			<ingredient name="resourceLeather" count="10"/>
 		</recipe>
-		
-		
-		
-		<recipe name="mayicpartLrgReceiver" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="15"/>
-			<ingredient name="resourceSpring" count="5"/>
+		<recipe name="mayicpartMedGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceLeather" count="15"/>
 		</recipe>
-		<recipe name="mayicpartLrgBarrel" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="15"/>
-			<ingredient name="resourceSpring" count="5"/>
+		<recipe name="mayicpartShotgunGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceLeather" count="20"/>
 		</recipe>
-		<recipe name="mayicpartLrgStock" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceScrapPolymers" count="25"/>
-			<ingredient name="resourceDuctTape" count="5"/>
+		<recipe name="mayicpartLrgGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="15"/>
+			<ingredient name="resourceMilitaryFiber" count="20"/>
 		</recipe>
-		<recipe name="mayicpartLrgGrip" count="1" craft_time="60" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceScrapPolymers" count="25"/>
-			<ingredient name="resourceDuctTape" count="5"/>
-			<ingredient name="resourceMilitaryFiber" count="5"/>
+		<recipe name="mayicpartTacticalGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="12"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceMilitaryFiber" count="25"/>
 		</recipe>
-		
-		
-		<!-- Barrels -->
-		<recipe name="mayicpartShortBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="260"/>
-			<ingredient name="resourceMechanicalParts" count="4"/>
-			<ingredient name="resourceMetalPipe" count="4"/>
+		<recipe name="mayicpartSniperGrip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceDuctTape" count="12"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceMilitaryFiber" count="25"/>
 		</recipe>
+		<!-- MAGS and ClIPS -->
+		<recipe name="mayicpart5roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart5roundClip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart6roundClip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart8roundClip" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart10roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart12roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart15roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart18roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart20roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart30roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpart32roundMag" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<!-- FRAMES -->
+		<recipe name="mayicpartScrapFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpartWeakFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpartIronFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpartSteelFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+			<ingredient name="resourceForgedIron" count="215"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		<!-- EXTRA -->
 		<recipe name="mayicpartMountRails" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
 			<ingredient name="resourceForgedIron" count="215"/>
 			<ingredient name="resourceMechanicalParts" count="6"/>
 			<ingredient name="resourceGlue" count="6"/>
 		</recipe>
-		<recipe name="mayicpartLongBarrel" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="45"/>
-			<ingredient name="resourceMechanicalParts" count="10"/>
-			<ingredient name="resourceSpring" count="10"/>
-		</recipe>
-		<!-- Bolts and Assists -->
-		<recipe name="mayicpartForwardAssist" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceScrapIron" count="260"/>
-			<ingredient name="resourceOil" count="4"/>
-			<ingredient name="resourceScrapPolymers" count="4"/>
-		</recipe>
-		<recipe name="mayicpartSlideBar" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedIron" count="215"/>
-			<ingredient name="resourceOil" count="6"/>
-			<ingredient name="resourceDuctTape" count="6"/>
-		</recipe>
-		<recipe name="mayicpartBreechBolt" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="45"/>
-			<ingredient name="resourceOil" count="10"/>
-			<ingredient name="resourceSpring" count="10"/>
-		</recipe>
-		<!-- Firing assists -->
-		<recipe name="mayicpartHammer" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		
+		
+		<!-- CRAFTING PARTS -->
+		<recipe name="mayicpartHammer" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceScrapIron" count="260"/>
 			<ingredient name="resourceMechanicalParts" count="10"/>
 			<ingredient name="resourceSpring" count="4"/>
 		</recipe>
-		<recipe name="mayicpartTrigger" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartTrigger" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedIron" count="215"/>
 			<ingredient name="resourceMechanicalParts" count="15"/>
 			<ingredient name="resourceSpring" count="6"/>
 		</recipe>
-		<recipe name="mayicpartHandguard" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartHandguard" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedIron" count="215"/>
 			<ingredient name="resourceMechanicalParts" count="15"/>
 			<ingredient name="resourceMilitaryFiber" count="4"/>
 		</recipe>
-		<recipe name="mayicpartCompressor" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartCompressor" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="45"/>
 			<ingredient name="resourceMechanicalParts" count="25"/>
 			<ingredient name="resourceSpring" count="10"/>
 		</recipe>
-		
 		<!-- Specials -->
-		<recipe name="mayicpartFlamethrowerTank" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartFlamethrowerTank" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="45"/>
 			<ingredient name="resourceDuctTape" count="25"/>
 			<ingredient name="ammoGasCan" count="100"/>
 		</recipe>
-		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="80"/>
 			<ingredient name="resourceMechanicalParts" count="50"/>
 			<ingredient name="resourceSpring" count="50"/>
 		</recipe>
-		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomMod" tags="learnable">
+		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="80"/>
 			<ingredient name="resourceMechanicalParts" count="50"/>
 			<ingredient name="resourceElectricParts" count="25"/>
@@ -541,92 +731,206 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
-		<recipe name="mayicpartSmReceiver" count="1" craft_time="10" craft_area="CustomMod" craft_tool="mayictoolReceiverVise">
-			<ingredient name="mayicresourceScrapGun" count="5"/>
+		<recipe name="mayicpartSmReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolReceiverVise">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
 		</recipe>
-		<recipe name="mayicpartSmBarrel" count="1" craft_time="10" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
-			<ingredient name="mayicresourceScrapGun" count="5"/>
+		<recipe name="mayicpartRevolverReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
 		</recipe>
-		<recipe name="mayicpartSmStock" count="1" craft_time="10" craft_area="CustomMod" craft_tool="mayictoolSightPusher">
-			<ingredient name="mayicresourceScrapGun" count="5"/>
+		<recipe name="mayicpartSmShotgunReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolSightPusher">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
 		</recipe>
-		<recipe name="mayicpartSmGrip" count="1" craft_time="10" craft_area="CustomMod" craft_tool="mayictoolHandguardGrips">
-			<ingredient name="mayicresourceScrapGun" count="5"/>
+		<recipe name="mayicpartMedShotgunReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartLrgShotgunReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartLrgReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartForwardAssist" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartSlideBar" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonReceiver" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
+		</recipe>
+		<recipe name="mayicpartBreechBolt" count="1" craft_time="10" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapReceiver" count="5"/>
 		</recipe>
 		
 		
 		
-		<recipe name="mayicpartMedReceiver" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolReceiverVise">
-			<ingredient name="mayicresourceScrapGun" count="10"/>
+		<recipe name="mayicpartSmBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolReceiverVise">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
 		</recipe>
-		<recipe name="mayicpartMedBarrel" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
-			<ingredient name="mayicresourceScrapGun" count="10"/>
+		<recipe name="mayicpartMedBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
 		</recipe>
-		<recipe name="mayicpartMedStock" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolSightPusher">
-			<ingredient name="mayicresourceScrapGun" count="10"/>
+		<recipe name="mayicpartRevolverBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolSightPusher">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
 		</recipe>
-		<recipe name="mayicpartMedGrip" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolHandguardGrips">
-			<ingredient name="mayicresourceScrapGun" count="10"/>
+		<recipe name="mayicpartDoubleBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
+		</recipe>
+		<recipe name="mayicpartShortBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
+		</recipe>
+		<recipe name="mayicpartLongBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
+		</recipe>
+		<recipe name="mayicpartHeavyBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
+		</recipe>
+		<recipe name="mayicpartSniperBarrel" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapBarrel" count="10"/>
 		</recipe>
 		
 		
-		
-		<recipe name="mayicpartLrgReceiver" count="1" craft_time="60" craft_area="CustomMod" craft_tool="mayictoolReceiverVise">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
+		<recipe name="mayicpartSmStock" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapStock" count="10"/>
 		</recipe>
-		<recipe name="mayicpartLrgBarrel" count="1" craft_time="60" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
+		<recipe name="mayicpartMedStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolReceiverVise">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
 		</recipe>
-		<recipe name="mayicpartLrgStock" count="1" craft_time="60" craft_area="CustomMod" craft_tool="mayictoolSightPusher">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
+		<recipe name="mayicpartRevolverStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
 		</recipe>
-		<recipe name="mayicpartLrgGrip" count="1" craft_time="60" craft_area="CustomMod" craft_tool="mayictoolHandguardGrips">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
+		<recipe name="mayicpartShotgunStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolSightPusher">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
+		</recipe>
+		<recipe name="mayicpartLrgStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
+		</recipe>
+		<recipe name="mayicpartSniperStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
+		</recipe>
+		<recipe name="mayicpartLmgStock" count="1" craft_time="60" craft_area="CustomScrap" craft_tool="mayictoolHandguardGrips">
+			<ingredient name="mayicresourceScrapStock" count="15"/>
 		</recipe>
 		
 		
 		<!-- Barrels -->
-		<recipe name="mayicpartShortBarrel" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolArmorersWrench">
+		<recipe name="mayicpartSmGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolArmorersWrench">
+			<ingredient name="mayicresourceScrapGrip" count="7"/>
+		</recipe>
+		<recipe name="mayicpartPistolGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolArmorersWrench">
+			<ingredient name="mayicresourceScrapGrip" count="15"/>
+		</recipe>
+		<recipe name="mayicpartRevolverGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolArmorersWrench">
+			<ingredient name="mayicresourceScrapGrip" count="25"/>
+		</recipe>
+		<recipe name="mayicpartMedGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGrip" count="7"/>
+		</recipe>
+		<recipe name="mayicpartShotgunGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGrip" count="15"/>
+		</recipe>
+		<recipe name="mayicpartLrgGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGrip" count="15"/>
+		</recipe>
+		<recipe name="mayicpartTacticalGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGrip" count="15"/>
+		</recipe>
+		<recipe name="mayicpartSniperGrip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGrip" count="15"/>
+		</recipe>
+		
+		<recipe name="mayicpart5roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart5roundClip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart6roundClip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart8roundClip" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart10roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart12roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart15roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart18roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart20roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart30roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpart32roundMag" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		
+		<recipe name="mayicpartScrapFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpartWeakFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpartIronFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpartSteelFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolChannelLocks">
+			<ingredient name="mayicresourceScrapGun" count="15"/>
+		</recipe>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<recipe name="mayicpartHammer" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolMicrometer">
 			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
-		<recipe name="mayicpartMountRails" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolArmorersWrench">
+		<recipe name="mayicpartTrigger" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolMicrometer">
 			<ingredient name="mayicresourceScrapGun" count="15"/>
 		</recipe>
-		<recipe name="mayicpartLongBarrel" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolArmorersWrench">
-			<ingredient name="mayicresourceScrapGun" count="25"/>
-		</recipe>
-		<!-- Bolts and Assists -->
-		<recipe name="mayicpartForwardAssist" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolChannelLocks">
-			<ingredient name="mayicresourceScrapGun" count="7"/>
-		</recipe>
-		<recipe name="mayicpartSlideBar" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolChannelLocks">
+		<recipe name="mayicpartHandguard" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolMicrometer">
 			<ingredient name="mayicresourceScrapGun" count="15"/>
 		</recipe>
-		<recipe name="mayicpartBreechBolt" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolChannelLocks">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
-		</recipe>
-		<!-- Firing assists -->
-		<recipe name="mayicpartHammer" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolMicrometer">
-			<ingredient name="mayicresourceScrapGun" count="7"/>
-		</recipe>
-		<recipe name="mayicpartTrigger" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolMicrometer">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
-		</recipe>
-		<recipe name="mayicpartHandguard" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolMicrometer">
-			<ingredient name="mayicresourceScrapGun" count="15"/>
-		</recipe>
-		<recipe name="mayicpartCompressor" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolMicrometer">
+		<recipe name="mayicpartCompressor" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolMicrometer">
 			<ingredient name="mayicresourceScrapGun" count="25"/>
 		</recipe>
 		
 		<!-- Specials -->
-		<recipe name="mayicpartFlamethrowerTank" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
+		<recipe name="mayicpartFlamethrowerTank" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="50"/>
 		</recipe>
-		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
+		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="500"/>
 		</recipe>
-		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
+		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomScrap" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="500"/>
 		</recipe>
 		
@@ -642,6 +946,7 @@
 -->
 		
 	<!--_=-=_=-=_=-=_ Pistols _=-=_=-=_=-=_-->
+	<!--_=-=_=-=_=-=_ Pistols _=-=_=-=_=-=_-->
 		<recipe name="mayicgunArgh" count="1" craft_area="CustomGun">
 			<ingredient name="resourceScrapIron" count="260"/>
 			<ingredient name="resourceMechanicalParts" count="4"/>
@@ -649,416 +954,421 @@
 		</recipe>
 		<!-- Tier 1 -->
 		<recipe name="mayicgunLuger"  count="1" craft_area="CustomGun">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 1 -->
 		<recipe name="mayicgun38Snubnose"  count="1" craft_area="CustomGun">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 2 -->
 		<recipe name="mayicgunBerettaNano"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 2 -->
 		<recipe name="mayicgunMakarov"  count="1" craft_area="CustomGun">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunP226"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunBeretta92"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunM9"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunUSP"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
 			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunGlock40"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
 			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 4 -->
 		<recipe name="mayicgun1911"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunColtPython"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunDesertEagle"  count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ SMG's _=-=_=-=_=-=_-->
 		<!-- Tier 2 -->
 		<recipe name="mayicgunKlob" count="1" craft_area="CustomGun">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 2 -->
 		<recipe name="mayicgunMac10" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 2 -->
 		<recipe name="mayicgunMK1" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunMP40" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunVector" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartSlideBar" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunMP5" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartMountRails" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunM1A1Thompson" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartSlideBar" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunRCP90" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Shotguns _=-=_=-=_=-=_-->
 		<!-- Tier 1 -->
 		<recipe name="mayicgunDoubleBarrelShotgun" count="1" craft_area="CustomGun">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartForwardAssist" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 2 -->
 		<recipe name="mayicgunSawedOff" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunFalloutShotgun" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartSlideBar" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunHuntingShotgun" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartSlideBar" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunMossberg590A1" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunSpaz12" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<recipe name="mayicgunAA12" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Rifles _=-=_=-=_=-=_-->
 		<!-- Tier 3 -->
 		<recipe name="mayicgunBullpup" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 3 -->
 		<recipe name="mayicgunRustAK" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
 			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 4 -->
 		<recipe name="mayicgunAK47" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
 			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 4 -->
 		<recipe name="mayicgunFNFAL" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
 			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 4 -->
 		<recipe name="mayicgunM16" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 4 -->
 		<recipe name="mayicgunAR15" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunACW" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartMountRails" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunARX160" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
-			<ingredient name="mayicpartMedBarrel" count="1"/>
-			<ingredient name="mayicpartMedStock" count="1"/>
-			<ingredient name="mayicpartMedGrip" count="1"/>
-			<ingredient name="mayicpartMountRails" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 6 -->
 		<recipe name="mayicgunM4A1" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 6 -->
 		<recipe name="mayicgunSCAR" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
 			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunMosinNagant" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunM1" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Large Weapons _=-=_=-=_=-=_-->
 		<!-- Tier 12 -->
 		<recipe name="mayicgunM249Saw" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 12 -->
 		<recipe name="mayicgunM240" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunSR25" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartBreechBolt" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 7 -->
 		<recipe name="mayicgunMrad" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartBreechBolt" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 9 -->
 		<recipe name="mayicgunJNG90" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartBreechBolt" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 9 -->
 		<recipe name="mayicgunM98" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartBreechBolt" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 12 -->
 		<recipe name="mayicgunM82" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
-			<ingredient name="mayicpartBreechBolt" count="1"/>
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Specials _=-=_=-=_=-=_-->
 		<!-- Tier 1 -->
 		<recipe name="mayicgunHandCannon" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartSmReceiver" count="1"/>
-			<ingredient name="mayicpartSmBarrel" count="1"/>
-			<ingredient name="mayicpartSmStock" count="1"/>
-			<ingredient name="mayicpartSmGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 5 -->
 		<recipe name="mayicgunM79GL40" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
+			<ingredient name="mayicresourceScrapGun" count="7"/>
 		</recipe>
 		<!-- Tier 20 -->
 		<recipe name="mayicgunGoldenGun" count="1" craft_area="CustomGun" tags="learnable">
 			<ingredient name="resourceGoldNugget" count="3"/>
-			<ingredient name="mayicpartLrgReceiver" count="2"/>
-			<ingredient name="mayicpartLrgBarrel" count="2"/>
-			<ingredient name="mayicpartLrgStock" count="2"/>
-			<ingredient name="mayicpartLrgGrip" count="2"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
 		</recipe>
 		<recipe name="mayicgunFlamethrower" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="mayicpartLrgGrip" count="1"/>
 			<ingredient name="mayicpartFlamethrowerTank" count="1"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
 		</recipe>
 		<!-- Tier 100 -->
 		<recipe name="mayicgunChaingun" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="3"/>
-			<ingredient name="mayicpartLrgBarrel" count="3"/>
-			<ingredient name="mayicpartLrgStock" count="3"/>
-			<ingredient name="mayicpartLrgGrip" count="3"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
 			<ingredient name="mayicpartChaingunGear" count="1"/>
 		</recipe>
 		<!-- Tier 50 -->
 		<recipe name="mayicgunLaserRifle" count="1" craft_area="CustomGun" tags="learnable">
-			<ingredient name="mayicpartLrgReceiver" count="3"/>
-			<ingredient name="mayicpartLrgBarrel" count="3"/>
-			<ingredient name="mayicpartLrgStock" count="3"/>
-			<ingredient name="mayicpartLrgGrip" count="3"/>
+			<ingredient name="mayicpartTrigger" count="1"/>
+			<ingredient name="mayicpartHammer" count="1"/>
+			<ingredient name="mayicpartCompressor" count="1"/>
+			<ingredient name="mayicpartHandguard" count="1"/>
 			<ingredient name="mayicpartAlienFrame" count="1"/>
 		</recipe>
 		<!--
@@ -1076,70 +1386,70 @@
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo9x19mmSteel" count="4" craft_area="CustomAmmo" >
+		<recipe name="mayicammo9x19mmAP" count="4" craft_area="CustomAmmo" >
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo38cal" count="4" craft_area="CustomAmmo" >
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo38calSteel" count="4" craft_area="CustomAmmo" >
+		<recipe name="mayicammo38calAP" count="4" craft_area="CustomAmmo" >
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo9mm" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo9mmSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo9mmAP" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo40cal" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo40calSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo40calAP" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo45acp" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo45acpSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo45acpAP" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo50ae" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo50aeSteel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo50aeAP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo357magnum" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo357magnumSteel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo357magnumAP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ SMG's _=-=_=-=_=-=_-->
 		<recipe name="mayicammo10mm" count="4" craft_area="CustomAmmo"   tags="learnable">
@@ -1147,20 +1457,20 @@
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo10mmSteel" count="4" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo10mmAP" count="4" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo5.7x28mm" count="4" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo5.7x28mmSteel" count="4" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo5.7x28mmAP" count="4" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Shotguns _=-=_=-=_=-=_-->
 		<recipe name="mayicammo20gauge" count="1"  craft_area="CustomAmmo"   tags="learnable">
@@ -1174,85 +1484,85 @@
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Rifles _=-=_=-=_=-=_-->
-		<recipe name="mayicammo22lr" count="4" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo22lr" count="4" craft_area="CustomAmmo">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo22lrSteel" count="4" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo22lrAP" count="4" craft_area="CustomAmmo">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo223cal" count="4" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo223calSteel" count="4" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo223calAP" count="4" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo7.62x39mm" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo7.62x39mmSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo7.62x39mmAP" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo5.56x45mm" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo5.56x45mmSteel" count="3" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo5.56x45mmAP" count="3" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo30-06" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo30-06Steel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo30-06AP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo338cal" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo338calSteel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo338calAP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo7.62x51mm" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo7.62x51mmSteel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo7.62x51mmAP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammo50cal" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
-		<recipe name="mayicammo50calSteel" count="2" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo50calAP" count="2" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="3"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 <!--_=-=_=-=_=-=_ Special _=-=_=-=_=-=_-->
 		<recipe name="mayicammo5mm" count="8" craft_area="CustomAmmo"   tags="learnable">
@@ -1260,10 +1570,10 @@
 			<ingredient name="resourceGunPowder" count="2"/>
 			<ingredient name="resourceBulletCasing" count="2"/>
 		</recipe>
-		<recipe name="mayicammo5mmSteel" count="8" craft_area="CustomAmmo"   tags="learnable">
+		<recipe name="mayicammo5mmAP" count="8" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="2"/>
 			<ingredient name="resourceGunPowder" count="2"/>
-			<ingredient name="resourceBulletCasingSteel" count="2"/>
+			<ingredient name="resourceBulletCasing" count="2"/>
 		</recipe>
 		<recipe name="mayicammoGoldenbullet" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
@@ -1308,7 +1618,7 @@
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceAnimalFat" count="3"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoExplosive" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
@@ -1318,7 +1628,7 @@
 		<recipe name="mayicammoExplosive" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoCorrosive" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
@@ -1330,7 +1640,7 @@
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourceAcid" count="1"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoLaserRound" count="1" craft_area="CustomAmmo"   tags="learnable">
 			<ingredient name="resourceBulletTip" count="1"/>
@@ -1342,10 +1652,7 @@
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="25"/>
 			<ingredient name="resourceAcid" count="10"/>
-			<ingredient name="resourceBulletCasingSteel" count="1"/>
-		</recipe>
-		<recipe name="mayicammoFlameFuel" count="150" craft_area="CustomAmmo"  tags="learnable">
-			<ingredient name="oilBarrel" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		<recipe name="mayicammoFlameFuel" count="2" craft_area="CustomAmmo"  tags="learnable">
 			<ingredient name="ammoGasCan" count="6"/>
@@ -1457,220 +1764,220 @@
 <!--_=-=_=-=_=-=_ Pistols _=-=_=-=_=-=_-->
 	
 		<recipe name="mayicgunBerettaNanoSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunBerettaNano" count="1"/>
+			<ingredient name="mayicgunLootBerettaNano" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
 		<recipe name="mayicgunM9Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM9" count="1"/>
+			<ingredient name="mayicgunLootM9" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunBeretta92Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunBeretta92" count="1"/>
+			<ingredient name="mayicgunLootBeretta92" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunP226Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunP226" count="1"/>
+			<ingredient name="mayicgunLootP226" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunGlock40Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunGlock40" count="1"/>
+			<ingredient name="mayicgunLootGlock40" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunUSPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunUSP" count="1"/>
+			<ingredient name="mayicgunLootUSP" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgun1911Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgun1911" count="1"/>
+			<ingredient name="mayicgunLoot1911" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunDesertEagleSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunDesertEagle" count="1"/>
+			<ingredient name="mayicgunLootDesertEagle" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="21"/>
 		</recipe>
 		<recipe name="mayicgunColtPythonSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunColtPython" count="1"/>
+			<ingredient name="mayicgunLootColtPython" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="21"/>
 		</recipe>
 
 <!--_=-=_=-=_=-=_ SMG's _=-=_=-=_=-=_-->
 		<recipe name="mayicgunMac10Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMac10" count="1"/>
+			<ingredient name="mayicgunLootMac10" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunMK1Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMK1" count="1"/>
+			<ingredient name="mayicgunLootMK1" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunMP40Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMP40" count="1"/>
+			<ingredient name="mayicgunLootMP40" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunVectorSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunVector" count="1"/>
+			<ingredient name="mayicgunLootVector" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunMP5Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMP5" count="1"/>
+			<ingredient name="mayicgunLootMP5" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunM1A1ThompsonSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM1A1Thompson" count="1"/>
+			<ingredient name="mayicgunLootM1A1Thompson" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="21"/>
 		</recipe>
 		<recipe name="mayicgunRCP90Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunRCP90" count="1"/>
+			<ingredient name="mayicgunLootRCP90" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="25"/>
 		</recipe>
 
 <!--_=-=_=-=_=-=_ Shotguns _=-=_=-=_=-=_-->
 		<recipe name="mayicgunSawedOffSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunSawedOff" count="1"/>
+			<ingredient name="mayicgunLootSawedOff" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
 		<recipe name="mayicgunFalloutShotgunSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunFalloutShotgun" count="1"/>
+			<ingredient name="mayicgunLootFalloutShotgun" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunHuntingShotgunSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunHuntingShotgun" count="1"/>
+			<ingredient name="mayicgunLootHuntingShotgun" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunMossberg590A1Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMossberg590A1" count="1"/>
+			<ingredient name="mayicgunLootMossberg590A1" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="18"/>
 		</recipe>
 		<recipe name="mayicgunSpaz12Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunSpaz12" count="1"/>
+			<ingredient name="mayicgunLootSpaz12" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="33"/>
 		</recipe>
 		<recipe name="mayicgunAA12Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunAA12" count="1"/>
+			<ingredient name="mayicgunLootAA12" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="50"/>
 		</recipe>
 
 <!--_=-=_=-=_=-=_ Rifles _=-=_=-=_=-=_-->
 		<recipe name="mayicgunBullpupSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunBullpup" count="1"/>
+			<ingredient name="mayicgunLootBullpup" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunRustAKSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunRustAK" count="1"/>
+			<ingredient name="mayicgunLootRustAK" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
 		<recipe name="mayicgunAK47Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunAK47" count="1"/>
+			<ingredient name="mayicgunLootAK47" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunFNFALSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunFNFAL" count="1"/>
+			<ingredient name="mayicgunLootFNFAL" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunAR15Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunAR15" count="1"/>
+			<ingredient name="mayicgunLootAR15" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunM16Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM16" count="1"/>
+			<ingredient name="mayicgunLootM16" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
 		<recipe name="mayicgunACWSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunACW" count="1"/>
+			<ingredient name="mayicgunLootACW" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
 		<recipe name="mayicgunARX160Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunARX160" count="1"/>
+			<ingredient name="mayicgunLootARX160" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
 		<recipe name="mayicgunM4A1Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM4A1" count="1"/>
+			<ingredient name="mayicgunLootM4A1" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunSCARSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunSCAR" count="1"/>
+			<ingredient name="mayicgunLootSCAR" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunMosinNagantSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMosinNagant" count="1"/>
+			<ingredient name="mayicgunLootMosinNagant" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="18"/>
 		</recipe>
 		<recipe name="mayicgunM1Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM1" count="1"/>
+			<ingredient name="mayicgunLootM1" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="18"/>
 		</recipe>
 
 <!--_=-=_=-=_=-=_ Large Weapons _=-=_=-=_=-=_-->
 		<recipe name="mayicgunM249SawSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM249Saw" count="1"/>
+			<ingredient name="mayicgunLootM249Saw" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="21"/>
 		</recipe>
 		<recipe name="mayicgunM240Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM240" count="1"/>
+			<ingredient name="mayicgunLootM240" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="21"/>
 		</recipe>
 		<recipe name="mayicgunSR25Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunSR25" count="1"/>
+			<ingredient name="mayicgunLootSR25" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
 		<recipe name="mayicgunMradSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunMrad" count="1"/>
+			<ingredient name="mayicgunLootMrad" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
 		<recipe name="mayicgunJNG90Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunJNG90" count="1"/>
+			<ingredient name="mayicgunLootJNG90" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunM98Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM98" count="1"/>
+			<ingredient name="mayicgunLootM98" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
 		<recipe name="mayicgunM82Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
-			<ingredient name="mayicgunM82" count="1"/>
+			<ingredient name="mayicgunLootM82" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="25"/>
 		</recipe>
 
-<!--_=-=_=-=_=-=_ Specials _=-=_=-=_=-=_-->
+<!--_=-=_=-=_=-=_ Specials _=-=_=-=_=-=_--><!--
 		<recipe name="mayicgunM79GL40Schematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolGunManual">
 			<ingredient name="mayicgunM79GL40" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
@@ -1695,7 +2002,7 @@
 			<ingredient name="mayicgunFlamethrower" count="1"/>
 			<ingredient name="resourcePaper" count="100"/>
 			<ingredient name="mayicresourceScrapSchematic" count="50"/>
-		</recipe>
+		</recipe>-->
 		<!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1712,8 +2019,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
-		<recipe name="mayicammo9mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo9mmSteel" count="1"/>
+		<recipe name="mayicammo9mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo9mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="35"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
@@ -1724,8 +2031,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
-		<recipe name="mayicammo40calSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo40calSteel" count="1"/>
+		<recipe name="mayicammo40calAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo40calAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="35"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
@@ -1736,8 +2043,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
-		<recipe name="mayicammo45acpSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo45acpSteel" count="1"/>
+		<recipe name="mayicammo45acpAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo45acpAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
@@ -1748,8 +2055,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
-		<recipe name="mayicammo50aeSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo50aeSteel" count="1"/>
+		<recipe name="mayicammo50aeAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo50aeAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="80"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
@@ -1760,8 +2067,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
-		<recipe name="mayicammo357magnumSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo357magnumSteel" count="1"/>
+		<recipe name="mayicammo357magnumAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo357magnumAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="80"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
@@ -1773,8 +2080,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
 		</recipe>
-		<recipe name="mayicammo5.7x28mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo5.7x28mmSteel" count="1"/>
+		<recipe name="mayicammo5.7x28mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo5.7x28mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="25"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
@@ -1785,8 +2092,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
 		</recipe>
-		<recipe name="mayicammo10mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo10mmSteel" count="1"/>
+		<recipe name="mayicammo10mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo10mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
@@ -1811,32 +2118,32 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
-		<recipe name="mayicammo223calSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo223calSteel" count="1"/>
+		<recipe name="mayicammo223calAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo223calAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
-		<recipe name="mayicammo22lrSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+		<!--<recipe name="mayicammo22lrSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
 			<ingredient name="mayicammo22lr" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
 		</recipe>
-		<recipe name="mayicammo22lrSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo22lrSteel" count="1"/>
+		<recipe name="mayicammo22lrAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo22lrAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="1"/>
-		</recipe>
+		</recipe>-->
 		<recipe name="mayicammo5.56x45mmSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
 			<ingredient name="mayicammo5.56x45mm" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="50"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
-		<recipe name="mayicammo5.56x45mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo5.56x45mmSteel" count="1"/>
+		<recipe name="mayicammo5.56x45mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo5.56x45mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="50"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
@@ -1847,8 +2154,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
 		</recipe>
-		<recipe name="mayicammo7.62x39mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo7.62x39mmSteel" count="1"/>
+		<recipe name="mayicammo7.62x39mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo7.62x39mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="40"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="6"/>
@@ -1859,8 +2166,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
 		</recipe>
-		<recipe name="mayicammo7.62x51mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo7.62x51mmSteel" count="1"/>
+		<recipe name="mayicammo7.62x51mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo7.62x51mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="75"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="9"/>
@@ -1871,8 +2178,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
-		<recipe name="mayicammo30-06SteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo30-06Steel" count="1"/>
+		<recipe name="mayicammo30-06APSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo30-06AP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="80"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
@@ -1883,8 +2190,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
 		</recipe>
-		<recipe name="mayicammo338calSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo338calSteel" count="1"/>
+		<recipe name="mayicammo338calAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo338calAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="100"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="12"/>
@@ -1895,8 +2202,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
 		</recipe>
-		<recipe name="mayicammo50calSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo50calSteel" count="1"/>
+		<recipe name="mayicammo50calAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo50calAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="100"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="15"/>
@@ -1908,8 +2215,8 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
 		</recipe>
-		<recipe name="mayicammo5mmSteelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
-			<ingredient name="mayicammo5mmSteel" count="1"/>
+		<recipe name="mayicammo5mmAPSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolAmmoManual">
+			<ingredient name="mayicammo5mmAP" count="1"/>
 			<ingredient name="mayicresourceScrapAmmo" count="25"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="3"/>
@@ -2111,102 +2418,274 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->		
-		
-		
+		<!-- Receivers -->
 		<recipe name="mayicpartSmReceiverSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartSmReceiver" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartSmBarrelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+		<recipe name="mayicpartRevolverReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartRevolverReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartSmShotgunReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSmShotgunReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartMedShotgunReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartMedShotgunReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLrgShotgunReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartLrgShotgunReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartAutomaticShotgunReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLrgReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartLrgReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartForwardAssistSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartForwardAssist" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartSlideBarSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSlideBar" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonReceiverSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartHighCarbonReceiver" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartBreechBoltSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartBreechBolt" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		
+		<!-- Barrels -->
+		<recipe name="mayicpartSmBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartSmBarrel" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartSmStockSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+		<recipe name="mayicpartMedBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartMedBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartRevolverBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartRevolverBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartHeavyBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartHeavyBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartSniperBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSniperBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartDoubleBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartDoubleBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartShortBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartShortBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLongBarrelSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartLongBarrel" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		
+		<!-- Stocks -->
+		<recipe name="mayicpartSmStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartSmStock" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartSmGripSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartSmGrip" count="1"/>
+		<recipe name="mayicpartMedStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartMedStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartRevolverStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartRevolverStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartShotgunStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartShotgunStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartAutomaticShotgunStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartAutomaticShotgunStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLrgStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartLrgStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartSniperStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSniperStock" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartLmgStockSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartLmgStock" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
 		
-		<recipe name="mayicpartMedReceiverSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartMedReceiver" count="1"/>
+		
+		<!-- Grip -->
+		<recipe name="mayicpartSmGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSmGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartMedBarrelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartMedBarrel" count="1"/>
+		<recipe name="mayicpartPistolGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartPistolGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartMedStockSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartMedStock" count="1"/>
+		<recipe name="mayicpartRevolverGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartRevolverGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartMedGripSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+		<recipe name="mayicpartMedGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartMedGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		
-		<recipe name="mayicpartLrgReceiverSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartLrgReceiver" count="1"/>
+		<recipe name="mayicpartShotgunGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartShotgunGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartLrgBarrelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartLrgBarrel" count="1"/>
-			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
-		</recipe>
-		<recipe name="mayicpartLrgStockSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartLrgStock" count="1"/>
-			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
-		</recipe>
-		<recipe name="mayicpartLrgGripSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+		<recipe name="mayicpartLrgGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartLrgGrip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartTacticalGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartTacticalGrip" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartSniperGripSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSniperGrip" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
 		
-		<recipe name="mayicpartShortBarrelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartShortBarrel" count="1"/>
+		<!-- Magazines and Clips -->
+		<recipe name="mayicpart5roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart5roundMag" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="1"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartMountRailsSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartMountRails" count="1"/>
+		<recipe name="mayicpart5roundClipSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart5roundClip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartLongBarrelSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartLongBarrel" count="1"/>
+		<recipe name="mayicpart6roundClipSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart6roundClip" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart8roundClipSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart8roundClip" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart10roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart10roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart12roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart12roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart15roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart15roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart18roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart18roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart20roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart20roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart30roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart30roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpart32roundMagSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpart32roundMag" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
 		
-		<recipe name="mayicpartForwardAssistSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartForwardAssist" count="1"/>
+		<!-- Frames -->
+		<recipe name="mayicpartScrapFrameSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartScrapFrame" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="1"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartSlideBarSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartSlideBar" count="1"/>
+		<recipe name="mayicpartWeakFrameSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartWeakFrame" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="3"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
-		<recipe name="mayicpartBreechBoltSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
-			<ingredient name="mayicpartBreechBolt" count="1"/>
+		<recipe name="mayicpartIronFrameSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartIronFrame" count="1"/>
 			<ingredient name="resourcePaper" count="10"/>
-			<ingredient name="mayicresourceScrapSchematic" count="5"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
 		</recipe>
+		<recipe name="mayicpartSteelFrameSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartSteelFrame" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		<recipe name="mayicpartHighCarbonFrameSch" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
+			<ingredient name="mayicpartHighCarbonFrame" count="1"/>
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="mayicresourceScrapSchematic" count="2"/>
+		</recipe>
+		
 		
 		<recipe name="mayicpartHammerSchematic" count="1" craft_area="CustomResearch" craft_time="1" craft_tool="mayictoolModificationManual">
 			<ingredient name="mayicpartHammer" count="1"/>
@@ -2243,5 +2722,230 @@
 			<ingredient name="resourcePaper" count="10"/>
 			<ingredient name="mayicresourceScrapSchematic" count="45"/>
 		</recipe>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+<!--
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									MELEE MOD
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
+		
+		
+	
+<recipe name="mayicmeleeBat" count="1" craft_time="30" >
+	<ingredient name="resourceWood" count="150"/>
+</recipe>
+<recipe name="mayicmeleeBoneClub" count="1" craft_time="30">
+	<ingredient name="resourceBone" count="1"/>
+	<ingredient name="resourceAnimalFat" count="20"/>
+	<ingredient name="resourceLeather" count="5"/>
+</recipe>
+
+<recipe name="mayicmeleeDullSword" count="1" craft_time="30" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="50"/>
+	<ingredient name="unit_clay" count="100"/>
+</recipe>
+
+<recipe name="mayicmeleeDullAxe" count="1" craft_time="30" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="50"/>
+	<ingredient name="unit_clay" count="100"/>
+</recipe>
+
+<recipe name="mayicmeleeRustyIron" count="1" craft_time="30" craft_area="CustomMelee">
+	<ingredient name="unit_iron" count="50"/>
+	<ingredient name="unit_clay" count="50"/>
+</recipe>
+
+<recipe name="mayicmeleeBayonet" count="1" craft_time="90" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="250"/>
+	<ingredient name="unit_lead" count="25"/>
+	<ingredient name="unit_clay" count="100"/>
+</recipe>
+
+<recipe name="mayicmeleeDagger" count="1" craft_time="90" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="150"/>
+</recipe>
+
+<recipe name="mayicmeleeBattleSword" count="1" craft_time="90" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="500"/>
+	<ingredient name="unit_lead" count="50"/>
+	<ingredient name="unit_clay" count="250"/>
+</recipe>
+
+<recipe name="mayicmeleeSpikeMace" count="1" craft_time="120" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="1200"/>
+	<ingredient name="unit_lead" count="250"/>
+	<ingredient name="unit_clay" count="800"/>
+</recipe>
+
+<recipe name="mayicmeleeGutter" count="1" craft_time="60" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_clay" count="75"/>
+</recipe>
+
+<recipe name="mayicmeleeKatana" count="1" craft_time="120" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="2500"/>
+	<ingredient name="unit_lead" count="500"/>
+	<ingredient name="unit_brass" count="500"/>
+	<ingredient name="unit_glass" count="750"/>
+	<ingredient name="unit_clay" count="1200"/>
+</recipe>
+
+<recipe name="mayicmeleeSpear" count="1" craft_time="180" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="1200"/>
+	<ingredient name="unit_lead" count="250"/>
+	<ingredient name="unit_clay" count="650"/>
+</recipe>
+
+<recipe name="mayicmeleeSoulHarvest" count="1" craft_time="180" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="2500"/>
+	<ingredient name="unit_lead" count="500"/>
+	<ingredient name="unit_brass" count="500"/>
+	<ingredient name="unit_glass" count="750"/>
+	<ingredient name="unit_clay" count="1200"/>
+</recipe>
+
+<recipe name="mayicmeleeGoldenAxe" count="1" craft_time="180" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="1200"/>
+	<ingredient name="unit_lead" count="250"/>
+	<ingredient name="unit_brass" count="250"/>
+	<ingredient name="unit_clay" count="1000"/>
+</recipe>
+
+<recipe name="mayicmeleeSwordOfValor" count="1" craft_time="360" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="1200"/>
+	<ingredient name="unit_lead" count="250"/>
+	<ingredient name="unit_brass" count="250"/>
+	<ingredient name="unit_glass" count="500"/>
+	<ingredient name="unit_clay" count="800"/>
+</recipe>
+
+
+		<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+											Defensive 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<recipe name="mayicmeleeRiotShield" count="1" craft_time="300" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="2500"/>
+	<ingredient name="unit_lead" count="800"/>
+	<ingredient name="unit_brass" count="250"/>
+	<ingredient name="unit_glass" count="250"/>
+	<ingredient name="unit_clay" count="1500"/>
+</recipe>
+
+<recipe name="mayicmeleeShieldPlate" count="1" craft_time="150" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_lead" count="200"/>
+	<ingredient name="unit_clay" count="25"/>
+</recipe>
+
+
+
+		<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+											Stations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<recipe name="mayicblockWeaponWorkbench" count="1" craft_time="120">
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceRockSmall" count="250"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceAnimalFat" count="50"/>
+</recipe>
+
+
+		<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+											Weapon Mods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<!-- Physical Mods -->
+<recipe name="mayicmodShuriken" count="1" craft_time="60" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="45"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+<recipe name="mayicmodSaw" count="1" craft_time="60" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="45"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+<recipe name="mayicmodSpikes" count="1" craft_time="60" craft_area="CustomMelee" tags="learnable">
+	<ingredient name="unit_iron" count="45"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	</append>
 </potato>

@@ -16,7 +16,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence1"> 
@@ -28,7 +28,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence2"> 
@@ -40,7 +40,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="1"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence3"> 
@@ -52,7 +52,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>	
 	
 <SoundDataNode name="silence4"> 
@@ -64,7 +64,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence5"> 
@@ -76,7 +76,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence6"> 
@@ -88,7 +88,7 @@
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="0.2"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 	<SoundDataNode name="silence7"> 
@@ -100,7 +100,7 @@
 			<CrouchNoiseScale value="1"/>
 			<NoiseScale value="1"/> 
 			<MaxVoices value="10"/> 
-			<MaxRepeatRate value="0.001"/>
+			<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 	
@@ -117,7 +117,7 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence11"> 
@@ -129,7 +129,7 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence22"> 
@@ -141,19 +141,19 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence33"> 
 	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="2" range="0" volume="0" time="3" heat_map_strength="0" heat_map_time="0"/>
-		<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?silence3"/>
+		<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?silence333"/>
 		<LocalCrouchVolumeScale value="0.75"/> 
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>	
 	
 <SoundDataNode name="silence44"> 
@@ -165,7 +165,7 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence55"> 
@@ -177,7 +177,7 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="silence66"> 
@@ -189,7 +189,7 @@
 		<CrouchNoiseScale value="0"/>
 		<NoiseScale value="0"/> 
 		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
+		<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 	
 	<SoundDataNode name="silence77"> 
@@ -201,7 +201,7 @@
 			<CrouchNoiseScale value="0"/>
 			<NoiseScale value="0"/> 
 			<MaxVoices value="10"/> 
-			<MaxRepeatRate value="0.001"/>
+			<MaxRepeatRate value="0.0001"/>
 	</SoundDataNode>
 <!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -213,6 +213,18 @@
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="5" range="45" volume="55" time="3" heat_map_strength="0.1" heat_map_time="120"/>
 			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?glockfire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>	
+	
+	<SoundDataNode name="handgunshot"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="45" volume="55" time="3" heat_map_strength="0.1" heat_map_time="120"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?handgun1shot"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
@@ -386,7 +398,7 @@
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="5" range="60" volume="110" time="3" heat_map_strength="0.3" heat_map_time="120"/>
-			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rcp90fire"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rcp90fire2"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
@@ -773,6 +785,18 @@
 			<MaxRepeatRate value="0.001"/>
 	</SoundDataNode>
 	
+	<SoundDataNode name="l96fire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="80" volume="300" time="3" heat_map_strength="0.4" heat_map_time="120"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?l96"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
 	<SoundDataNode name="m249fire"> 
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
@@ -892,6 +916,18 @@
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
 			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?ting"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="modsound"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?modsound"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
