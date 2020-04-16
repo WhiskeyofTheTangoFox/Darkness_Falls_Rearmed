@@ -2930,22 +2930,219 @@
 <recipe name="mayicmodSpikes" count="1" craft_time="60" craft_area="CustomMelee" tags="learnable">
 	<ingredient name="unit_iron" count="45"/>
 	<ingredient name="unit_clay" count="20"/>
-</recipe>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	</append>
+</recipe>
+
+
+
+
+
+
+    <!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Ammo dissassembly : Ammo Press
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+    <recipe name="DFRScrapAmmoBundle9x19mmBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress" craft_tool="mayictoolBulletPress">
+      <ingredient name="mayicammo9x19mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle9x19mmSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress" >
+      <ingredient name="mayicammo9x19mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle38calBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress" >
+      <ingredient name="mayicammo38cal" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle38calSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress" >
+      <ingredient name="mayicammo38calSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle40calBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo40cal" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle40calSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo40calSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle45acpBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo45acp" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle45acpSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo45acpSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle50aeBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo50ae" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle50aeSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo50aeSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle357magnumBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo357magnum" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle357magnumSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo357magnumSteel" count="1"/>
+    </recipe>
+
+    <!--_=-=_=-=_=-=_ SMG's _=-=_=-=_=-=_-->
+    <recipe name="DFRScrapAmmoBundle10mmBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo10mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle10mmSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo10mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle5.7x28mmBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5.7x28mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle5.7x28mmSteelBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5.7x28mmSteel" count="1"/>
+    </recipe>
+
+    <!--_=-=_=-=_=-=_ Shotguns _=-=_=-=_=-=_-->
+    <recipe name="DFRScrapAmmoBundle20gaugeBench" count="1"  craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo20gauge" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleBirdShotbench" count="1"  craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoBirdShot" count="1"/>
+    </recipe>
+
+    <!--_=-=_=-=_=-=_ Rifles _=-=_=-=_=-=_-->
+    <recipe name="DFRScrapAmmoBundle22lrBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo22lr" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle22lrSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo22lrSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle223calbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo223cal" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle223calSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo223calSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle7.62x39mmbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo7.62x39mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle7.62x39mmSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo7.62x39mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle5.56x45mmbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5.56x45mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle5.56x45mmSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5.56x45mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle30-06bench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo30-06" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle30-06Steelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo30-06Steel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle338calbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo338cal" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle338calSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo338calSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle7.62x51mmbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo7.62x51mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle7.62x51mmSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo7.62x51mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle50calbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo50cal" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle50calSteelbench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo50calSteel" count="1"/>
+    </recipe>
+
+    <!--_=-=_=-=_=-=_ Special _=-=_=-=_=-=_-->
+    <recipe name="DFRScrapAmmoBundle5mmBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5mm" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle5mmSteelBench" count="1" craft_time="1"  craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo5mmSteel" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle40mmMiniBench" count="1" craft_time="1"  craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo40mmMini" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundle40mmExplosiveBench" count="1" craft_time="1"  craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammo40mmExplosive" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleElectricshellBench" count="1"  craft_time="1"  craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoElectricshell" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleDragonsbreathBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoDragonsbreath" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleIncediaryBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoIncendiary" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleExplosiveBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoExplosive" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleCorrosiveBench" count="1" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"    >
+      <ingredient name="mayicammoCorrosive" count="1"/>
+    </recipe>
+
+    <recipe name="DFRScrapAmmoBundleFlameFuelBench" count="150" craft_time="1" craft_area="CustomAmmo" craft_tool="mayictoolBulletPress"   >
+      <ingredient name="mayicammoFlameFuel" count="1"/>
+    </recipe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </append>
 </potato>
