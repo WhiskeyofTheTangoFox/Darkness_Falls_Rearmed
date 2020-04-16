@@ -20,7 +20,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="1"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?LugerPrefab"/>
 			<property name="CustomIcon" value="7luger"/>
-			<property name="Material" value="MayicScrapGun"/>
+	      	<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="DegradationBreaksAfter" value="false"/>
@@ -90,7 +90,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="44"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?38Prefab"/>
 			<property name="CustomIcon" value="738snub"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -153,7 +153,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="1"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?MakarovPistolPrefab"/>
 			<property name="CustomIcon" value="7makarov"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -216,7 +216,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="1"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?BerettaNanoPrefab"/>
 			<property name="CustomIcon" value="7nano"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -279,7 +279,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="1"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?M9Prefab"/>
 			<property name="CustomIcon" value="7m9"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -345,7 +345,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgunP226Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?P226Prefab"/>
 			<property name="CustomIcon" value="7p226"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -408,7 +408,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgunBeretta92Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?92Prefab"/>
 			<property name="CustomIcon" value="7b92"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -471,7 +471,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="HoldType" value="1"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?USPPrefab"/>
 			<property name="CustomIcon" value="7usp"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -537,7 +537,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgunGlock40Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?Glock40"/>
 			<property name="CustomIcon" value="7glock"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -600,7 +600,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgun1911Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?1911Prefab"/>
 			<property name="CustomIcon" value="71911"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="4"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -663,7 +663,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgunDesertEagleDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?DE50Prefab"/>
 			<property name="CustomIcon" value="7de50"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="5"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -725,7 +725,7 @@ RecSm,RecRev,RecLrg,RecFA,GripSm,GripPistol,GripRevolver,BarSm,BarMed,BarRev,Bar
 			<property name="DescriptionKey" value="mayicgunColtPythonDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?ColtPrefab"/>
 			<property name="CustomIcon" value="7colt"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="5"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -795,7 +795,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="DescriptionKey" value="mayicgunKlobDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?KlobPrefab"/>
 			<property name="CustomIcon" value="7klob"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="DegradationBreaksAfter" value="false"/>
@@ -866,7 +866,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="Tags" value="RecSm,RecRev,RecSmShot,RedMedShot,RecLrgShot,RecAutoShot,RecLrg,RecFA,RedSlide,RecBreech,RecHighCarb,BarSm,BarMed,BarRev,BarShort,BarDouble,BarLong,BarSniper,BarHeavy,BarLrg,GripSm,GripMed,GripLrg,GripSniper,GripShot,GripRevolver,GripTact,GripPistol,StockSm,StockMed,StockLrg,StockSniper,StockLMG,StockShot,StockAutoShot,StockRev,FrameScrap,FrameWeak,FrameIron,FrameSteel,FrameHighCarb,mag5,mag8,mag10,mag12,mag15,mag20,mag30,mag32,customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,magazine,smallTopAttachments,mediumTopAttachments,barrelAttachments,firingMode,selfLoading,perkAutomaticWeapons,sideAttachments,stock,bottomAttachments,perkGunslinger"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?UziPrefab"/>
 			<property name="CustomIcon" value="7mac10"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="DescriptionKey" value="mayicgunMac10Desc"/>
@@ -930,7 +930,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="HoldType" value="6"/>
 			<property name="DescriptionKey" value="mayicgunMK1Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?MK1Prefab"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="2"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CustomIcon" value="7mk1"/>
@@ -995,7 +995,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="HoldType" value="6"/>
 			<property name="DescriptionKey" value="mayicgunMP40Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?MP40Prefab"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CustomIcon" value="7mp40"/>
@@ -1058,7 +1058,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="DescriptionKey" value="mayicgunMP5Desc"/>
 			<property name="HoldType" value="6"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?MP5Prefab"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CustomIcon" value="7mp5"/>
@@ -1119,7 +1119,7 @@ RecSm,RecAutoShot,RecLrg,RecFA,RecSlide,RecHighCarb,GripMed,GripLrg,GripTact,Gri
 			<property name="HoldType" value="6"/>
 			<property name="DescriptionKey" value="mayicgunUMP45Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/MayicsFirearms.unity3d?Ump45Prefab"/>
-			<property name="Material" value="MayicScrapGun"/>
+			<property name="Material" value="Mmetal"/>
 			<property name="Weight" value="3"/>
 			<property name="RepairTools" value="mayicresourceScrapGun"/>
 			<property name="CustomIcon" value="7ump45"/>
@@ -12937,5 +12937,514 @@ Mmetal
 	<append xpath="/items/item[@name='ammoRocketFrag']">
 		<property name="Weight" value="5"/>
 		<property name="Material" value="MayicScrapAmmo"/>
+
+		
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    Scrapped Ammo Bundles
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+
+    <item name="DFRScrapAmmoBundle9x19mmBench">
+      <property name="CustomIcon" value="7tinycalsmg"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+    
+    <!--We are seperating these all out by cost, not by order of appearance-->
+    <item name="DFRScrapAmmoBundle9x19mmSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasingSteel"/>
+      </property>
+    </item>
+    
+    <item name="DFRScrapAmmoBundle38calBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7tinycalpistol"/>
+    </item>
+    <item name="DFRScrapAmmoBundle38calSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7tinycalpistols"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40calBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7lowcalpistol"/>
+    </item>
+    <item name="DFRScrapAmmoBundle40calSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7lowcalpistols"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle10mmBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7lowcalsmg"/>
+    </item>
+    <item name="DFRScrapAmmoBundle10mmSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7lowcalsmgs"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5.7x28mmBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7tinycalsmg"/>
+    </item>
+    <item name="DFRScrapAmmoBundle5.7x28mmSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+    </item>
+    
+    <item name="DFRScrapAmmoBundle22lrBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7lowcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle22lrSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7lowcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle223calbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7lowcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle223calSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7lowcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle7.62x39mmbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle7.62x39mmSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5.56x45mmbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5.56x45mmSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle30-06bench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle30-06Steelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle338calbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle338calSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle7.62x51mmbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle7.62x51mmSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <!-- Ammo with gunpowder cost of 2-->
+    <item name="DFRScrapAmmoBundle45acpBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalpistol"/>
+      <property class="Action0">
+        <property name="Create_item_count" value="1,2,1"/>
+      </property>
+    </item>
+    <item name="DFRScrapAmmoBundle45acpSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalpistols"/>
+      <property class="Action0">
+        <property name="Create_item_count" value="1,2,1"/>
+      </property>
+    </item>
+      
+    <!-- Ammo with gunpowder cost of 3-->
+    <item name="DFRScrapAmmoBundle50aeBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmbench"/>
+      <property name="CustomIcon" value="7medcalpistol"/>
+      <property class="Action0">
+        <property name="Create_item_count" value="1,3,1"/>
+      </property>
+    </item>
+    <item name="DFRScrapAmmoBundle50aeSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle9x19mmSteelbench"/>
+      <property name="CustomIcon" value="7medcalpistols"/>
+      <property class="Action0">
+        <property name="Create_item_count" value="1,3,1"/>
+      </property>
+    </item>
+    
+    <item name="DFRScrapAmmoBundle357magnumBench">
+      <property name="Extends" value="DFRScrapAmmoBundle50aebench"/>
+      <property name="CustomIcon" value="7357"/>
+    </item>
+    <item name="DFRScrapAmmoBundle357magnumSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle50aeSteelbench"/>
+      <property name="CustomIcon" value="7357"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle50calbench">
+      <property name="Extends" value="DFRScrapAmmoBundle50aebench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+
+    <item name="DFRScrapAmmoBundle50calSteelbench">
+      <property name="Extends" value="DFRScrapAmmoBundle50aeSteelbench"/>
+      <property name="CustomIcon" value="7medcalrifle"/>
+    </item>
+ 
+    
+    <!--Shotgun bundle from bench-->
+    <item name="DFRScrapAmmoBundle20gaugeBench">
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleBirdShotbench">
+      <property name="Extends" value="DFRScrapAmmoBundle20gaugeBench"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+    </item>
+    
+    <!--Special Ammo Bundle from bench-->
+    <item name="DFRScrapAmmoBundle5mmBench">
+      <property name="CustomIcon" value="7tinycalpistol"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,2,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5mmSteelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasingSteel"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmMiniBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_grenade"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmExplosiveBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,15,10,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleElectricshellBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceElectricParts,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,2,5,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleDragonsbreathBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceAnimalFat,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,10,1,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleIncediaryBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBulletTip,resourceAnimalFat,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,3,1,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleExplosiveBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,5,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleCorrosiveBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBulletTip,resourceAcid,resourceGunPowder,resourceBulletCasing"/>
+        <property name="Create_item_count" value="1,2,25,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleFlameFuelBench">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmBench"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="ammoGasCan"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    Field Scrapped Ammo Bundles
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <item name="DFRScrapAmmoBundleField">
+      <property name="CustomIcon" value="7tinycalsmg"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceIron"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleLargeField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleLargeSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceIron"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+    
+    <!--Shotgun Field Scrap-->
+    <item name="DFRScrapAmmoBundleShotgunField">
+      <property name="Extends" value="DFRScrapAmmoBundleField"/>
+      <property name="CustomIcon" value="7tinycalsmgs"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+        <property name="Create_item_count" value="1,3,3"/>
+      </property>
+    </item>
+    
+    <!--Special Ammo Field Scrap-->
+    <item name="DFRScrapAmmoBundle5mmField">
+      <property name="CustomIcon" value="7tinycalpistol"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="300"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Weight" value="0"/>
+      <property name="EconomicValue" value="900"/>
+      <property name="Group" value="Ammo/Weapons"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+        <property name="Use_time" value="0"/>
+        <property name="Sound_start" value="close_garbage"/>
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,2,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle5mmSteelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceScrapIron"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmMiniField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_grenade"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundle40mmExplosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_pistol"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper,resourceBrass"/>
+        <property name="Create_item_count" value="1,10,10,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleElectricshellField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceElectricParts,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,4,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleDragonsbreathField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_gun_shotgun"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceBuckshot,resourceAnimalFat,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,8,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleIncediaryField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAnimalFat,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,2,1,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleExplosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,4,3"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleCorrosiveField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="resourceScrapLead,resourceAcid,resourceGunPowder,resourceBrass"/>
+        <property name="Create_item_count" value="1,1,20,1"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleFlameFuelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="oil"/>
+        <property name="Create_item_count" value="30"/>
+      </property>
+    </item>
+
+    <item name="DFRScrapAmmoBundleFlameFuelField">
+      <property name="Extends" value="DFRScrapAmmoBundle5mmField"/>
+      <property name="CustomIcon" value="icon_ammo_pistolcase"/>
+      <property class="Action0">
+        <property name="Create_item" value="ammoGasCan"/>
+        <property name="Create_item_count" value="3"/>
+      </property>
+    </item>
+    
 	</append>
 </potato>

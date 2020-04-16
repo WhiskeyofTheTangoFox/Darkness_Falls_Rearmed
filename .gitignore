@@ -5,3 +5,4 @@
 *.json
 /.vs/slnx.sqlite
 *.suo
+/.vs/slnx.sqlite-journal
