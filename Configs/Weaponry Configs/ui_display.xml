@@ -21,6 +21,7 @@
 			<crafting_category name="HighRounds" icon="icon_ammo_highcal" display_name="Heavy Cal"/>
 			<crafting_category name="ExplosiveRounds" icon="icon_ammo_explosive" display_name="Explosives"/>
 			<crafting_category name="SpecialAmmo" icon="icon_image_star" display_name="Special Ammo"/>
+      <crafting_category name="ScrapAmmo" icon="ui_game_symbol_assemble" display_name="Scrap Ammo"/>
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="mayicblockResearchTable">

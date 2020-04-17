@@ -15,6 +15,7 @@
 			<window name="windowCustomQueue"/>
 			<window name="windowCustomOutput" />
 			<window name="windowCustomNonPagingHeader" />
+      <window name="windowAmmoTool"/>
 		</window_group>
 		
 		<window_group name="workstation_mayicblockResearchTable" controller="XUiC_WorkstationWindowGroup">
@@ -33,6 +34,7 @@
 			<window name="windowCustomOutput" />
 			<window name="windowCustomNonPagingHeader" />
 		</window_group>
+		
 		
 		<window_group name="workstation_mayicblockWeaponWorkbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCustomCraftingListMelee"/>

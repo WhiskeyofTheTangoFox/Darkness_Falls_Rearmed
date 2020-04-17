@@ -616,7 +616,9 @@ mayicchallengesniper,items,Quest Note,New,Sniper School
 mayicchallengechaingun,items,Quest Note,New,Chaingun Rampage!
 
 mayicttScrapGun,UI,Tooltip,New,Scrap Gun that can be broken down to retrieve valuable materials
-DFRttScrapAmmoBundleField,UI,Tooltip,New,Ammo hastily broken down in the field is wasteful try an Ammo Press
+DFRttScrapAmmoBundleField,UI,Tooltip,New,Ammo hastily broken down in the field is wasteful try an 
+
+
 mayicttScrapSchematic,UI,Tooltip,New,Scrap Schematic that can be broken down to retrieve valuable materials
 mayicttScrapMod,UI,Tooltip,New,
 mayicbookReceiverMaster,items,Item,New,Firearms Receiver Dictionary
@@ -825,3 +827,5 @@ toolmayicDrillGun,items,Items,New,Drill Gun
 toolmayicDrillGunDesc,items,Items,New,Automatic disassembly tool and repair tool
 toolmayicDrillBattery,items,Items,New,Drill Battery
 toolmayicDrillBatteryDesc,items,Items,New,Battery to power the Drill Gun
+
+xuiInput,UI,XUI,,,Queue
