@@ -44,19 +44,6 @@
 			<crafting_category name="ModAttachment" icon="icon_mod_grip" display_name="Attachments"/>
 		</crafting_category_list>
 		
-		<crafting_category_list display_type="mayicblockRecyclerWorkbench">
-			<crafting_category name="ScrapAmmo" icon="7scrapammo" display_name="Scrap"/>
-			<crafting_category name="ScrapFirearmss" icon="7scrapgun" display_name="Scrap"/>
-			<crafting_category name="AllParts" icon="icon_part_all" display_name="All Parts"/>
-			<crafting_category name="PartReceiver" icon="icon_part_receiver" display_name="Receivers"/>
-			<crafting_category name="PartGrip" icon="icon_part_medium" display_name="Grips"/>
-			<crafting_category name="PartStock" icon="icon_part_large" display_name="Stocks"/>
-			<crafting_category name="PartMag" icon="icon_part_mag" display_name="Magazines"/>
-			<crafting_category name="PartBarrel" icon="icon_part_small" display_name="Barrels"/>
-			<crafting_category name="PartFrame" icon="icon_part_frame" display_name="Frames"/>
-			<crafting_category name="PartCraft" icon="icon_gun_all" display_name="Firearms Crafting Parts"/>
-		</crafting_category_list>
-		
 		<crafting_category_list display_type="mayicblockWeaponWorkbench">
 			<crafting_category name="AllMelee" icon="ui_game_symbol_tool" display_name="All Melee" icon_color="0,153,0"/>
 			<crafting_category name="Blades" icon="ui_game_symbol_tool" display_name="Blade Weapons" icon_color="0,153,0"/>

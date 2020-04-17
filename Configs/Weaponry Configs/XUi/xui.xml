@@ -34,16 +34,6 @@
 			<window name="windowCustomNonPagingHeader" />
 		</window_group>
 		
-		<window_group name="workstation_mayicblockRecyclerWorkbench" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCustomCraftingListRecycler"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCustomQueue"/>
-			<window name="windowCustomOutput" />
-			<window name="windowCustomFuel" />
-			<window name="windowRecycleTool" />
-			<window name="windowCustomNonPagingHeader" />
-		</window_group>
-		
 		<window_group name="workstation_mayicblockWeaponWorkbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCustomCraftingListMelee"/>
 			<window name="craftingInfoPanel"/>

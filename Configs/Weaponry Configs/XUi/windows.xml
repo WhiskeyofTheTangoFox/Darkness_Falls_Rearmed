@@ -141,20 +141,6 @@
 		</rect>
 </window>
 
-<window name="windowRecycleTool" width="378" height="121" panel="Left" cursor_area="true" >
-		<panel style="header.panel" pos="0,30">
-			<sprite style="header.icon" sprite="ui_game_symbol_search"  color="0,156,156,500"/>
-			<label style="header.name" text="RECYCLER TOOLS" text_key="xuiTools"  color="0,156,156,500" />
-		</panel>
-
-		<rect name="content" depth="0" pos="0,-20" height="75" disablefallthrough="true" on_press="true">
-			<grid name="inventory" rows="3" cols="5" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
-			required_tools="mayictoolFirearmsKit,mayictoolReceiverVise,mayictoolMicrometer,mayictoolSightPusher,mayictoolArmorersWrench,mayictoolChannelLocks,mayictoolHandguardGrips,mayictoolTipExtractor,mayictoolCasingGrip,mayictoolPowderFunnel,mayictoolBulletPress,mayictoolViseGrips,mayictoolPowderKeg" required_tools_only="true">
-				<required_item_stack name="0"/>
-			</grid>
-		</rect>
-</window>
-
 <!--_=-=_=-=_=-=_ Info Pannels _=-=_=-=_=-=_-->
 <window name="craftingCustomInfoPanel" width="603" height="392" controller="CraftingInfoWindow" style="crafting.info.window" panel="Center" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
@@ -380,60 +366,6 @@
 		</panel>
 </window>
 <window name="windowCustomCraftingListMod"  width="397" height="688" controller="CraftingListInfo" panel="Right" cursor_area="true" >
-	<!--#$-IGS END.-$#-->
-
-		<panel name="header" height="43" width="562" depth="1" pos="0, 0" backgroundspritename="ui_game_panel_header">
-			<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="Craft_Icon_Basics"/>
-			<label style="header.name" text="basics" text_key="xuiBasics" />
-
-			<label pos="387, -6" depth="2" name="unlockedCount" width="64" height="32" text="0/65" font_size="32" color="[lightGrey]" justify="right" pivot="topright"/>
-			<sprite pos="328, -5" depth="2" name="unlockedIcon" style="icon32px" sprite="ui_game_symbol_book" color="[lightGrey]" pivot="topright"/>
-		</panel>
-		<panel name="header" height="43" width="244" depth="1" pos="310, -97" backgroundspritename="ui_game_panel_header">
-			<sprite pos="4,-5" depth="2" atlas="ItemIconAtlas" name="windowIcon" style="icon32px" sprite="icon_gun_smg"/>
-			<sprite pos="205,-5" depth="2" atlas="ItemIconAtlas" name="windowIcon" style="icon32px" sprite="icon_ammo_largebullet"/>
-			<label style="header.name" text="Categories" pos="68, -3"/>
-		</panel>
-		<panel name="content" width="100%" height="650" depth="1" pos="0,-43" on_scroll="true" disableautobackground="true">
-
-			<rect depth="2" name="categorySelector" width="390" height="44" pos="310,-102">
-				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="247" height="328" color="[black]" type="sliced" fillcenter="false" />
-				<sprite color="[darkGrey]" type="sliced"  width="242" height="322"/>
-				<grid name="categories" pos="14,-18" rows="4" cols="3" width="390" height="43" cell_width="80" atlas="ItemIconAtlas" cell_height="80" repeat_content="true" controller="CategoryList">
-					<category_icon_custom />
-				</grid>
-			</rect>
-
-			<rect depth="3" name="searchControls" width="562" height="44" pos="5,-4">
-				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="562" height="49" color="[black]" type="sliced" fillcenter="false" />
-				<sprite color="[darkGrey]" type="sliced" />
-				<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
-				<button depth="4" name="favorites" style="icon30px, press" pos="18,-22" sprite="server_favorite" pivot="center" sound="[paging_click]" tooltip="Favorites" tooltip_key="lblFavorites" collider_scale="1.5" />
-				<!--*#$-IGS END.-$#-->
-
-				<!--#$-IGS BEGIN: Disabling an element for console builds. -$#-->
-				<panel pos="179,0" width="200" disableautobackground="true">
-				<!--*#$-IGS END.-$#-->
-					<sprite depth="4" name="searchIcon" style="icon30px" pos="40,-22" sprite="ui_game_symbol_search" pivot="center"/>
-					<recipe_search depth="5" pos="75,0" name="searchInput"/>
-				</panel>
-
-				<panel pos="420,0" width="150" height="48" disableautobackground="true">
-					<button depth="4" name="pageDown" style="icon30px, press" pos="20,-22" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]" />
-					<rect depth="4" pos="37,-7" >
-						<sprite name="background" style="icon30px" color="[black]" type="sliced" />
-						<label depth="5" name="pageNumber" pos="0, -3" width="30" height="28" text="1" font_size="26" justify="center"/>
-					</rect>
-					<button depth="4" name="pageUp" style="icon30px, press" pos="84,-22" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" />
-				</panel>
-			</rect>
-
-			<grid name="recipes" rows="16" cols="1" pos="3,-55" width="293" height="552" cell_width="290" cell_height="46" controller="RecipeList" repeat_content="true" arrangement="vertical" >
-				<recipe_entry_potato name="0"/>
-			</grid>
-		</panel>
-</window>
-<window name="windowCustomCraftingListRecycler"  width="397" height="688" controller="CraftingListInfo" panel="Right" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 
 		<panel name="header" height="43" width="562" depth="1" pos="0, 0" backgroundspritename="ui_game_panel_header">
