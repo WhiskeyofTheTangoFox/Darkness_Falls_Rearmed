@@ -399,11 +399,6 @@ mayicblockResearchTable,blocks,Block,New,Firearms Research Table
 mayicblockResearchTableDesc,blocks,Block,New,Research how to craft specific Firearms Ammunition and Modifications at this workbench: Requires specific manuals to unlock ability to craft a schematic
 mayicblockModWorkbench,blocks,Block,New,Firearms Assembly Table
 mayicblockModWorkbenchDesc,blocks,Block,New,Craft Firearms Parts and Attachment Modifications. Firearm Parts are required for crafting Firearms in the Firearms Workbench
-mayicblockRecyclerWorkbench,blocks,Block,New,Recycler Workbench
-mayicblockRecyclerWorkbenchDesc,blocks,Block,New,Scrap all your unwanted Firearms and create the parts you need! Or gather back raw resources
-mayicblockRecyclerWorkbench,blocks,Block,New,Action Target
-mayicblockRecyclerWorkbench,blocks,Block,New,Live target allows you to practice your shooting without having to reset the target. Once struck in the head the target will reset.
-
 mayictoolTipExtractor,items,Item,New,Tip Extractor
 mayictoolTipExtractorDesc,items,Item,New,Increases the amount of bullet tips extracted by 25% when Salvaging Scrap Ammo
 mayictoolCasingGrip,items,Item,New,Casing Grip
@@ -621,7 +616,9 @@ mayicchallengesniper,items,Quest Note,New,Sniper School
 mayicchallengechaingun,items,Quest Note,New,Chaingun Rampage!
 
 mayicttScrapGun,UI,Tooltip,New,Scrap Gun that can be broken down to retrieve valuable materials
-mayicttScrapAmmo,UI,Tooltip,New,Scrap Ammo that can be broken down to retrieve valuable materials
+DFRttScrapAmmoBundleField,UI,Tooltip,New,Ammo hastily broken down in the field is wasteful try an 
+
+
 mayicttScrapSchematic,UI,Tooltip,New,Scrap Schematic that can be broken down to retrieve valuable materials
 mayicttScrapMod,UI,Tooltip,New,
 mayicbookReceiverMaster,items,Item,New,Firearms Receiver Dictionary
@@ -830,3 +827,5 @@ toolmayicDrillGun,items,Items,New,Drill Gun
 toolmayicDrillGunDesc,items,Items,New,Automatic disassembly tool and repair tool
 toolmayicDrillBattery,items,Items,New,Drill Battery
 toolmayicDrillBatteryDesc,items,Items,New,Battery to power the Drill Gun
+
+xuiInput,UI,XUI,,,Queue

@@ -124,7 +124,6 @@
 		<!-- Ammo -->
 		<item name="mayicammo5mmSchematic"/>
 		<item name="mayicammo5mmAPSchematic"/>
-		<item name="mayicammo40mmMiniSchematic"/>
 		<item name="mayicammo40mmExplosiveSchematic"/>
 		<item name="mayicammoFlameFuelSchematic"/>
 		<item name="mayicammoIncendiarySchematic"/>
@@ -185,10 +184,6 @@
 		<item name="mayicchallengerifle" count="1"/>
 		<item name="mayicchallengesniper" count="1"/>
 		<item name="mayicchallengechaingun" count="1"/>
-</append>
-<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
-			<item name="mayicresourceScrapAmmo" count="1,50"/> 
-			<item name="mayicresourceScrapGun" count="1,15"/>
 </append>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
 			<item name="mayicresourceScrapSchematic" count="1,3"/>
