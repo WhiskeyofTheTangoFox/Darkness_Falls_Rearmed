@@ -1867,7 +1867,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualPlus1Template">
 		<qualitytemplate level="0,9" default_quality="1">	
@@ -3286,7 +3285,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>	
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualQ1Template">
 		<qualitytemplate level="1,999999" default_quality="1">
@@ -3294,7 +3292,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualPrimitiveItemsTemplate">
 		<qualitytemplate level="1,125" default_quality="11">
@@ -3327,7 +3324,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="questTierRigidTemplate">
 		<qualitytemplate level="1" default_quality="1">
@@ -3409,7 +3405,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualQuestFixed10">
 		<qualitytemplate level="1,125" default_quality="11">
@@ -3426,7 +3421,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualQuestFixed20">
 		<qualitytemplate level="1,125" default_quality="21">
@@ -3443,7 +3437,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>
 	<lootqualitytemplate name="qualQuestFixed30">
 		<qualitytemplate level="1,125" default_quality="31">
@@ -3460,7 +3453,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>	
 	<lootqualitytemplate name="qualQuestFixed40">
 		<qualitytemplate level="1,125" default_quality="41">
@@ -3477,7 +3469,6 @@ The overall plan for loot distribution:
 		</qualitytemplate>
 	</lootqualitytemplate>
 </lootqualitytemplates>
-
 <lootqualitytemplates>		
 	<lootqualitytemplate name="qualQuestFixed50">
 		<qualitytemplate level="1,125" default_quality="51">
@@ -3519,7 +3510,6 @@ The overall plan for loot distribution:
 	<item name="qc_dontfeedthebears"/>
 	<item name="qc_buythefarm"/>
 </lootgroup>
-
 <lootgroup name="groupTreasureMaps">
 	<item name="qt_taylor"/>
 	<item name="qt_nickole"/>
@@ -3530,12 +3520,12 @@ The overall plan for loot distribution:
 	<item name="qt_raphael"/>
 </lootgroup>
 
+  <!-- CLOTHING -->
 <lootgroup name="groupApparelSuit">
 	<item name="apparelSuitPants" mods="dye" mod_chance="0"/>
 	<item name="apparelSuitJacket" mods="dye" mod_chance="0"/>
 	<item name="apparelSuitDressShoes" mods="dye" mod_chance="0"/>
 </lootgroup>
-
 <lootgroup name="groupApparelPants">
 	<item name="apparelDenimPants" mods="dye" mod_chance="0"/>
 	<item name="apparelArmyPants" mods="dye" mod_chance="0"/>
@@ -3544,7 +3534,6 @@ The overall plan for loot distribution:
 	<item name="apparelOveralls" mods="dye" mod_chance="0"/>
 	<item name="apparelGothPants" prob=".3"/>
 </lootgroup>
-
 <lootgroup name="groupApparelShirtLong">
 	<item name="apparelLongShirt" mods="dye" mod_chance="0"/>
 	<item name="apparelArmyShirt"/>
@@ -3552,12 +3541,10 @@ The overall plan for loot distribution:
 	<item name="apparelSweatshirt" mods="dye" mod_chance="0"/>
 	<item name="apparelFlannelShirt" mods="dye" mod_chance="0"/>
 </lootgroup>
-
 <lootgroup name="groupApparelTankTopTShirt">
 	<item name="apparelTankTop" mods="dye" mod_chance="0"/>
 	<item name="apparelTShirtPlain" mods="dye" mod_chance="0"/>
 </lootgroup>
-
 <lootgroup name="groupApparelCoats">
 	<item name="apparelCoatLeatherPoncho"/>
 	<item name="apparelCoatLeatherDuster" mods="dye" mod_chance="0"/>
@@ -3565,7 +3552,6 @@ The overall plan for loot distribution:
 	<item name="apparelCoatJacketGeneric" mods="dye" mod_chance="0"/>
 	<item name="apparelCoatJacketLetterZU" mods="dye" mod_chance="0"/>
 </lootgroup>
-
 <lootgroup name="groupApparelHats">
 	<item name="apparelCowboyHat" mods="dye" mod_chance="0"/>
 	<item name="apparelSkullCap" mods="dye" mod_chance="0"/>
@@ -3579,7 +3565,6 @@ The overall plan for loot distribution:
 	<item name="modArmorPressboyCap" prob="0.2"/>
 	<item name="modArmorBallCap" prob="0.2"/>
 </lootgroup>
-
 <lootgroup name="groupApparelFaceCover">
 	<item name="apparelBandana" mods="dye" mod_chance="0"/>
 	<item name="apparelShades" prob=".7"/>
@@ -3587,7 +3572,6 @@ The overall plan for loot distribution:
 	<item name="apparelSkiGoggles" prob=".7"/>
 	<item name="apparelAviatorGoggles" prob=".7"/>
 </lootgroup>
-
 <lootgroup name="groupApparelBootsShoes">
 	<item name="apparelWornBoots"/>
 	<item name="apparelRunningShoesRegular" prob=".2"/>
@@ -3595,7 +3579,6 @@ The overall plan for loot distribution:
 	<item name="apparelCowboyBoots"/>
 	<item name="apparelGothBoots" prob=".3"/>
 </lootgroup>
-
 <lootgroup name="groupApparelClothes"> <!-- clothing -->
 	<item group="groupApparelCoats"/>
 	<item group="groupApparelHats"/>
@@ -3608,7 +3591,6 @@ The overall plan for loot distribution:
 	<item name="armorFootballHelmet" prob="0.2"/>
 	<item name="resourceSewingKit" prob="0.25"/>
 </lootgroup>
-
 <lootgroup name="warmClothes">
 	<item group="groupApparelShirtLong"/>
 	<item group="groupApparelPants" prob="1"/>
@@ -3622,6 +3604,7 @@ The overall plan for loot distribution:
 	<item name="resourceSewingKit" prob="0.25"/>
 </lootgroup>
 
+  <!-- ARMOR -->
 <lootgroup name="groupArmorT1_Light">
 	<item name="armorClothPants"/>
 	<item name="armorClothJacket"/>
@@ -3629,7 +3612,6 @@ The overall plan for loot distribution:
 	<item name="armorClothGloves"/>
 	<item name="armorClothHat"/>
 </lootgroup>
-
 <lootgroup name="groupArmorT2_Light">
 	<item name="armorLeatherBoots"/>
 	<item name="armorLeatherPants"/>
@@ -3637,7 +3619,6 @@ The overall plan for loot distribution:
 	<item name="armorLeatherGloves"/>
 	<item name="armorLeatherHood"/>
 </lootgroup>
-
 <lootgroup name="groupArmorT3_Light">
 	<item name="armorMilitaryGloves"/>
 	<item name="armorMilitaryHelmet" mods="modArmorHelmetLight" mod_chance=".2"/>
@@ -3645,19 +3626,17 @@ The overall plan for loot distribution:
 	<item name="armorMilitaryLegs"/>
 	<item name="armorMilitaryVest"/>
 </lootgroup>
-
 <lootgroup name="groupArmor_Light">
 	<!-- <item group="groupArmorT1_Light" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Light" loot_prob_template="T2"/>
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
-</lootgroup>
+</lootgroup>  
 <lootgroup name="groupArmor_LightTPlus">
 	<!-- <item group="groupArmorT1_Light" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Light" loot_prob_template="T2"/>
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
 </lootgroup>
-
 <lootgroup name="groupArmorT1_Heavy">
 	<item name="armorScrapHelmet"/>
 	<item name="armorScrapChest"/>
@@ -3665,7 +3644,6 @@ The overall plan for loot distribution:
 	<item name="armorScrapLegs"/>
 	<item name="armorScrapBoots"/>
 </lootgroup>
-
 <lootgroup name="groupArmorT2_Heavy">
 	<item name="armorIronGloves"/>
 	<item name="armorIronHelmet"/>
@@ -3673,7 +3651,6 @@ The overall plan for loot distribution:
 	<item name="armorIronLegs"/>
 	<item name="armorIronChest"/>
 </lootgroup>
-
 <lootgroup name="groupArmorT3_Heavy">
 	<item name="armorSteelBoots"/>
 	<item name="armorSteelLegs"/>
@@ -3682,28 +3659,25 @@ The overall plan for loot distribution:
 	<item name="armorSteelHelmet"/>
 	<item name="armorSwatHelmet" mods="modArmorHelmetLight" mod_chance=".2"/>
 </lootgroup>
-
 <lootgroup name="groupArmor_Heavy">
 	<!-- <item group="groupArmorT1_Heavy" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Heavy" loot_prob_template="T2"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
-</lootgroup>
+</lootgroup>  
 <lootgroup name="groupArmor_HeavyTPlus">
 	<!-- <item group="groupArmorT1_Heavy" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Heavy" loot_prob_template="T2"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
 </lootgroup>
-
 <lootgroup name="groupArmorScaled">
 	<item group="groupArmor_Light"/>
 	<item group="groupArmor_Heavy"/>
-</lootgroup>
+</lootgroup>  
 <lootgroup name="groupArmorScaledTPlus">
 	<item group="groupArmor_LightTPlus"/>
 	<item group="groupArmor_HeavyTPlus"/>
 </lootgroup>
-
 <lootgroup name="groupApparelHazmat">
 	<item name="apparelHazmatBoots"/>
 	<item name="apparelHazmatPants"/>
@@ -3712,451 +3686,918 @@ The overall plan for loot distribution:
 	<item name="apparelHazmatMask"/>
 	<item name="resourceMilitaryFiber" count="1,5" prob="2"/>
 </lootgroup>
-
 <lootgroup name="groupAllArmor/Cloth">
 	<item group="groupApparelClothes"/>
 	<item group="groupArmorScaled" prob="0.18"/>
 	<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" prob="0.015"/>
 </lootgroup>
 
-<lootgroup name="trophyGroup">
-	<item name="resourceTrophy1"/>
-	<item name="resourceTrophy2"/>
+  <!-- GUNS -->
+  <!-- Pistols -->
+<lootgroup name="luger" count="all">
+  <item name="mayicgunLootLuger" count="1"/>
+  <item name="mayicammo9x19mm" count="8,24"/>
+</lootgroup>
+<lootgroup name="r338sn" count="all">
+  <item name="mayicgunLoot38Snubnose" count="1"/>
+  <item name="mayicammo9x19mm" count="8,24"/>
+</lootgroup>
+<lootgroup name="nano" count="all">
+  <item name="mayicgunLootBerettaNano" count="1"/>
+  <item name="mayicammo9x19mm" count="8,24"/>
+</lootgroup>
+<lootgroup name="makarov" count="all">
+  <item name="mayicgunLootMakarov" count="1"/>
+  <item name="mayicammo9x19mm" count="8,24"/>
+</lootgroup>
+<lootgroup name="P226" count="all">
+  <item name="mayicgunLootP226" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="M9" count="all">
+  <item name="mayicgunLootM9" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="B92" count="all">
+  <item name="mayicgunLootBeretta92" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="USP" count="all">
+  <item name="mayicgunLootUSP" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="Glock40" count="all">
+  <item name="mayicgunLootGlock40" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="a1911" count="all">
+  <item name="mayicgunLoot1911" count="1"/>
+  <item name="mayicammo9x19mm" count="4,16"/>
+</lootgroup>
+<lootgroup name="DesertEagle" count="all">
+  <item name="mayicgunLootDesertEagle" count="1"/>
+  <item name="mayicammo9x19mm" count="1,7"/>
+</lootgroup>
+<lootgroup name="ColtPython" count="all">
+  <item name="mayicgunLootColtPython" count="1"/>
+  <item name="mayicammo9x19mm" count="1,7"/>
+</lootgroup>
+  <!-- SMG -->
+<lootgroup name="Klob" count="all">
+  <item name="mayicgunLootKlob" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="Mac10" count="all">
+  <item name="mayicgunLootMac10" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="Mk1" count="all">
+  <item name="mayicgunLootMK1" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="MP40" count="all">
+  <item name="mayicgunLootMP40" count="1"/>
+  <item name="mayicammo9x19mm" count="9,21"/>
+</lootgroup>
+<lootgroup name="MP5" count="all">
+  <item name="mayicgunLootMP5" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="Vector" count="all">
+  <item name="mayicgunLootVector" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="Tommy" count="all">
+  <item name="mayicgunLootM1A1Thompson" count="1"/>
+  <item name="mayicammo9x19mm" count="12,26"/>
+</lootgroup>
+<lootgroup name="Rcp90" count="all">
+  <item name="mayicgunLootRCP90" count="1"/>
+  <item name="mayicammo9x19mm" count="25,60"/>
+</lootgroup>
+  <!-- Shotguns -->
+<lootgroup name="DBS" count="all">
+  <item name="mayicgunLootDoubleBarrelShotgun" count="1" />
+  <item name="mayicammo10gauge" count="1,5"/>
+</lootgroup>
+<lootgroup name="Sawed" count="all">
+  <item name="mayicgunLootSawedOff" count="1" />
+  <item name="mayicammo10gauge" count="1,5"/>
+</lootgroup>
+<lootgroup name="Huntingshot" count="all">
+  <item name="mayicgunLootHuntingShotgun" count="1" />
+  <item name="mayicammo10gauge" count="1,5"/>
+</lootgroup>
+<lootgroup name="Mossberg" count="all">
+  <item name="mayicgunLootMossberg590A1" count="1"/>
+  <item name="mayicammo10gauge" count="4,12"/>
+</lootgroup>
+<lootgroup name="Spaz12" count="all">
+  <item name="mayicgunLootSpaz12" count="1"/>
+  <item name="mayicammo10gauge" count="4,16"/>
+</lootgroup>
+<lootgroup name="AA12" count="all">
+  <item name="mayicgunLootAA12" count="1"/>
+  <item name="mayicammo10gauge" count="8,32"/>
+</lootgroup>
+  <!-- Rifles -->
+<lootgroup name="Bull" count="all">
+  <item name="mayicgunLootBullpup" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="Rustak" count="all">
+  <item name="mayicgunLootRustAK" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="AK47" count="all">
+  <item name="mayicgunLootAK47" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="FNFAL" count="all">
+  <item name="mayicgunLootFNFAL" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="M16" count="all">
+  <item name="mayicgunLootM16" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="AR15" count="all">
+  <item name="mayicgunLootAR15" count="1"/>
+  <item name="mayicammo22lr" count="7,15"/>
+</lootgroup>
+<lootgroup name="ACW" count="all">
+  <item name="mayicgunLootACW" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="ARX160" count="all">
+  <item name="mayicgunLootARX160" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="M4A1" count="all">
+  <item name="mayicgunLootM4A1" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="SCAR" count="all">
+  <item name="mayicgunLootSCAR" count="1"/>
+  <item name="mayicammo22lr" count="7,25"/>
+</lootgroup>
+<lootgroup name="M1" count="all">
+  <item name="mayicgunLootM1" count="1"/>
+  <item name="mayicammo22lr" count="4,16"/>
+</lootgroup>
+<lootgroup name="Nagant" count="all">
+  <item name="mayicgunLootMosinNagant" count="1"/>
+  <item name="mayicammo22lr" count="4,16"/>
+</lootgroup>
+  <!--Large Weapons-->
+<lootgroup name="M249Saw" count="all">
+  <item name="mayicgunLootM249Saw" count="1"/>
+  <item name="mayicammo22lr" count="30,80"/>
+</lootgroup>
+<lootgroup name="M240" count="all">
+  <item name="mayicgunLootM240" count="1"/>
+  <item name="mayicammo22lr" count="30,80"/>
+</lootgroup>
+<lootgroup name="SR25" count="all">
+  <item name="mayicgunLootSR25" count="1"/>
+  <item name="mayicammo22lr" count="5,18"/>
+</lootgroup>
+<lootgroup name="Mrad" count="all">
+  <item name="mayicgunLootMrad" count="1"/>
+  <item name="mayicammo22lr" count="5,18"/>
+</lootgroup>
+<lootgroup name="JNG90" count="all">
+  <item name="mayicgunLootJNG90" count="1"/>
+  <item name="mayicammo22lr" count="1,10"/>
+</lootgroup>
+<lootgroup name="M98" count="all">
+  <item name="mayicgunLootM98" count="1"/>
+  <item name="mayicammo22lr" count="1,10"/>
+</lootgroup>
+<lootgroup name="M82" count="all">
+  <item name="mayicgunLootM82" count="1"/>
+  <item name="mayicammo22lr" count="1,10"/>
+</lootgroup>
+<lootgroup name="M79" count="all">
+  <item name="mayicgunM79GL40" count="1"/>
+  <item name="mayicammo40mmExplosive" count="1,3"/>
+</lootgroup>
+<lootgroup name="Chaingun" count="all">
+  <item name="mayicgunChaingun" count="1"/>
+  <item name="mayicammo7.62x51mm" count="50,200"/>
+</lootgroup>
+<lootgroup name="Flame" count="all">
+  <item name="mayicgunFlamethrower" count="1"/>
+  <item name="mayicammoFlameFuel" count="55,210"/>
+</lootgroup>
+<lootgroup name="Rocket" count="all">
+  <item name="gunRocketLauncher"/>
+  <item name="AmmoRocket"/>
+</lootgroup>
+  
+  <!-- GUN GROUPS -->
+<lootgroup name="PistolT1" count="1">
+  <item group="luger" prob="0.5"/>
+  <item group="r338sn" prob="0.65"/>
+  <item group="nano" prob="0.25"/>
+  <item group="makarov" prob="0.35"/>
+</lootgroup>
+<lootgroup name="PistolT2" count="1">
+  <item group="P226" prob="0.5"/>
+  <item group="M9" prob="0.4"/>
+  <item group="B92" prob="0.4"/>
+  <item group="USP" prob="0.25"/>
+  <item group="Glock40" prob="0.2"/>
+  <item group="a1911" prob="0.05"/>
+</lootgroup>
+<lootgroup name="PistolT3" count="1">
+  <item group="DesertEagle" prob="0.02"/>
+  <item group="ColtPython" prob="0.05"/>
+</lootgroup>
+<lootgroup name="SMGT1" 		count="1">
+  <item group="Klob" prob="0.4"/>
+  <item group="Mac10" prob="0.6"/>
+  <item group="Mk1" prob="0.35"/>
+</lootgroup>
+<lootgroup name="SMGT2" count="1">
+  <item group="MP40" prob="0.25"/>
+  <item group="MP5" prob="0.5"/>
+  <item group="Tommy" prob="0.15"/>
+</lootgroup>
+<lootgroup name="SMGT3" count="1">
+  <item group="Vector" prob="0.3"/>
+  <item group="Rcp90" prob="0.05"/>
+</lootgroup>
+<lootgroup name="ShotgunT1" count="1">
+  <item group="DBS" prob="0.5"/>
+  <item group="Sawed" prob="0.5"/>
+</lootgroup>
+<lootgroup name="ShotgunT2" count="1">
+  <item group="Huntingshot" prob="0.3"/>
+  <item group="Mossberg" prob="0.15"/>
+</lootgroup>
+<lootgroup name="ShotgunT3" count="1">
+  <item group="Spaz12" prob="0.005"/>
+  <item group="AA12" prob="0.005"/>
+</lootgroup>
+<lootgroup name="RifleT1" count="1">
+  <item group="Bull" prob="0.5"/>
+  <item group="Rustak" prob="0.35"/>
+  <item group="AK47" prob="0.3"/>
+  <item group="FNFAL" prob="0.15"/>
+  <item group="M16" prob="0.25"/>
+</lootgroup>
+<lootgroup name="RifleT2" count="1">
+  <item group="AR15" prob="0.75"/>
+  <item group="ACW" prob="0.45"/>
+  <item group="ARX160" prob="0.25"/>
+  <item group="M4A1" prob="0.1"/>
+  <item group="SCAR" prob="0.1"/>
+</lootgroup>
+<lootgroup name="RifleT3" count="1">
+  <item group="M1" prob="0.05"/>
+  <item group="Nagant" prob="0.07"/>
+</lootgroup>
+<lootgroup name="LargeT1" count="1">
+  <item group="SR25" prob="0.15"/>
+  <item group="Mrad" prob="0.15"/>
+</lootgroup>
+<lootgroup name="LargeT2" count="1">
+  <item group="JNG90" prob="0.09"/>
+  <item group="M98" prob="0.07"/>
+</lootgroup>
+<lootgroup name="LargeT3" count="1">
+  <item group="M249Saw" prob="0.008"/>
+  <item group="M240" prob="0.005"/>
+  <item group="M82" prob="0.005"/>
+</lootgroup>
+<lootgroup name="SpecialT2" count="1">
+  <item group="M79" prob="0.08"/>
+  <item group="Flame" prob="0.08"/>
+  <item group="Rocket" prob="0.02" />
+</lootgroup>
+<lootgroup name="SpecialT3" count="1">
+  <item group="Chaingun" prob="0.0005"/>
 </lootgroup>
 
-<lootgroup name="groupAmmoRegularGunslinger">
-	<item name="ammo9mmBulletBall" loot_prob_template="T2" count="10,40"/>	<!-- 32 -->
-	<item name="ammo9mmBulletBall" loot_prob_template="T3" count="10,40"/>	<!-- 32 -->
-	<item name="ammo44MagnumBulletBall" loot_prob_template="T3" count="4,19"/>	<!-- 65 -->
+  <!-- AMMO -->
+<lootgroup name="AmmoRegular">
+  <item name="mayicammo38cal" prob="1.5" count="8,24"/>
+  <item name="mayicammo40cal" prob="0.25" count="4,16"/>
+  <item name="mayicammo45acp" prob="0.25" count="4,16"/>
+  <item name="mayicammo357magnum" prob="0.25" count="1,7"/>
+  <item name="mayicammo50ae" prob="0.25" count="1,7"/>
+  <item name="mayicammo20gauge" prob="0.55" count="4,16"/>
+  <item name="mayicammoBirdShot" prob="0.85" count="4,16"/>
+  <item name="mayicammo9x19mm" prob="1.5" count="9,21"/>
+  <item name="mayicammo10mm" prob="1.5" count="12,26"/>
+  <item name="mayicammo5.7x28mm" prob="1.5" count="12,26"/>
+  <item name="mayicammo22lr" prob="0.25" count="4,16"/>
+  <item name="mayicammo223cal" prob="0.8" count="7,15"/>
+  <item name="mayicammo5.56x45mm" prob="0.25" count="30,160"/>
+  <item name="mayicammo7.62x39mm" prob="0.2" count="7,25"/>
+  <item name="mayicammo7.62x51mm" prob="0.2" count="7,25"/>
+  <item name="mayicammo30-06" prob="0.3" count="4,16"/>
+  <item name="mayicammo338cal" prob="0.3" count="4,16"/>
+  <item name="mayicammo50cal" prob="0.2" count="1,10"/>
+  <item name="ammoArrowIron" prob="0.1" count="6,24"/>
+  <item name="ammoCrossbowBoltIron" prob="0.1" count="4,16"/>
+</lootgroup>
+<lootgroup name="AmmoAdvanced">
+  <item name="mayicammo38calAP" prob="1.5" count="8,24"/>
+  <item name="mayicammo40calAP" prob="0.25" count="4,16"/>
+  <item name="mayicammo45acpAP" prob="0.25" count="4,16"/>
+  <item name="mayicammo357magnumAP" prob="0.25" count="1,7"/>
+  <item name="mayicammo50aeAP" prob="0.25" count="1,7"/>
+  <item name="mayicammo9x19mmAP" prob="1.5" count="9,21"/>
+  <item name="mayicammo10mmAP" prob="1.5" count="12,26"/>
+  <item name="mayicammo5.7x28mmAP" prob="1.5" count="12,26"/>
+  <item name="mayicammo22lrAP" prob="0.25" count="4,16"/>
+  <item name="mayicammo223calAP" prob="0.8" count="7,15"/>
+  <item name="mayicammo5.56x45mmAP" prob="0.25" count="30,160"/>
+  <item name="mayicammo7.62x39mmAP" prob="0.2" count="7,25"/>
+  <item name="mayicammo7.62x51mmAP" prob="0.2" count="7,25"/>
+  <item name="mayicammo30-06AP" prob="0.3" count="4,16"/>
+  <item name="mayicammo338calAP" prob="0.3" count="4,16"/>
+  <item name="mayicammo50calAP" prob="0.2" count="1,10"/>
+
+  <item name="ammoArrowSteelAP" prob=".15" count="5,20"/>
+  <item name="ammoArrowFlaming" count="3,8"/>
+  <item name="ammoCrossbowBoltFlaming" count="3,8"/>
+  <item name="ammoCrossbowBoltSteelAP" prob=".15" count="3,14"/>
+  <item name="ammoArrowExploding" count="4"/>
+  <item name="ammoCrossbowBoltExploding" count="3"/>
+
+  <item name="mayicammo40mmExplosive" prob="0.05" count="1,3"/>
+  <item name="mayicammoFlameFuel" prob="0.2" count="1,10"/>
+
+  <item name="ammoRocketHE" count="1"/>
+  <item name="ammoRocketFrag" count="1"/>
+</lootgroup>
+<lootgroup name="AmmoRocket">
+  <item name="ammoRocketHE" count="1"/>
+  <item name="ammoRocketFrag" count="1"/>
+</lootgroup>
+  
+  <!-- MODS -->
+<lootgroup name="Mods" count="1">
+  <item name="mayicmodHandGrip" count="1" prob="0.25"/>
+  <item name="mayicmodLaserSide" count="1" prob="0.05"/>
+  <item name="mayicmodBayonet" count="1" prob="0.35"/>
+  <item name="mayicmodExtendedSilencer" count="1" prob="0.2"/>
+  <item name="mayicmodQuickMag" count="1" prob="0.15"/>
+  <item name="mayicmodBlockBuster" count="1" prob="0.1"/>
+  <item name="mayicmodDrumMag" prob="0.05"/>
+  <item name="mayicmodBananaClip" prob="0.1"/>
+</lootgroup>
+<lootgroup name="Scopes" count="1">
+  <item name="mayicmodHoloSightRed" count="1" prob="0.03"/>
+  <item name="mayicmodHoloSightBlue" count="1" prob="0.03"/>
+  <item name="mayicmodHoloSightGreen" count="1" prob="0.03"/>
+  <item name="mayicmodBlueDotSight" count="1" prob="0.04"/>
+  <item name="mayicmodGreenDotSight" count="1" prob="0.04"/>
+  <item name="mayicmodRedDotSight" count="1" prob="0.04"/>
+  <item name="mayicmodACOGBlue" count="1" prob="0.02"/>
+  <item name="mayicmodACOGGreen" count="1" prob="0.02"/>
+  <item name="mayicmodACOGRed" count="1" prob="0.02"/>
+  <item name="mayicmodACOGx2Blue" count="1" prob="0.015"/>
+  <item name="mayicmodACOGx2Green" count="1" prob="0.015"/>
+  <item name="mayicmodACOGx2Red" count="1" prob="0.015"/>
+  <item name="mayicmodHairSight" count="1" prob="0.035"/>
+  <item name="mayicmodHairSightx2" count="1" prob="0.025"/>
+  <item name="mayicmodHairSightx4" count="1" prob="0.015"/>
+  <item name="mayicmodAlienScope" count="1" prob="0.0005"/>
 </lootgroup>
 
-<lootgroup name="groupAmmoRegular">
-	<item group="groupAmmoRegularGunslinger"/>
-	<item name="ammoShotgunShell" count="3,12"/>							<!-- 96 -->
-	<item name="ammo762mmBulletBall" count="6,25"/>						<!-- 50 -->
-	<item name="ammoArrowIron" prob="0.1" count="6,24"/>					<!-- 28 -->
-	<item name="ammoCrossbowBoltIron" prob="0.1" count="4,16"/>				<!-- 38 -->
+  <lootgroup name="modMeleeT1">
+    <item name="modMeleeGraveDigger"/>
+    <item name="modMeleeSerratedBlade"/>
+    <item name="modMeleeStructuralBrace"/>
+    <item name="modMeleeWeightedHead"/>
+    <item name="modMeleeWoodSplitter"/>
+    <item name="modFuelTankSmall"/>
+  </lootgroup>
+
+  <lootgroup name="modMeleeT2">
+    <item name="modMeleeClubBurningShaft"/>
+    <item name="modMeleeClubBarbedWire"/>
+    <item name="modMeleeFortifyingGrip"/>
+    <item name="modMeleeBunkerBuster"/>
+    <item name="modFuelTankLarge"/>
+  </lootgroup>
+
+  <lootgroup name="modMeleeT3">
+    <item name="modMeleeClubMetalSpikes"/>
+    <item name="modMeleeClubMetalChain"/>
+    <item name="modMeleeErgonomicGrip"/>
+    <item name="modMeleeTemperedBlade"/>
+    <item name="modMeleeIronBreaker"/>
+  </lootgroup>
+  
+  <!-- PARTS -->
+<lootgroup name="GunParts" count="1">
+  <item name="mayicpartSmReceiver" count="1" prob=".25"/>
+  <item name="mayicpartRevolverReceiver" count="1" prob=".25"/>
+  <item name="mayicpartSmShotgunReceiver" count="1" prob=".25"/>
+  <item name="mayicpartMedShotgunReceiver" count="1" prob=".25"/>
+  <item name="mayicpartLrgShotgunReceiver" count="1" prob=".25"/>
+  <item name="mayicpartAutomaticShotgunReceiver" count="1" prob=".25"/>
+  <item name="mayicpartLrgReceiver" count="1" prob=".25"/>
+  <item name="mayicpartForwardAssist" count="1" prob=".25"/>
+  <item name="mayicpartSlideBar" count="1" prob=".25"/>
+  <item name="mayicpartHighCarbonReceiver" count="1" prob=".25"/>
+  <item name="mayicpartBreechBolt" count="1" prob=".25"/>
+  <item name="mayicpartSmBarrel" count="1" prob=".25"/>
+  <item name="mayicpartMedBarrel" count="1" prob=".25"/>
+  <item name="mayicpartRevolverBarrel" count="1" prob=".25"/>
+  <item name="mayicpartHeavyBarrel" count="1" prob=".25"/>
+  <item name="mayicpartSniperBarrel" count="1" prob=".25"/>
+  <item name="mayicpartDoubleBarrel" count="1" prob=".25"/>
+  <item name="mayicpartShortBarrel" count="1" prob=".25"/>
+  <item name="mayicpartLongBarrel" count="1" prob=".25"/>
+  <item name="mayicpartSmStock" count="1" prob=".25"/>
+  <item name="mayicpartMedStock" count="1" prob=".25"/>
+  <item name="mayicpartRevolverStock" count="1" prob=".25"/>
+  <item name="mayicpartShotgunStock" count="1" prob=".25"/>
+  <item name="mayicpartAutomaticShotgunStock" count="1" prob=".25"/>
+  <item name="mayicpartLrgStock" count="1" prob=".25"/>
+  <item name="mayicpartSniperStock" count="1" prob=".25"/>
+  <item name="mayicpartLmgStock" count="1" prob=".25"/>
+  <item name="mayicpartSmGrip" count="1" prob=".25"/>
+  <item name="mayicpartPistolGrip" count="1" prob=".25"/>
+  <item name="mayicpartRevolverGrip" count="1" prob=".25"/>
+  <item name="mayicpartMedGrip" count="1" prob=".25"/>
+  <item name="mayicpartShotgunGrip" count="1" prob=".25"/>
+  <item name="mayicpartLrgGrip" count="1" prob=".25"/>
+  <item name="mayicpartTacticalGrip" count="1" prob=".25"/>
+  <item name="mayicpartSniperGrip" count="1" prob=".25"/>
+  <item name="mayicpart5roundClip" count="1" prob=".25"/>
+  <item name="mayicpart5roundMag" count="1" prob=".25"/>
+  <item name="mayicpart6roundClip" count="1" prob=".25"/>
+  <item name="mayicpart8roundClip" count="1" prob=".25"/>
+  <item name="mayicpart10roundMag" count="1" prob=".25"/>
+  <item name="mayicpart12roundMag" count="1" prob=".25"/>
+  <item name="mayicpart15roundMag" count="1" prob=".25"/>
+  <item name="mayicpart18roundMag" count="1" prob=".25"/>
+  <item name="mayicpart20roundMag" count="1" prob=".25"/>
+  <item name="mayicpart30roundMag" count="1" prob=".25"/>
+  <item name="mayicpart32roundMag" count="1" prob=".25"/>
+  <item name="mayicpartScrapFrame" count="1" prob=".25"/>
+  <item name="mayicpartWeakFrame" count="1" prob=".25"/>
+  <item name="mayicpartIronFrame" count="1" prob=".25"/>
+  <item name="mayicpartSteelFrame" count="1" prob=".25"/>
+  <item name="mayicpartHighCarbonFrame" count="1" prob=".25"/>
+  <item name="mayicpartTrigger" count="1" prob=".23"/>
+  <item name="mayicpartHammer" count="1" prob=".13"/>
+  <item name="mayicpartCompressor" count="1" prob=".13"/>
+  <item name="mayicpartHandguard" count="1" prob=".05"/>
+  <item name="mayicpartFlamethrowerTank" count="1" prob=".005"/>
+  <item name="mayicpartChaingunGear" count="1" prob=".00005"/>
+</lootgroup>
+  
+  <!-- TOOLS -->
+<lootgroup name="GunTools" count="1">
+  <item name="mayictoolFirearmsKit" count="1" prob="0.5"/>
+  <item name="mayictoolReceiverVise" count="1" prob="0.3"/>
+  <item name="mayictoolMicrometer" count="1" prob="0.15"/>
+  <item name="mayictoolSightPusher" count="1" prob="0.35"/>
+  <item name="mayictoolChannelLocks" count="1" prob="0.2"/>
+  <item name="mayictoolHandguardGrips" count="1" prob="0.05"/>
+  <item name="mayictoolArmorersWrench" count="1" prob="0.09"/>
+</lootgroup>
+<lootgroup name="AmmoTools" count="1">
+  <item name="mayictoolTipExtractor" count="1" prob="0.5"/>
+  <item name="mayictoolPowderKeg" count="1" prob="0.005"/>
+</lootgroup>
+<lootgroup name="BlueprintTools" count="1">
+  <item name="mayictoolAmmoManual" count="1"/>
+  <item name="mayictoolModificationManual" count="1"/>
+  <item name="mayictoolGunManual" count="1"/>
+</lootgroup>
+<lootgroup name="AllTools" count="1">
+    <item group="GunTools"/>
+    <item group="AmmoTools"/>
+    <item group="BlueprintTools"/>    
+  </lootgroup>
+  
+  <!-- SCHEMATICS -->
+<lootgroup name="WorkbenchSchematics" count="1">
+  <item name="mayicblockModWorkbenchSchematic" count="1" prob="0.5"/>
+  <item name="mayicblockResearchTableSchematic" count="1" prob="0.3"/>
+  <item name="mayicblockAmmoWorkbenchSchematic" count="1" prob="0.8"/>
+  <item name="mayicblockGunWorkbenchSchematic" count="1" prob="1"/>
+</lootgroup>
+  
+<lootgroup name="FirearmT1Schematics" count="1">
+    <item name="mayicgunBerettaNanoSchematic" prob="0.76"/>
+    <item name="mayicgunM9Schematic" prob="0.5"/>
+    <item name="mayicgunBeretta92Schematic" prob="0.5"/>
+    <item name="mayicgunP226Schematic" prob="0.5"/>
+    <item name="mayicgunMac10Schematic" prob="0.5"/>
+    <item name="mayicgunMK1Schematic" prob="0.64"/>
+    <item name="mayicgunMP40Schematic" prob="0.5"/>
+    <item name="mayicgunSawedOffSchematic" prob="0.64"/>
+    <item name="mayicgunRustAKSchematic" prob="0.5"/>
+</lootgroup>
+<lootgroup name="FirearmT2Schematics" count="1">
+  <item name="mayicgunGlock40Schematic" prob="0.9"/>
+  <item name="mayicgunUSPSchematic" prob="0.9"/>
+  <item name="mayicgun1911Schematic" prob="0.9"/>
+  <item name="mayicgunFalloutShotgunSchematic" prob="0.5"/>
+  <item name="mayicgunHuntingShotgunSchematic" prob="0.9"/>
+  <item name="mayicgunMossberg590A1Schematic" prob="0.6"/>
+  <item name="mayicgunM1A1ThompsonSchematic" prob="0.5"/>
+  <item name="mayicgunMP5Schematic" prob="0.9"/>
+  <item name="mayicgunFNFALSchematic" prob="0.5"/>
+  <item name="mayicgunACWSchematic" prob="0.48"/>
+  <item name="mayicgunBullpupSchematic" prob="0.56"/>
+  <item name="mayicgunAR15Schematic" prob="0.36"/>
+  <item name="mayicgunAK47Schematic" prob="0.36"/>
+  <item name="mayicgunM16Schematic" prob="0.4"/>
+  <item name="mayicgunARX160Schematic" prob="0.7"/>
+</lootgroup>
+<lootgroup name="FirearmT3Schematics" count="1">
+  <item name="mayicgunRCP90Schematic" prob="0.3"/>
+  <item name="mayicgunDesertEagleSchematic" prob="0.3"/>
+  <item name="mayicgunColtPythonSchematic" prob="0.35"/>
+  <item name="mayicgunSpaz12Schematic" prob="0.08"/>
+  <item name="mayicgunAA12Schematic" prob="0.06"/>
+  <item name="mayicgunVectorSchematic" prob="0.8"/>
+  <item name="mayicgunM4A1Schematic" prob="0.5"/>
+  <item name="mayicgunSCARSchematic" prob="0.5"/>
+  <item name="mayicgunM1Schematic" prob="0.3"/>
+  <item name="mayicgunMosinNagantSchematic" prob="0.3"/>
+  <item name="mayicgunM249SawSchematic" prob="0.1"/>
+  <item name="mayicgunM240Schematic" prob="0.1"/>
+  <item name="mayicgunSR25Schematic" prob="0.2"/>
+  <item name="mayicgunMradSchematic" prob="0.2"/>
+  <item name="mayicgunJNG90Schematic" prob="0.16"/>
+  <item name="mayicgunM98Schematic" prob="0.16"/>
+  <item name="mayicgunM82Schematic" prob="0.1"/>
+</lootgroup>
+<lootgroup name="FirearmSpeSchematics" count="1">
+  <item name="mayicgunFlamethrowerSchematic" prob="0.1"/>
+  <item name="mayicgunChaingunSchematic" prob="0.006"/>
 </lootgroup>
 
-<lootgroup name="groupAmmoAdvancedGunslinger">
-	<item name="ammo9mmBulletAP" loot_prob_template="T2" count="10,40"/>		<!-- 32 -->
-	<item name="ammo9mmBulletHP" loot_prob_template="T2" count="7,30"/>		<!-- 41.6 -->
-	<item name="ammo9mmBulletAP" loot_prob_template="T3" count="10,40"/>		<!-- 32 -->
-	<item name="ammo9mmBulletHP" loot_prob_template="T3" count="7,30"/>		<!-- 41.6 -->
-	<item name="ammo44MagnumBulletAP" loot_prob_template="T3" count="4,19"/>	<!-- 65 -->
-	<item name="ammo44MagnumBulletHP" loot_prob_template="T3" count="3,14"/>	<!-- 84.5 -->
+<lootgroup name="PartT1Schematics" count="1">
+  <item name="mayicpartSmReceiverSchematic" count="1" prob=".25"/>
+  <item name="mayicpartSmShotgunReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartMedShotgunReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartSmBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartMedBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartDoubleBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartShortBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartSmStockSch" count="1" prob=".25"/>
+  <item name="mayicpartMedStockSch" count="1" prob=".25"/>
+  <item name="mayicpartShotgunStockSch" count="1" prob=".25"/>
+  <item name="mayicpartSmGripSch" count="1" prob=".25"/>
+  <item name="mayicpartPistolGripSch" count="1" prob=".25"/>
+  <item name="mayicpartMedGripSch" count="1" prob=".25"/>
+  <item name="mayicpart5roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpart10roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpart12roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpart15roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpartScrapFrameSch" count="1" prob=".25"/>
+  <item name="mayicpartWeakFrameSch" count="1" prob=".25"/>
+</lootgroup>
+<lootgroup name="PartT2Schematics" count="1">
+  <item name="mayicpartRevolverReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartLrgShotgunReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartLongBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartRevolverBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartLrgReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartRevolverStockSch" count="1" prob=".25"/>
+  <item name="mayicpartRevolverGripSch" count="1" prob=".25"/>
+  <item name="mayicpartShotgunGripSch" count="1" prob=".25"/>
+  <item name="mayicpart6roundClipSch" count="1" prob=".25"/>
+  <item name="mayicpart5roundClipSch" count="1" prob=".25"/>
+  <item name="mayicpart18roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpart20roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpartIronFrameSch" count="1" prob=".25"/>
+</lootgroup>
+<lootgroup name="PartT3Schematics" count="1">
+  <item name="mayicpartAutomaticShotgunReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartForwardAssistSch" count="1" prob=".25"/>
+  <item name="mayicpartSlideBarSch" count="1" prob=".25"/>
+  <item name="mayicpartHighCarbonReceiverSch" count="1" prob=".25"/>
+  <item name="mayicpartBreechBoltSch" count="1" prob=".25"/>
+  <item name="mayicpartHeavyBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartSniperBarrelSch" count="1" prob=".25"/>
+  <item name="mayicpartAutomaticShotgunStockSch" count="1" prob=".25"/>
+  <item name="mayicpartLrgStockSch" count="1" prob=".25"/>
+  <item name="mayicpartSniperStockSch" count="1" prob=".25"/>
+  <item name="mayicpartLmgStockSch" count="1" prob=".25"/>
+  <item name="mayicpartLrgGripSch" count="1" prob=".25"/>
+  <item name="mayicpartTacticalGripSch" count="1" prob=".25"/>
+  <item name="mayicpartSniperGripSch" count="1" prob=".25"/>
+  <item name="mayicpart8roundClipSch" count="1" prob=".25"/>
+  <item name="mayicpart30roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpart32roundMagSch" count="1" prob=".25"/>
+  <item name="mayicpartSteelFrameSch" count="1" prob=".25"/>
+  <item name="mayicpartHighCarbonFrameSch" count="1" prob=".25"/>
+</lootgroup>
+  
+<lootgroup name="AmmoT1Schematics" count="1">
+  <item name="mayicammo10mmSchematic" prob="0.8"/>
+  <item name="mayicammo10mmAPSchematic" prob="0.8"/>
+  <item name="mayicammo9mmSchematic" prob="0.64"/>
+  <item name="mayicammo9mmAPSchematic" prob="0.64"/>
+  <item name="mayicammo5.7x28mmSchematic" prob="0.58"/>
+  <item name="mayicammo5.7x28mmAPSchematic" prob="0.56"/>
+  <item name="mayicammo40calSchematic" prob="0.66"/>
+  <item name="mayicammo40calAPSchematic" prob="0.66"/>
+  <item name="mayicammoBirdShotSchematic" prob="0.5"/>
+</lootgroup>
+<lootgroup name="AmmoT2Schematics" count="1">
+  <item name="mayicammo20gaugeSchematic" prob="0.5"/>
+  <item name="mayicammo45acpSchematic" prob="0.8"/>
+  <item name="mayicammo45acpAPSchematic" prob="0.8"/>
+  <item name="mayicammo223calSchematic" prob="0.50"/>
+  <item name="mayicammo223calAPSchematic" prob="0.5"/>
+  <item name="mayicammo5.56x45mmSchematic" prob="0.5"/>
+  <item name="mayicammo5.56x45mmAPSchematic" prob="0.5"/>
+  <item name="mayicammo7.62x39mmSchematic" prob="0.4"/>
+  <item name="mayicammo7.62x39mmAPSchematic" prob="0.4"/>
+</lootgroup>
+<lootgroup name="AmmoT3Schematics" count="1">
+  <item name="mayicammo50aeSchematic" prob="0.2"/>
+  <item name="mayicammo50aeAPSchematic" prob="0.2"/>
+  <item name="mayicammo357magnumSchematic" prob="0.3"/>
+  <item name="mayicammo357magnumAPSchematic" prob="0.3"/>
+  <item name="mayicammo30-06Schematic" prob="0.3"/>
+  <item name="mayicammo30-06APSchematic" prob="0.3"/>
+  <item name="mayicammo7.62x51mmSchematic" prob="0.4"/>
+  <item name="mayicammo7.62x51mmAPSchematic" prob="0.4"/>
+  <item name="mayicammo338calSchematic" prob="0.3"/>
+  <item name="mayicammo338calAPSchematic" prob="0.3"/>
+  <item name="mayicammo50calSchematic" prob="0.12"/>
+  <item name="mayicammo50calAPSchematic" prob="0.12"/>
+</lootgroup>
+<lootgroup name="AmmoSpecSchematics" count="1">
+  <item name="mayicammo40mmMiniSchematic" prob="0.2"/>
+  <item name="mayicammo40mmExplosiveSchematic" prob="0.12"/>
+  <item name="mayicammoFlameFuelSchematic" prob="0.16"/>
+  <item name="mayicammoDragonsbreathSchematic" prob="0.16"/>
+</lootgroup>
+  
+<lootgroup name="ScopesT1Schematics" count="1">
+  <item name="mayicmodACOGSchematic" prob="0.4"/>
+  <item name="mayicmodDotSchematic" prob="0.4"/>
+  <item name="mayicmodHoloSchematic" prob="0.4"/>
+  <item name="mayicmodHairSightSchematic" prob="0.4"/>
+</lootgroup>
+<lootgroup name="ScopesT2Schematics" count="1">
+  <item name="mayicmodHairSightx2Schematic" prob="0.3"/>
+  <item name="mayicmodHairSightx4Schematic" prob="0.2"/>
+  <item name="mayicmodACOGx2Schematic" prob="0.2"/>
+  <item name="mayicmodAlienScopeSchematic" prob="0.2"/>
+</lootgroup>
+  
+<lootgroup name="ModT1Schematics" count="1">
+  <item name="mayicmodHandGripSchematic" prob="0.4"/>
+  <item name="mayicmodLaserSideSchematic" prob="0.4"/>
+  <item name="mayicmodBananaClipSchematic" prob="0.3"/>
+  <item name="mayicmodBayonetSchematic" prob="0.4"/>
+</lootgroup>
+<lootgroup name="ModT2Schematics" count="1">
+  <item name="mayicmodExtendedSilencerSchematic" prob="0.4"/>
+  <item name="mayicmodBlockBusterSchematic" prob="0.3"/>
+  <item name="mayicmodQuickMagSchematic" prob="0.4"/>
+  <item name="mayicmodDrumMagSchematic" prob="0.2"/>
 </lootgroup>
 
-<lootgroup name="groupAmmoAdvanced">
-	<item group="groupAmmoAdvancedGunslinger" prob="2"/>
-
-	<item name="ammo762mmBulletAP" count="6,25"/>				<!-- 50 -->
-	<item name="ammo762mmBulletHP" count="4,19"/>				<!-- 65 -->
-	<item name="ammoShotgunSlug" count="4,16"/>					<!-- 80 -->
-	<item name="ammoShotgunBreachingSlug" count="4,16"/>			<!-- 80 -->
-
-	<item name="ammoArrowSteelAP" prob=".15" count="5,20"/>		<!-- 31 -->
-
-	<item name="ammoArrowFlaming" count="3,8"/>					<!-- 25+ -->
-	<item name="ammoCrossbowBoltFlaming" count="3,8"/>			<!-- 38 -->
-
-	<item name="ammoCrossbowBoltSteelAP" prob=".15" count="3,14"/>	<!-- 45 -->
-	<item name="ammoArrowExploding" count="4"/>					<!-- 180 -->
-	<item name="ammoCrossbowBoltExploding" count="3"/>			<!-- 250 -->
-
-	<item name="ammoRocketHE" count="1"/>						<!-- 420 -->
-	<item name="ammoRocketFrag" count="1"/>						<!-- 650 -->
+  <!-- PERK WEAPON GROUPS-->
+<lootgroup name="DeadEye">
+	<item group="RifleT1" loot_prob_template="T1"/>
+	<item group="RifleT2" loot_prob_template="T2"/>
 </lootgroup>
-
-<lootgroup name="groupAmmoRocket">
-	<item name="ammoRocketHE" count="1"/>
-	<item name="ammoRocketFrag" count="1"/>
+<lootgroup name="DeadEyePlus">
+	<item group="RifleT2" loot_prob_template="T2"/>
+	<item group="RifleT3" loot_prob_template="T3"/>
+	<item group="RifleT3" loot_prob_template="T3"/>
 </lootgroup>
-
-<lootgroup name="treasureAmmo">
-	<item group="groupAmmoRegular" count="3,5"/>
-	<item group="groupAmmoAdvanced" count="2,4" prob=".4"/>
-</lootgroup>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-<!-- Attribute: Perception -->
-<lootgroup name="groupWeaponsT2_DeadEye" count="all">
-	<item name="gunHuntingRifle"/>
-	<item name="ammo762mmBulletBall" count="6,25"/>
-</lootgroup>
-
-<lootgroup name="groupWeaponsT3_DeadEye" count="all">
-	<item name="gunMR10"/>
-	<item name="ammo762mmBulletBall" count="6,25"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_DeadEye">
-	<!-- <item group="groupWeaponsT1_DeadEye" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_DeadEye" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_DeadEye" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_DeadEyeTPlus">
-	<!-- <item group="groupWeaponsT1_DeadEye" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_DeadEye" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_DeadEye" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_DeadEye" loot_prob_template="T3"/>
-</lootgroup>
-
-
-<lootgroup name="groupWeaponsT2_Demolitionist">
+  
+<lootgroup name="T2_Demolitionist">
 	<item name="thrownAmmoMolotovCocktail" count="1,3"/>
 	<item name="thrownAmmoPipeBomb" count="1,4"/>
 	<item name="thrownDynamite" count="1,3"/>
 	<item name="thrownGrenade" count="1,3"/>
 </lootgroup>
-
-<lootgroup name="groupWeaponsT3_Demolitionist01" count="all">
-	<item name="gunRocketLauncher"/>
-	<item group="groupAmmoRocket"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Demolitionist">
-	<item group="groupWeaponsT3_Demolitionist01" prob="0.4"/>
+<lootgroup name="T3_Demolitionist">
+	<item group="Rocket" prob="0.4"/>
 	<item group="groupAmmoRocket" prob="0.6"  count="1,2"/>
 	<item name="thrownGrenadeContact" count="1,3"/>
 	<item name="thrownTimedCharge" count="1,3"/>
 </lootgroup>
-
-<lootgroup name="groupWeapons_Demolitionist">
-	<!-- <item group="groupWeaponsT1_Demolitionist" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Demolitionist" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Demolitionist" loot_prob_template="T3"/>
+<lootgroup name="Demolitionist">
+	<item group="T2_Demolitionist" loot_prob_template="T2"/>
+	<item group="T3_Demolitionist" loot_prob_template="T3"/>
 </lootgroup>
-<lootgroup name="groupWeapons_DemolitionistTPlus">
-	<!-- <item group="groupWeaponsT1_Demolitionist" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Demolitionist" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Demolitionist" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Demolitionist" loot_prob_template="T3"/>
+<lootgroup name="DemolitionistPlus">
+	<item group="T2_Demolitionist" loot_prob_template="T2"/>
+	<item group="T3_Demolitionist" loot_prob_template="T3"/>
+	<item group="T3_Demolitionist" loot_prob_template="T3"/>
 </lootgroup>
 
-<lootgroup name="groupWeaponsT1_JavelinMaster">
-	<item name="meleeThrownSpearStone"/>
+<lootgroup name="JavelinMaster">
+  <item name="meleeThrownSpearIron" loot_prob_template="T2"/>
+  <item name="meleeThrownSpearSteel" loot_prob_template="T3"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_JavelinMaster">
-	<item name="meleeThrownSpearIron"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_JavelinMaster">
-	<item name="meleeThrownSpearSteel"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_JavelinMaster">
-	<!-- <item group="groupWeaponsT1_JavelinMaster" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_JavelinMaster" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_JavelinMaster" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_JavelinMasterTPlus">
-	<!-- <item group="groupWeaponsT1_JavelinMaster" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_JavelinMaster" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_JavelinMaster" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_JavelinMaster" loot_prob_template="T3"/>
+<lootgroup name="JavelinMasterPlus">
+  <item name="meleeThrownSpearIron" loot_prob_template="T2"/>
+  <item name="meleeThrownSpearSteel" loot_prob_template="T3"/>
+  <item name="meleeThrownSpearSteel" loot_prob_template="T3"/>
 </lootgroup>
 
-
-<!-- Attribute: Strength -->
-
-<lootgroup name="groupWeaponsT1_Boomstick" count="all">
-	<item name="gunBlunderbuss"/>
-	<item name="ammoBlunderbuss" count="6,15"/>
+<lootgroup name="Boomstick">
+	<item group="ShotgunT1" loot_prob_template="T1"/>
+	<item group="ShotgunT2" loot_prob_template="T2"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_Boomstick" count="all">
-	<item name="gunDoubleBarrelShotgun"/>
-	<item name="ammoShotgunShell" count="3,12"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Boomstick" count="all">
-	<item name="gunPumpShotgun"/>
-	<item name="ammoShotgunShell" count="3,12"/>
+<lootgroup name="BoomstickPlus">
+	<item group="ShotgunT2" loot_prob_template="T2"/>
+	<item group="ShotgunT3" loot_prob_template="T3"/>
+	<item group="ShotgunT3" loot_prob_template="T3"/>
 </lootgroup>
 
-<lootgroup name="groupWeapons_Boomstick">
-	<item group="groupWeaponsT1_Boomstick" loot_prob_template="T1"/>
-	<item group="groupWeaponsT2_Boomstick" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Boomstick" loot_prob_template="T3"/>
+<lootgroup name="PummelPete">
+  <item name="meleeClubIron" loot_prob_template="T2"/>
+  <item name="meleeClubBaseballBat" loot_prob_template="T3"/>
 </lootgroup>
-<lootgroup name="groupWeapons_BoomstickTPlus">
-	<item group="groupWeaponsT1_Boomstick" loot_prob_template="T1"/>
-	<item group="groupWeaponsT2_Boomstick" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Boomstick" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Boomstick" loot_prob_template="T3"/>
+<lootgroup name="PummelPetePlus">
+  <item name="meleeClubIron" loot_prob_template="T2"/>
+  <item name="meleeClubBaseballBat" loot_prob_template="T3"/>
+  <item name="meleeClubBaseballBat" loot_prob_template="T3"/>
 </lootgroup>
-
-
-<lootgroup name="groupWeaponsT1_PummelPete">
-	<item name="meleeClubWood"/>
+  
+<lootgroup name="SkullCrusher">
+  <item name="meleeToolSledgehammerIron" loot_prob_template="T2"/>
+  <item name="meleeToolSledgehammerSteel" loot_prob_template="T3"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_PummelPete">
-	<item name="meleeClubIron"/>
-	<!-- <item name="meleeClubCandy" prob="0.3"/> -->
-</lootgroup>
-<lootgroup name="groupWeaponsT3_PummelPete">
-	<item name="meleeClubBaseballBat"/>
+<lootgroup name="SkullCrusherPlus">
+  <item name="meleeToolSledgehammerIron" loot_prob_template="T2"/>
+  <item name="meleeToolSledgehammerSteel" loot_prob_template="T3"/>
+  <item name="meleeToolSledgehammerSteel" loot_prob_template="T3"/>
 </lootgroup>
 
-<lootgroup name="groupWeapons_PummelPete">
-	<!-- <item group="groupWeaponsT1_PummelPete" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_PummelPete" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_PummelPete" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_PummelPeteTPlus">
-	<!-- <item group="groupWeaponsT1_PummelPete" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_PummelPete" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_PummelPete" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_PummelPete" loot_prob_template="T3"/>
+<lootgroup name="Brawler">
+  <item name="meleeKnucklesIron" loot_prob_template="T2"/>
+  <item name="meleeKnucklesSteel" loot_prob_template="T3"/>
+</lootgroup> 
+<lootgroup name="BrawlerPlus">
+  <item name="meleeKnucklesIron" loot_prob_template="T2"/>
+	<item name="meleeKnucklesSteel" loot_prob_template="T3"/>
+  <item name="meleeKnucklesSteel" loot_prob_template="T3"/>
 </lootgroup>
 
-
-<lootgroup name="groupWeaponsT1_SkullCrusher">
-	<item name="meleeToolSledgehammerStone"/>
+<lootgroup name="Machinegunner">
+	<item group="LargeT1" loot_prob_template="T1"/>
+	<item group="LargeT2" loot_prob_template="T2"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_SkullCrusher">
-	<item name="meleeToolSledgehammerIron"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_SkullCrusher">
-	<item name="meleeToolSledgehammerSteel"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_SkullCrusher">
-	<!-- <item group="groupWeaponsT1_SkullCrusher" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_SkullCrusher" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_SkullCrusher" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_SkullCrusherTPlus">
-	<!-- <item group="groupWeaponsT1_SkullCrusher" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_SkullCrusher" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_SkullCrusher" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_SkullCrusher" loot_prob_template="T3"/>
+<lootgroup name="MachinegunnerPlus">
+	<item group="LargeT2" loot_prob_template="T2"/>
+	<item group="LargeT3" loot_prob_template="T3"/>
+	<item group="LargeT3" loot_prob_template="T3"/>
 </lootgroup>
 
-
-<!-- Attribute: Fortitude -->
-
-<lootgroup name="groupWeaponsT1_Brawler">
-	<item name="meleeKnucklesLeather"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT2_Brawler">
-	<item name="meleeKnucklesIron"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Brawler">
-	<item name="meleeKnucklesSteel"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_Brawler">
-	<item group="groupWeaponsT1_Brawler" loot_prob_template="T1"/>
-	<item group="groupWeaponsT2_Brawler" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Brawler" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_BrawlerTPlus">
-	<item group="groupWeaponsT1_Brawler" loot_prob_template="T1"/>
-	<item group="groupWeaponsT2_Brawler" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Brawler" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Brawler" loot_prob_template="T3"/>
-</lootgroup>
-
-<lootgroup name="groupWeaponsT2_Machinegunner" count="all">
-    <item name="gunAK47"/>
-    <item name="ammo762mmBulletBall" count="6,25"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Machinegunner" count="all">
-    <item name="ammo762mmBulletBall" count="6,25"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_Machinegunner">
-	<!-- <item group="groupWeaponsT1_Machinegunner" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Machinegunner" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Machinegunner" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_MachinegunnerTPlus">
-	<!-- <item group="groupWeaponsT1_Machinegunner" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Machinegunner" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Machinegunner" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Machinegunner" loot_prob_template="T3"/>
-</lootgroup>
-
-
-<!-- Attribute: Agility -->
-<lootgroup name="groupWeaponsT1_Archery">
+<lootgroup name="T1_Archery">
 	<item name="gunBowPrimitive"/>
 	<item name="ammoArrowStone" count="3,6"/>
 </lootgroup>
-
-<lootgroup name="groupWeaponsT2_Archery01" count="all">
+<lootgroup name="T2_ArcheryBow" count="all">
 	<item name="gunBowWooden"/>
 	<item name="ammoArrowIron" count="6,24"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_Archery02" count="all">
+<lootgroup name="T2_ArcheryXBow" count="all">
 	<item name="gunCrossbowIron"/>
 	<item name="ammoCrossbowBoltIron" count="4,16"/>
+</lootgroup> 
+<lootgroup name="T2_ArcheryMix">
+	<item group="T2_ArcheryBow"/>
+	<item group="T2_ArcheryXBow"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT2_Archery">
-	<item group="groupWeaponsT2_Archery01"/>
-	<item group="groupWeaponsT2_Archery02"/>
-</lootgroup>
-
-<lootgroup name="groupWeaponsT3_Archery01" count="all">
+<lootgroup name="T3_ArcheryBow" count="all">
 	<item name="gunBowCompound"/>
-	<item name="ammoArrowIron" count="6,24"/>
+	<item name="ammoArrowSteel" count="6,24"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT3_Archery02" count="all">
+<lootgroup name="T3_ArcheryXBow" count="all">
 	<item name="gunCrossbowCompound"/>
-	<item name="ammoCrossbowBoltIron" count="4,16"/>
+	<item name="ammoCrossbowBoltSteel" count="4,16"/>
 </lootgroup>
-<lootgroup name="groupWeaponsT3_Archery">
-	<item group="groupWeaponsT3_Archery01"/>
-	<item group="groupWeaponsT3_Archery02"/>
+<lootgroup name="T3_ArcheryMix">
+	<item group="T3_ArcheryBow"/>
+	<item group="T3_ArcheryXBow"/>
 </lootgroup>
-
-<lootgroup name="groupWeapons_Archery">
-	<!-- <item group="groupWeaponsT1_Archery" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Archery" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Archery" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_ArcheryTPlus">
-	<!-- <item group="groupWeaponsT1_Archery" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Archery" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Archery" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Archery" loot_prob_template="T3"/>
+<lootgroup name="Archery">
+	<item group="T2_ArcheryMix" loot_prob_template="T2"/>
+	<item group="T3_ArcheryMix" loot_prob_template="T3"/>
+</lootgroup> 
+<lootgroup name="ArcheryPlus">
+	<item group="T2_ArcheryMix" loot_prob_template="T2"/>
+	<item group="T3_ArcheryMix" loot_prob_template="T3"/>
+	<item group="T3_ArcheryMix" loot_prob_template="T3"/>
 </lootgroup>
 
-
-<lootgroup name="groupWeaponsT2_Gunslinger" count="all">
-	<item name="gunPistol"/>
-	<item name="ammo9mmBulletBall" count="10,40"/>
+<lootgroup name="T1_Gunslinger">
+	<item group="PistolT1"/>
+	<item group="SMGT1"/>
+</lootgroup>
+<lootgroup name="T2_Gunslinger">
+  <item group="PistolT2"/>
+  <item group="SMGT2"/>
+</lootgroup>
+<lootgroup name="T3_Gunslinger">
+  <item group="PistolT3"/>
+  <item group="SMGT3"/>
+</lootgroup>
+<lootgroup name="Gunslinger">
+	<item group="T1_Gunslinger" loot_prob_template="T1"/>
+	<item group="T2_Gunslinger" loot_prob_template="T2"/>
+</lootgroup>
+<lootgroup name="GunslingerPlus">
+	<item group="T2_Gunslinger" loot_prob_template="T2"/>
+	<item group="T3_Gunslinger" loot_prob_template="T3"/>
+	<item group="T3_Gunslinger" loot_prob_template="T3"/>
 </lootgroup>
 
-<lootgroup name="groupWeaponsT3_Gunslinger01" count="all">
-	<item name="gun44Magnum"/>
-	<item name="ammo44MagnumBulletBall" count="4,19"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Gunslinger02" count="all">
-	<item name="gunSMG5"/>
-	<item name="ammo9mmBulletBall" count="10,40"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT3_Gunslinger">
-	<item group="groupWeaponsT3_Gunslinger01"/>
-	<item group="groupWeaponsT3_Gunslinger02"/>
+<lootgroup name="DeepCuts">
+	<item name="meleeToolKnifeIron" loot_prob_template="T2"/>
+	<item name="meleeToolKnifeMachete" loot_prob_template="T3"/>
+</lootgroup> 
+<lootgroup name="DeepCutsPlus">
+	<item name="meleeToolKnifeIron" loot_prob_template="T2"/>
+	<item name="meleeToolKnifeMachete" loot_prob_template="T3"/>
+	<item name="meleeToolKnifeMachete" loot_prob_template="T3"/>
 </lootgroup>
 
-<lootgroup name="groupWeapons_Gunslinger">
-	<!-- <item group="groupWeaponsT1_Gunslinger" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Gunslinger" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Gunslinger" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_GunslingerTPlus">
-	<!-- <item group="groupWeaponsT1_Gunslinger" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_Gunslinger" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_Gunslinger" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_Gunslinger" loot_prob_template="T3"/>
+<lootgroup name="Electrocutioner">
+  <item name="meleeStunBaton" loot_prob_template="T2"/>
 </lootgroup>
 
-<lootgroup name="groupWeaponsT1_DeepCuts">
-	<item name="meleeToolKnifeBone"/>
-</lootgroup>
-<lootgroup name="groupWeaponsT2_DeepCuts">
-	<item name="meleeToolKnifeIron"/>
-	<!-- <item name="meleeToolKnifeCandy" prob=".3"/> -->
-</lootgroup>
-<lootgroup name="groupWeaponsT3_DeepCuts">
-	<item name="meleeToolKnifeMachete"/>
+<lootgroup name="TurretsSyndrome">
+  <item name="gunJunkTurret" loot_prob_template="T2"/>
 </lootgroup>
 
-<lootgroup name="groupWeapons_DeepCuts">
-	<!-- <item group="groupWeaponsT1_DeepCuts" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_DeepCuts" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_DeepCuts" loot_prob_template="T3"/>
-</lootgroup>
-<lootgroup name="groupWeapons_DeepCutsTPlus">
-	<!-- <item group="groupWeaponsT1_DeepCuts" loot_prob_template="T1"/> -->
-	<item group="groupWeaponsT2_DeepCuts" loot_prob_template="T2"/>
-	<item group="groupWeaponsT3_DeepCuts" loot_prob_template="T3"/>
-	<item group="groupWeaponsT3_DeepCuts" loot_prob_template="T3"/>
-</lootgroup>
-
-<!-- Attribute: Intellect -->
-<lootgroup name="groupWeaponsT2_Electrocutioner">
-	<item name="meleeStunBaton"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_Electrocutioner">
-	<item group="groupWeaponsT2_Electrocutioner" loot_prob_template="T2"/>
-</lootgroup>
-<lootgroup name="groupWeapons_ElectrocutionerTPlus">
-	<item group="groupWeaponsT2_Electrocutioner" loot_prob_template="T2"/>
-</lootgroup>
-
-<lootgroup name="groupWeaponsT2_TurretsSyndrome">
-	<item name="gunJunkTurret"/>
-</lootgroup>
-
-<lootgroup name="groupWeapons_TurretsSyndrome">
-	<item group="groupWeaponsT2_TurretsSyndrome" loot_prob_template="T2"/>
-</lootgroup>
-<lootgroup name="groupWeapons_TurretsSyndromeTPlus">
-	<item group="groupWeaponsT2_TurretsSyndrome" loot_prob_template="T2"/>
-</lootgroup>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <lootgroup name="groupWeaponsT1_All">
-	<item group="groupWeaponsT1_Archery"/>
-	<item group="groupWeaponsT1_Boomstick"/>
-	<item group="groupWeaponsT1_Brawler"/>
-	<item group="groupWeaponsT1_DeepCuts"/>
-	<item group="groupWeaponsT1_JavelinMaster"/>
-	<item group="groupWeaponsT1_PummelPete"/>
-	<item group="groupWeaponsT1_SkullCrusher"/>
+	<item group="T1_Archery"/>
+  <item name="meleeKnucklesLeather"/>
+	<item name="meleeToolKnifeBone"/>
+  <item name="meleeThrownSpearStone"/>
+	<item name="meleeClubWood"/>
+  <item name="meleeToolSledgehammerStone"/>
 </lootgroup>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <lootgroup name="groupWeaponsMeleeScaled">
-	<item group="groupWeapons_JavelinMaster"/>
-	<item group="groupWeapons_PummelPete"/>
-	<item group="groupWeapons_SkullCrusher"/>
-	<item group="groupWeapons_Brawler"/>
-	<item group="groupWeapons_DeepCuts"/>
-	<item group="groupWeapons_Electrocutioner"/>
+	<item group="JavelinMaster"/>
+	<item group="PummelPete"/>
+	<item group="SkullCrusher"/>
+	<item group="Brawler"/>
+	<item group="DeepCuts"/>
+	<item group="Electrocutioner"/>
 </lootgroup>
-<lootgroup name="groupWeaponsMeleeScaledTPlus">
-	<item group="groupWeapons_JavelinMasterTPlus"/>
-	<item group="groupWeapons_PummelPeteTPlus"/>
-	<item group="groupWeapons_SkullCrusherTPlus"/>
-	<item group="groupWeapons_BrawlerTPlus"/>
-	<item group="groupWeapons_DeepCutsTPlus"/>
-	<item group="groupWeapons_ElectrocutionerTPlus"/>
+<lootgroup name="groupWeaponsMeleeScaledPlus">
+	<item group="JavelinMasterPlus"/>
+	<item group="PummelPetePlus"/>
+	<item group="SkullCrusherPlus"/>
+	<item group="BrawlerPlus"/>
+	<item group="DeepCutsPlus"/>
+	<item group="ElectrocutionerPlus"/>
 </lootgroup>
 
 <lootgroup name="groupWeaponsRangedScaled">
-	<item group="groupWeapons_DeadEye"/>
-	<item group="groupWeapons_Demolitionist"/>
-	<item group="groupWeapons_Boomstick"/>
-	<item group="groupWeapons_Machinegunner"/>
-	<item group="groupWeapons_Archery"/>
-	<item group="groupWeapons_Gunslinger"/>
-	<item group="groupWeapons_TurretsSyndrome"/>
-</lootgroup>
-<lootgroup name="groupWeaponsRangedScaledTPlus">
-	<item group="groupWeapons_DeadEyeTPlus"/>
-	<item group="groupWeapons_DemolitionistTPlus"/>
-	<item group="groupWeapons_BoomstickTPlus"/>
-	<item group="groupWeapons_MachinegunnerTPlus"/>
-	<item group="groupWeapons_ArcheryTPlus"/>
-	<item group="groupWeapons_GunslingerTPlus"/>
-	<item group="groupWeapons_TurretsSyndromeTPlus"/>
+	<item group="DeadEye"/>
+	<item group="Demolitionist"/>
+	<item group="Boomstick"/>
+	<item group="Machinegunner"/>
+	<item group="Archery"/>
+	<item group="Gunslinger"/>
+	<item group="TurretsSyndrome"/>
+</lootgroup>  
+<lootgroup name="groupWeaponsRangedScaledPlus">
+	<item group="DeadEyePlus"/>
+	<item group="DemolitionistPlus"/>
+	<item group="BoomstickPlus"/>
+	<item group="MachinegunnerPlus"/>
+	<item group="ArcheryPlus"/>
+	<item group="GunslingerPlus"/>
+	<item group="TurretsSyndromePlus"/>
 </lootgroup>
 
 <lootgroup name="groupWeaponsScaled">
 	<item group="groupWeaponsMeleeScaled"/>
 	<item group="groupWeaponsRangedScaled"/>
 </lootgroup>
-<lootgroup name="groupWeaponsScaledTPlus">
-	<item group="groupWeaponsMeleeScaledTPlus"/>
-	<item group="groupWeaponsRangedScaledTPlus"/>
+<lootgroup name="groupWeaponsScaledPlus">
+	<item group="groupWeaponsMeleeScaledPlus"/>
+	<item group="groupWeaponsRangedScaledPlus"/>
 </lootgroup>
 
 
+<lootgroup name="trophyGroup">
+    <item name="resourceTrophy1"/>
+    <item name="resourceTrophy2"/>
+  </lootgroup>
+  
 <lootgroup name="dyes">
 	<item name="modDyeWhite"/>
 	<item name="modDyeRed"/>
@@ -4168,31 +4609,6 @@ The overall plan for loot distribution:
 	<item name="modDyePurple"/>
 	<item name="modDyeYellow"/>
 	<item name="modDyeOrange"/>
-</lootgroup>
-
-<lootgroup name="modMeleeT1">
-	<item name="modMeleeGraveDigger"/>
-	<item name="modMeleeSerratedBlade"/>
-	<item name="modMeleeStructuralBrace"/>
-	<item name="modMeleeWeightedHead"/>
-	<item name="modMeleeWoodSplitter"/>
-	<item name="modFuelTankSmall"/>
-</lootgroup>
-
-<lootgroup name="modMeleeT2">
-	<item name="modMeleeClubBurningShaft"/>
-	<item name="modMeleeClubBarbedWire"/>
-	<item name="modMeleeFortifyingGrip"/>
-	<item name="modMeleeBunkerBuster"/>
-	<item name="modFuelTankLarge"/>
-</lootgroup>
-
-<lootgroup name="modMeleeT3">
-	<item name="modMeleeClubMetalSpikes"/>
-	<item name="modMeleeClubMetalChain"/>
-	<item name="modMeleeErgonomicGrip"/>
-	<item name="modMeleeTemperedBlade"/>
-	<item name="modMeleeIronBreaker"/>
 </lootgroup>
 
 <lootgroup name="modGunMeleeT2">
@@ -4278,12 +4694,14 @@ The overall plan for loot distribution:
 	<item group="modGunT1"/>
 	<item group="modArmorT1" prob="1.5"/>
 </lootgroup>
+  
 <lootgroup name="groupModAllT2">
 	<item group="modMeleeT2"/>
 	<item group="modGunMeleeT2"/>
 	<item group="modGunT2"/>
 	<item group="modArmorT2" prob="2.2"/>
 </lootgroup>
+  
 <lootgroup name="groupModAllT3">
 	<item group="modGunMeleeT3"/>
 	<item group="modGunMeleeT3"/>
@@ -5479,8 +5897,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="groupHeroChestLoot">
 	<item group="groupAmmoRegular" prob=".1" count="2,3"/>
-	<item group="groupWeaponsScaledTPlus" prob="0.4"/>
-	<item group="groupArmorScaledTPlus" prob="0.4"/>
+	<item group="groupWeaponsScaledPlus" prob="0.4"/>
+	<item group="groupArmorScaledPlus" prob="0.4"/>
 	<item group="groupModAllScaled" prob=".2"/>
 	<item group="rareOres" count="2,5" prob="0.05"/>
 	<item group="rareBooks" count="1,2" prob="0.015"/>
@@ -6979,7 +7397,6 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="DFdrinkJarEmpty" count="1,2" prob="2"/>
 	<item name="drinkCanEmpty" count="1,2" prob="5"/>
 	<item group="rottenFood" prob="1"/>
-	<item group="groupWeaponsRangedScaled" prob="1.3"/>
 	<item group="sportingGoods" count="1,2" prob="5"/>
 	<item name="foodHoney"/>
 	<item group="cannedfood"/>
@@ -7217,7 +7634,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <lootcontainer id="61" count="2,5" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template" buff="buffScavengingServerHack,buffScavengingSkillXPTick">
 	<item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate1.0"/>
 	<item group="weaponsAdvancedGuns+ammo" loot_prob_template="probTemplate1.0"/>
-	<item group="treasureAmmo"/>
+  <item group="groupAmmoRegular" count="3,5"/>
+  <item group="groupAmmoAdvanced" count="2,4" prob=".4"/>
 	<item name="casinoCoin" count="3000,8000"/>
 	<item group="rareOres" count="5,11"/>
 	<item name="oldCash" count="50,250" prob="0.5"/>
@@ -7363,7 +7781,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="meleeClubWood" prob="0.7"/>
 <!-- bandit ranged -->
 	<item group="banditsGeneral"/>
-	<item group="groupWeapons_Gunslinger" prob="0.7"/>
+	<item group="PistolT2" prob="0.7"/>
 </lootcontainer>
 
 <!-- cntGasGrillClosed -->
